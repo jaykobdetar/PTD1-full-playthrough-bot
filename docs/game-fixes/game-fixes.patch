@@ -1,0 +1,473 @@
+diff --git a/src/achievements.js b/src/achievements.js
+index 0f24cb7..98aac65 100644
+--- a/src/achievements.js
++++ b/src/achievements.js
+@@ -3,7 +3,7 @@ import {recordOwned} from './profile-features.js';
+ export const ACHIEVEMENTS=[
+  {id:1,name:'Four shiny encounters',description:'Find the original four shiny encounter groups.',reward:'Shiny Onix'},
+  {id:2,name:'Starmie encounter',description:'Complete the Starmie encounter condition in the original wave script.',reward:'Shiny Staryu'},
+- {id:3,name:'Cerulean Gym team',description:'Win without deploying a Grass or Electric type.',reward:'Shiny Tentacool'},
++ {id:3,name:'Cerulean Gym team',description:'Win without deploying a Grass or Electric type. The all-candy, level-30 Cerulean achievement takes priority when both conditions are met.',reward:'Shiny Tentacool'},
+  {id:4,name:'Challenge 5 move restriction',description:'Win Challenge 5 without deploying a Pokémon that knows move 36.'},
+  {id:5,name:'Challenge 5 candy defense',description:'Win Challenge 5 with more than one candy remaining.'},
+  {id:6,name:'Saffron Dojo',description:'Use attackers at level 70 or below and steal candy four first.',reward:'Shiny Hitmonlee or Hitmonchan'},
+diff --git a/src/battle.js b/src/battle.js
+index 1ae2125..c527c78 100644
+--- a/src/battle.js
++++ b/src/battle.js
+@@ -5,6 +5,7 @@ import {
+   followPath,
+   hitPoints,
+   makePokemon,
++  MAX_COLLECTION_SIZE,
+   xpRequired,
+ } from "./model.js";
+ import { resolveMoveEffects } from "./move-effects.js";
+@@ -545,6 +546,8 @@ export class Battle {
+         ok: false,
+         message: "Start the battle before catching Pokémon.",
+       };
++    if (this.save.pokemon.length >= MAX_COLLECTION_SIZE)
++      return { ok: false, message: "Your collection is full (5,000 Pokémon). Release or transfer a Pokémon before catching another." };
+     const enemy = this.enemies.find((e) => e.uid === uid);
+     if (!enemy || !this.canCapture(enemy))
+       return {
+@@ -594,21 +597,24 @@ export class Battle {
+     this.save.money += reward;
+     this.stats.earned += reward;
+     this.stats.defeated++;
+-    const contributors = this.moveRuntime?.experienceContributors(enemy) ?? [...enemy.attackers]
++    const combatContributors = this.moveRuntime?.experienceContributors(enemy) ?? [...enemy.attackers]
+       .map((uid) => this.towers.find((t) => t.uid === uid))
+       .filter(Boolean);
+-    let xp = Math.floor(
++    // Recalled/redeployed combat actors can share one saved Pokémon. Award
++    // that Pokémon once, through its most recent contributing actor.
++    const contributors = [...new Map(combatContributors.map(tower => [tower.profile?.uid ?? tower.partyUid ?? tower.uid, tower])).values()];
++    const xp = Math.floor(
+       ((enemy.original.base_Experience ?? species.baseExperience) *
+         enemy.level) /
+         (7 * Math.max(1, contributors.length)),
+     );
+     for (const tower of contributors) {
+-      if (tower.level <= this.level.bonusLevel) xp *= 2;
++      const award = xp * (tower.level <= this.level.bonusLevel ? 2 : 1);
+       // The source receiver applies shiny rounding and the existing-XP gate,
+       // then attaches its authored +Nxp animation to this same combat actor.
+-      if (this.moveRuntime) this.moveRuntime.receiveExperience(tower, xp);
++      if (this.moveRuntime) this.moveRuntime.receiveExperience(tower, award);
+       else if (tower.profile.experience < xpRequired(tower.level)) {
+-        tower.profile.experience += Math.floor(xp * (tower.profile.shiny ? 1.5 : 1));
++        tower.profile.experience += Math.floor(award * (tower.profile.shiny ? 1.5 : 1));
+       }
+     }
+     this.dropCandy(enemy);
+@@ -939,6 +945,9 @@ export class Battle {
+ 
+   turnAround(enemy) {
+     const oldPath = enemy.path;
++    // Enemy Mirror Move can send a reversal effect at a stationary tower.
++    // It has no walking route to reverse; leave its deployment untouched.
++    if (!oldPath?.length) return false;
+     const route = enemy.originalPath ?? enemy.fullPath ?? oldPath;
+     const cardinal = Boolean(oldPath[0]?.direction);
+     if (enemy.outward === false && cardinal) {
+@@ -974,6 +983,8 @@ export class Battle {
+       (typeof this.level.id === "number"
+         ? this.level.id
+         : this.level.progressionId);
++    if (won && [26,27,32,33].includes(campaignId) && this.level.className === `level_${campaignId}`)
++      this.stageFacts.var_334 = this.save.unlocked <= campaignId;
+     if (won && !this.level.nextStageClass && this.level.mode !== "branch") {
+       if (!this.save.completed.includes(campaignId))
+         this.save.completed.push(campaignId);
+diff --git a/src/model.js b/src/model.js
+index cc9133f..0aa9dba 100644
+--- a/src/model.js
++++ b/src/model.js
+@@ -4,6 +4,7 @@ import { normalizePartySlots } from './party-slots.js';
+ import { normalizeProfileFeatures, recordOwned, TARGET_MODES } from './profile-features.js';
+ export const SAVE_KEY = "ptd-phaser-save-v2";
+ export const SAVE_VERSION = 2;
++export const MAX_COLLECTION_SIZE = 5000;
+ export const LEGACY_SAVE_KEY = "ptd-phaser-save-v1";
+ export const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
+ export const xpRequired = (level) => level ** 3;
+@@ -139,7 +140,7 @@ export function validateSave(input, data) {
+       "This is not a Phaser port save. Use a JSON backup exported by this game.",
+     );
+   }
+-  if (input.pokemon.length > 5000)
++  if (input.pokemon.length > MAX_COLLECTION_SIZE)
+     throw new Error("Invalid Pokémon collection.");
+   const ids = new Set();
+   const pokemon = input.pokemon.map((p) => {
+diff --git a/src/move-native.js b/src/move-native.js
+index 68675a0..4b0c013 100644
+--- a/src/move-native.js
++++ b/src/move-native.js
+@@ -26,7 +26,8 @@ export function createMoveRuntime(battle,options={}) {
+   const recordDiagnostic=event=>{diagnosticEventCount++;if(!diagnosticEventLimit)return;events.push(event);if(events.length>diagnosticEventLimit)events.splice(0,events.length-diagnosticEventLimit);};
+   const emit=(...args)=>{if(!disposed)battle.emit?.(...args);};
+   const display=createMoveDisplay(options.timelines??data.timelines,{onSound:name=>emit('native-sound',{name})});
+-  const world=new display.Sprite(),pathEffects=[];let currentSource=null,currentMove=null,tick=0;
++  const world=new display.Sprite(),pathEffects=[];let currentSource=null,currentMove=null,currentEffect=null,damageDepth=0,tick=0;
++  const effectInterrupted=Symbol('disposed active effect');
+   const C={Sprite:display.Sprite},S={},E={int,uint,Number,String,Boolean,Array,Object,NaN,Infinity,undefined,Math:Object.assign(Object.create(Math),{random:rng}),superBase(){},as(value,Type){return value==null?null:value instanceof Type?value:null;},trace(...args){recordDiagnostic({kind:'trace',args});},sortOn(array,key,flags){return array.sort((a,b)=>((flags&16)?Number(a[key])-Number(b[key]):String(a[key]).localeCompare(String(b[key])))*((flags&2)?-1:1));},class_1:{get var_359(){return battle.save?.settings?.damageText===false?0:1;},var_194:1}};
+   E.Point=function(x=0,y=0){this.x=x;this.y=y;};
+   E.Color=function(){this.setTint=(color,amount)=>{this.color=color;this.amount=amount;};};
+@@ -58,6 +59,21 @@ export function createMoveRuntime(battle,options={}) {
+   const Tower=C.poke_Tower;
+   const Level=function(value){return value;};Level.prototype=display.Sprite.prototype;E.screen_Level=Level;
+   const nativeLevel=world;
++  // Earthquake's recovered body assumes its caster is a tower. Mirror Move
++  // can legitimately invoke it on an enemy, so reverse the two factions there.
++  const towerEarthquake=C.class_590.prototype.do_Attack;
++  C.class_590.prototype.do_Attack=function(target){
++    if(this.var_2.fighter.team!=='enemy')return towerEarthquake.call(this,target);
++    options.onInvoke?.('class_590','do_Attack');
++    for(const opponent of nativeLevel.towerList){
++      const damage=int(this.method_3(opponent));opponent.add_Effect(new C.class_240(opponent));
++      this.method_13(opponent,damage,this.get_Target_Hit_Animation(opponent),false);
++    }
++    for(const ally of nativeLevel.enemyList)if(ally!==this.var_2){
++      const damage=int(int(this.method_3(ally))/2);ally.add_Effect(new C.class_240(ally));
++      this.method_13(ally,damage,this.get_Target_Hit_Animation(ally),false);
++    }
++  };
+   const liveFighters=()=>[...(battle.towers??[]),...(battle.enemies??[])].filter(f=>f.alive&& (f.team!=='tower'||f.placed));
+   const nativeList=list=>list.filter(f=>f.alive&&(f.team!=='tower'||f.placed)).map(actor);
+   Object.defineProperties(nativeLevel,{enemyList:{get:()=>nativeList(battle.enemies??[])},towerList:{get:()=>nativeList((battle.towers??[]).filter(f=>battle.level.mode==='invasion'||!f.npc))},npcTowerList:{get:()=>nativeList((battle.towers??[]).filter(f=>battle.level.mode!=='invasion'&&f.npc))},candyList:{get:()=> (battle.candies??[]).map(c=>({get var_265(){return c.state==='lost';},get x(){return c.x;},get y(){return c.y;},source:c}))},spotList:{get:()=> (battle.level.spots??[]).map(spot)}});
+@@ -142,7 +158,18 @@ export function createMoveRuntime(battle,options={}) {
+     a.add_Effect=effect=>{if(disposed||!effect)return;effect._attacker??=currentSource;effect._move??=currentMove;originalAdd.call(a,effect);syncEffects(a);};
+     a.remove_Effect=effect=>{originalRemove.call(a,effect);effect._removed=true;syncEffects(a);};
+     a.new_Hit_Me=source=>{originalHit.call(a,source);if(source?.myProfile.id!==-1&&!source?.fighter?.npc)f.attackers?.add(source.fighter.partyUid??source.fighter.uid);};
+-    a.take_Damage=(amount,effect,multiplier=0,sound=true)=>{if(disposed||a._fainting)return;const before=a.life;originalDamage.call(a,amount,effect,multiplier,sound);recordDiagnostic({kind:'damage',source:currentSource?.fighter,target:f,amount:before-a.life,multiplier,sourceClass:currentMove?.sourceClass});emit('damage',{source:currentSource?.fighter,target:f,amount:before-a.life,multiplier,native:true});};
++    a.take_Damage=(amount,effect,multiplier=0,sound=true)=>{
++      if(disposed||a._fainting)return;
++      damageDepth++;
++      try{
++        const before=a.life;originalDamage.call(a,amount,effect,multiplier,sound);
++        recordDiagnostic({kind:'damage',source:currentSource?.fighter,target:f,amount:before-a.life,multiplier,sourceClass:currentMove?.sourceClass});
++        emit('damage',{source:currentSource?.fighter,target:f,amount:before-a.life,multiplier,native:true});
++      }finally{damageDepth--;}
++      // Defeat/cleanup can itself deal damage. Finish that whole transaction
++      // before unwinding the effect that triggered it.
++      if(!damageDepth&&currentEffect?._removed)throw effectInterrupted;
++    };
+     a.take_Healing=amount=>{if(disposed)return;const before=a.life;originalHeal.call(a,amount);recordDiagnostic({kind:'heal',target:f,amount:a.life-before});emit('heal',{target:f,amount:a.life-before,native:true});};
+     const initial=f.cooldown;a.myAttack=E.finder_Attacks.get_Attack(f.selectedMove??f.moves?.[0]??1,a);if(initial!=null)f.cooldown=initial;a._moveId=f.selectedMove;a.set_Speed();a.gfx.gotoAndPlay(a.dir);a._lastDirection=a.dir;
+     const ai=f.original?.myAI?.sourceClass??(f.original?.num===150&&[337,197,196,115].every((id,i)=>f.moves?.[i]===id)?'class_92':null);if(ai&&C[ai])a.myProfile.myAI=new C[ai]();
+@@ -159,12 +186,18 @@ export function createMoveRuntime(battle,options={}) {
+   function experienceContributors(f){const a=actors.get(f)??detachedActors.get(f);return a?.hit_Me_List.length?a.hit_Me_List.map(source=>source.fighter):null;}
+   function receiveExperience(f,amount){if(disposed)return 0;const a=actors.get(f)??detachedActors.get(f)??actor(f),before=a.myProfile.experience;if(f.team==='tower'&&!f.placed&&!f.dragging)world.removeChild(a);a.receive_Experience(amount);return a.myProfile.experience-before;}
+   function attack(f,targets){if(disposed)return;const a=actor(f);ensureAttack(a);if(!a.alive)return;let candidates=(targets??(f.team==='tower'?battle.enemies:battle.towers)).filter(t=>t.alive&&(t.team!=='tower'||t.placed)&&(f.team!=='enemy'||battle.level.mode==='invasion'||!t.npc));if(f.target==='last')candidates=[...candidates].reverse();withSource(a,a.myAttack,()=>a.checkEnemy(candidates.map(actor)));a._moveId=f.selectedMove;syncEffects(a);}
++  function runEffect(effect){
++    const previous=currentEffect;currentEffect=effect;
++    try {return withSource(effect._attacker,effect._move,()=>effect.run());}
++    catch(error){if(error!==effectInterrupted||!effect._removed)throw error;}
++    finally{currentEffect=previous;}
++  }
+   function tickBeforeMovement(f){
+     if(disposed)return;
+     const a=actor(f);ensureAttack(a);if(a.dir!==a._lastDirection){a.gfx.gotoAndPlay(a.dir);a._lastDirection=a.dir;}if(f.team==='tower')a.method_87();
+     // The original enumerates the live Vector: removals may shift the next
+     // effect past this tick, while newly appended effects can run this tick.
+-    for(let i=0;i<a.effect_List.length;i++){const effect=a.effect_List[i];withSource(effect._attacker,effect._move,()=>effect.run());if(!a.alive&&f.team!=='tower')break;}
++    for(let i=0;i<a.effect_List.length;i++){const effect=a.effect_List[i];runEffect(effect);if(!a.alive&&f.team!=='tower')break;}
+     if(f.team==='tower'&&a.alive){a.myProfile.myAI?.run(a);a.myAbility?.on_Run();a._moveId=f.selectedMove;}
+     syncEffects(a);
+   }
+diff --git a/src/rock-tunnel.js b/src/rock-tunnel.js
+index ddc2470..764603e 100644
+--- a/src/rock-tunnel.js
++++ b/src/rock-tunnel.js
+@@ -1,5 +1,6 @@
+ import { getStage } from "./waves-runtime.js";
+ import { makePokemon } from "./model.js";
++import { recordOwned } from "./profile-features.js";
+ 
+ // class_984, class_985 and the ten room popup timelines in the recovered SWF.
+ // Room flags belong to one visit. Only original extra-info flags 32/33 persist.
+@@ -335,6 +336,7 @@ export class RockTunnel {
+       experience: 0,
+     });
+     this.save.pokemon.push(profile);
++    recordOwned(this.save, profile);
+     addExtraInfo(this.save, 33);
+     return { received: true, profile };
+   }
+diff --git a/src/safari-battle.js b/src/safari-battle.js
+index 7e0bcc7..166b78e 100644
+--- a/src/safari-battle.js
++++ b/src/safari-battle.js
+@@ -1,5 +1,5 @@
+ import { Battle } from "./battle.js";
+-import { damage, makePokemon } from "./model.js";
++import { damage, makePokemon, MAX_COLLECTION_SIZE } from "./model.js";
+ 
+ /** Source level_29. This temporary profile is never added to a save. */
+ export function createSafariJoey() {
+@@ -245,6 +245,8 @@ export class SafariBattle extends Battle {
+         ok: false,
+         message: "Start the Safari visit before catching Pokemon.",
+       };
++    if (this.save.pokemon.length >= MAX_COLLECTION_SIZE)
++      return { ok: false, message: "Your collection is full (5,000 Pokémon). Release or transfer a Pokémon before catching another." };
+     const enemy = this.enemies.find((e) => e.uid === uid);
+     if (!enemy || !this.canCapture(enemy))
+       return {
+diff --git a/src/story-data-controllers.js b/src/story-data-controllers.js
+index 7530aee..26f8adb 100644
+--- a/src/story-data-controllers.js
++++ b/src/story-data-controllers.js
+@@ -7042,7 +7042,7 @@ export const STORY_CONTROLLERS={"class_1000":{parent:"popup",fields:{"var_49":fu
+          }
+          this.gfx.addEventListener("frameConstructed",this.method_8);
+          this.method_127();
+-         var _loc1_ = Math.trunc(Math.random() * 100);
++         var _loc1_ = Math.trunc(this.Math.random() * 100);
+          if(_loc1_ <= 50)
+          {
+             this.var_87 = 41;
+@@ -7611,7 +7611,7 @@ export const STORY_CONTROLLERS={"class_1000":{parent:"popup",fields:{"var_49":fu
+          }
+          this.gfx.addEventListener("frameConstructed",this.method_8);
+          this.method_127();
+-         var _loc1_ = Math.trunc(Math.random() * 100);
++         var _loc1_ = Math.trunc(this.Math.random() * 100);
+          if(_loc1_ <= 50)
+          {
+             this.var_87 = 41;
+@@ -9991,7 +9991,7 @@ export const STORY_CONTROLLERS={"class_1000":{parent:"popup",fields:{"var_49":fu
+                }
+                if(this.gfx.currentLabel == "randomPoke")
+                {
+-                  _loc2_ = Math.trunc(Math.random() * 100);
++                  _loc2_ = Math.trunc(this.Math.random() * 100);
+                   if(_loc2_ <= 50)
+                   {
+                      this.var_87 = 41;
+diff --git a/tests/experience-overflow.test.js b/tests/experience-overflow.test.js
+index a4ce1e8..b452ac6 100644
+--- a/tests/experience-overflow.test.js
++++ b/tests/experience-overflow.test.js
+@@ -30,8 +30,8 @@ const enemy = b.fighter(
+ b.enemies.push(enemy);
+ enemy.attackers = new Set(save.party);
+ b.defeat(enemy);
+-assert.equal(save.pokemon[5].experience, 4022848);
++assert.deepEqual(save.pokemon.map(p=>p.experience),Array(6).fill(125714));
+ assert.doesNotThrow(() => validateSave(save, data));
+ console.log(
+-  "Original boss XP over2,000,000 round-trips through the save validator.",
++  "Boss XP awards independent bonuses and round-trips through the save validator.",
+ );
+diff --git a/tests/move-native.test.js b/tests/move-native.test.js
+index 86a0f1e..3eda4ee 100644
+--- a/tests/move-native.test.js
++++ b/tests/move-native.test.js
+@@ -2,6 +2,7 @@ import test from 'node:test';
+ import assert from 'node:assert/strict';
+ import fs from 'node:fs';
+ import {createMoveRuntime,SOURCE_MOVE_CLASSES,SOURCE_MANIFEST} from '../src/move-native.js';
++import {Battle} from '../src/battle.js';
+ import {createMoveDisplay} from '../src/move-native-display.js';
+ import {nativeMoveFidelity,NATIVE_MOVE_IDS,DAMAGE_ONLY_FALLBACK_MOVE_IDS} from '../src/move-fidelity.js';
+ 
+@@ -179,3 +180,37 @@ test('native direction and evolution graphics follow host changes without replac
+  const y=fixture(1,{species:19});const ability=y.native.myAbility,attack=y.native.myAttack,graphic=y.native.gfx;y.native.add_Effect(new y.runtime.classes.class_805(y.native,100));const effect=y.native.effect_List[0];
+  y.source.speciesId=20;y.runtime.refreshGraphic(y.source);assert.notEqual(y.native.gfx,graphic);assert.equal(graphic.parent,null);assert.equal(y.native.myAbility,ability);assert.equal(y.native.myAttack,attack);assert.equal(y.native.effect_List[0],effect);assert.equal(y.source.modifiers.attack,2);
+ });
++
++test('enemy Mirror Move can copy Earthquake without casting its owner to a tower',()=>{
++ const x=fixture(78,{species:22,targetSpecies:75,sourceTeam:'enemy',targetTeam:'tower'});
++ x.opponent.myProfile.move1=194;
++ assert.doesNotThrow(()=>{x.native.myAttack.do_Attack(x.opponent);x.step(30);});
++ assert.ok(x.target.hp<2000,'copied Earthquake damages the opposing tower');
++});
++
++for(const moveId of [297,246])test(`projectile ${moveId} stops if defeat cleanup disposes its active effect`,()=>{
++ const x=fixture(moveId,{targetHp:1});
++ x.battle.defeat=target=>{target.alive=false;x.native.end_All_Effects();};
++ assert.doesNotThrow(()=>{x.cast();x.step(50);});
++ assert.equal(x.target.alive,false);assert.equal(x.native.effect_List.length,0);
++});
++
++test('effect interruption waits for nested damage and defeat bookkeeping to finish',()=>{
++ const x=fixture(246,{targetHp:1});let completed=false;
++ x.battle.defeat=target=>{target.alive=false;x.native.end_All_Effects();x.native.take_Damage(1,null);completed=true;};
++ x.cast();x.step(50);
++ assert.equal(completed,true,'nested cleanup must not unwind the defeat callback early');
++});
++
++
++test('enemy Mirror Move copying Whirlwind leaves a stationary tower in place without a path crash',()=>{
++ const x=fixture(78,{species:22,targetSpecies:12,sourceTeam:'enemy',targetTeam:'tower'});
++ delete x.target.path;
++ x.battle.turnAround=Battle.prototype.turnAround;
++ x.opponent.myProfile.move1=36;
++ const before={x:x.target.x,y:x.target.y,placed:x.target.placed,spot:x.target.spotIndex};
++ assert.doesNotThrow(()=>{x.native.myAttack.do_Attack(x.opponent);x.step(300);});
++ assert.deepEqual({x:x.target.x,y:x.target.y,placed:x.target.placed,spot:x.target.spotIndex},before);
++ assert.equal(x.target.path,undefined);
++ assert.ok(x.invoked.has('class_345.remove_Me'),'execute the real delayed Whirlwind reversal');
++});
+diff --git a/tests/native-text.test.js b/tests/native-text.test.js
+index ecc6a75..c590c98 100644
+--- a/tests/native-text.test.js
++++ b/tests/native-text.test.js
+@@ -47,12 +47,12 @@ test('native XP receiver preserves shiny truncation, overflow, and the pre-award
+  y.save.settings.damageText=false;assert.equal(y.runtime.receiveExperience(y.fighter,5),5);assert.equal(y.texts().length,1);
+ });
+ 
+-test('battle defeat uses the original receiver in contributor order with cumulative level bonuses',()=>{
++test('battle defeat uses the original receiver in contributor order with independent level bonuses',()=>{
+  const level={id:1,mode:'defense',spots:[],paths:{p:[{x:0,y:0}]},candies:[{x:0,y:0}],candyCount:1,bonusLevel:4};
+  const save=newSave(data,1);save.pokemon=[makePokemon(data,1,4),makePokemon(data,4,4,{shiny:1}),makePokemon(data,7,5)];save.party=save.pokemon.map(p=>p.uid);
+  const battle=new Battle(data,level,save,()=>{},{timelines});battle.towers=save.pokemon.map(profile=>battle.fighter(profile,{uid:profile.uid,team:'tower',placed:true}));
+  const enemy=battle.fighter({speciesId:19,level:3},{uid:'xp-enemy',team:'enemy',original:{base_Experience:105,reward:0},candy:null});enemy.attackers=new Set(save.party);battle.enemies.push(enemy);
+- battle.defeat(enemy);assert.deepEqual(save.pokemon.map(p=>p.experience),[30,90,60]);assert.deepEqual(battle.towers.map(t=>battle.moveRuntime.actor(t).effect_List.find(e=>e.gfx?.symbolName==='do_damageText').gfx.actual.actual.text),['+30xp','+90xp','+60xp']);
++ battle.defeat(enemy);assert.deepEqual(save.pokemon.map(p=>p.experience),[30,45,15]);assert.deepEqual(battle.towers.map(t=>battle.moveRuntime.actor(t).effect_List.find(e=>e.gfx?.symbolName==='do_damageText').gfx.actual.actual.text),['+30xp','+45xp','+15xp']);
+ });
+ 
+ test('recalled contributors receive XP offstage and keep source identity after redeployment',()=>{
+@@ -71,3 +71,18 @@ test('native rendering forwards text formats and draws all original XP/MISS glyp
+  assert.deepEqual(new tools.cxform(0,0,0,0,255,255,255,255).merge(new tools.sourceCxform(0,0,0,0,256,256,256,256)).apply([0,255,204,1]),[0,255,204,1],'source 256 identity must not brighten dynamic text by 256/255');
+  assert.equal(drawn.map(v=>v.ch).join(''),'MISS');assert.equal(drawn[0].color,'rgba(255,153,0,1)');assert.equal(transforms[1][0],600/(1024*20),'30px source TextFormat overrides the authored 40px field');
+ });
++
++test('repeated deployment contributes one XP share per owned Pokemon',()=>{
++ const level={id:1,mode:'defense',spots:[],paths:{p:[{x:0,y:0}]},candies:[{x:0,y:0}],candyCount:1,bonusLevel:4};
++ const save=newSave(data,1);save.pokemon[0].level=4;
++ const battle=new Battle(data,level,save,()=>{},{timelines});
++ const enemy=battle.fighter({speciesId:19,level:3},{uid:'xp-enemy',team:'enemy',original:{base_Experience:105,reward:0},candy:null});battle.enemies.push(enemy);
++ const target=battle.moveRuntime.actor(enemy),profile=save.pokemon[0];
++ for(let i=0;i<40;i++){
++   const fighter=battle.fighter(profile,{uid:profile.uid,team:'tower',placed:true});battle.towers.push(fighter);
++   target.new_Hit_Me(battle.moveRuntime.actor(fighter));
++ }
++ battle.defeat(enemy);
++ assert.equal(profile.experience,90,'one 45XP share with one level bonus, regardless of redeployments');
++ battle.dispose();
++});
+diff --git a/tests/rock-tunnel.test.js b/tests/rock-tunnel.test.js
+index 2fb7cee..b24b807 100644
+--- a/tests/rock-tunnel.test.js
++++ b/tests/rock-tunnel.test.js
+@@ -180,6 +180,7 @@ const reward = full.save.pokemon.at(-1);
+ assert.equal(reward.speciesId, 100);
+ assert.equal(reward.level, 5);
+ assert.equal(reward.shiny, 1);
++assert(full.save.dex.shiny.includes(100), "quest reward updates the dex immediately, without reloading");
+ assert.deepEqual(reward.moves, [1]);
+ assert.equal(reward.selectedMove, 1);
+ assert.deepEqual(full.save.party, ["pikachu", "electrode"]);
+diff --git a/tests/story-runtime.test.js b/tests/story-runtime.test.js
+index 2f60b57..13f0764 100644
+--- a/tests/story-runtime.test.js
++++ b/tests/story-runtime.test.js
+@@ -22,3 +22,12 @@ test('source Ready Go finishes on its original end label and starts the prepared
+ test('source party null slots retain indices and rewards fill the first empty slot',()=>{const save=newSave(data,1),other=makePokemon(data,4,5);save.pokemon.push(other);save.party=[null,save.pokemon[0].uid,null,other.uid,null,null];const rt=runtime(1,save),party=rt.playerProfile.partyList;assert.equal(party[0],null);assert.equal(party.length,6);party[1]=null;assert.equal(save.party[1],null);assert.equal(save.party[3],other.uid);party.push(rt.profile(save.pokemon[0]));assert.equal(save.party[0],save.pokemon[0].uid);assert.equal(save.party[3],other.uid);assert.equal(party.length,6);});
+ test('replacing the selected source move keeps the selected slot',()=>{const save=newSave(data,1),p=save.pokemon[0];p.moves=[1,2,3,4];p.selectedMove=3;const profile=runtime(1,save).profile(p);profile.move3=5;assert.equal(p.selectedMove,5);assert.equal(profile.moveSelected,3);profile.move1=6;assert.equal(p.selectedMove,5);assert.equal(profile.moveSelected,3);});
+ test('map-parent endings preserve the current source zoom through their camera movement',()=>{for(const [id,name,end]of [[1,'class_976',[100,10]],[2,'class_1066',[0,0]],[3,'class_1005',[0,0]]]){const save=newSave(data,1);save.unlocked=43;const rt=runtime(id,save);Object.assign(rt.stage.gfx_BG,{x:-70,y:-35,scaleX:.5,scaleY:.5});rt.open(name);rt.tick(22);assert.deepEqual(rt.renderRoot.renderMatrix,[.5,0,0,.5,...end],name);const root=rt.root,local=root.controls(),global=rt.controls;assert.ok(global.length,name);for(const hit of global){const own=local.find(c=>c.name===hit.name);assert.ok(own,hit.name);assert.ok(Math.abs(hit.x-(end[0]+own.x*.5))<.001,`${name} ${hit.name} x`);assert.ok(Math.abs(hit.y-(end[1]+own.y*.5))<.001,`${name} ${hit.name} y`);assert.ok(Math.abs(hit.width-own.width*.5)<.001,`${name} ${hit.name} width`);}}});
++
++test('Rock Tunnel encounter selection uses the supplied RNG without replacing global randomness',()=>{
++ const original=Math.random;const external=()=>.99;Math.random=external;
++ try {
++   const rt=runtime('class_954',newSave(data,1),{rng:()=>.1});rt.open('class_985');traverse(rt);
++   assert.equal(rt.controller.var_87,41,'the injected 10% draw selects Zubat');
++   assert.equal(Math.random,external);
++ }finally{Math.random=original;}
++});
+diff --git a/tests/capture-capacity.test.js b/tests/capture-capacity.test.js
+new file mode 100644
+index 0000000..2f35b2a
+--- /dev/null
++++ b/tests/capture-capacity.test.js
+@@ -0,0 +1,25 @@
++import test from 'node:test';
++import assert from 'node:assert/strict';
++import {readFileSync} from 'node:fs';
++import {Battle} from '../src/battle.js';
++import {SafariBattle} from '../src/safari-battle.js';
++import {newSave,makePokemon,validateSave,MAX_COLLECTION_SIZE} from '../src/model.js';
++const read=p=>JSON.parse(readFileSync(new URL(p,import.meta.url)));
++const data=read('../public/data/game-data.json'),levels=read('../public/data/levels.json').levels;
++for(const [Engine,id]of [[Battle,1],[SafariBattle,29]])test(`${Engine.name} rejects capture at capacity without consuming the enemy or corrupting the save`,()=>{
++ const save=newSave(data,1);
++ for(let i=save.pokemon.length;i<MAX_COLLECTION_SIZE-1;i++)save.pokemon.push(makePokemon(data,19,5));
++ const b=new Engine(data,levels.find(l=>l.id===id),save,()=>{});
++ b.state='running';
++ const add=uid=>{const e=b.fighter({speciesId:19,level:5,moves:[1]},{uid,team:'enemy',canCapture:true});e.hp=1;b.enemies.push(e);return e;};
++ try {
++  assert.equal(b.capture(add('last-slot').uid).ok,true);
++  assert.equal(save.pokemon.length,MAX_COLLECTION_SIZE);
++  const blocked=add('full-storage'),before=structuredClone(save),captured=b.stats.captured;
++  const result=b.capture(blocked.uid);
++  assert.equal(result.ok,false);assert.match(result.message,/collection is full/i);
++  assert.equal(b.enemies.includes(blocked),true);assert.equal(blocked.alive,true);
++  assert.equal(b.stats.captured,captured);assert.deepEqual(save,before);
++  assert.doesNotThrow(()=>validateSave(save,data));
++ }finally{b.dispose();}
++});
+diff --git a/tests/story-reward-gates.test.js b/tests/story-reward-gates.test.js
+new file mode 100644
+index 0000000..036a5ab
+--- /dev/null
++++ b/tests/story-reward-gates.test.js
+@@ -0,0 +1,54 @@
++import test from 'node:test';
++import assert from 'node:assert/strict';
++import {readFileSync} from 'node:fs';
++import {Battle} from '../src/battle.js';
++import {newSave} from '../src/model.js';
++import {StoryRuntime} from '../src/story-runtime.js';
++import {storyWinController} from '../src/story-data-stage.js';
++const read=p=>JSON.parse(readFileSync(new URL(p,import.meta.url)));
++const data=read('../public/data/game-data.json');data.timelines=read('../public/data/story-timelines.json');
++const levels=read('../public/data/levels.json').levels;
++// Exercise the production movie directly, so the game-fix regression suite
++// can be applied to a main build without installing any bot tooling.
++function resolveWin(data,level,save,battle){
++ const rt=new StoryRuntime(data,{timelines:data.timelines,save,level,battle,stageFlags:battle.stageFacts,rng:()=>.5});
++ rt.open(storyWinController(level));
++ for(let frame=0;frame<10000&&!rt.closed;frame++){
++  rt.tick();if(frame%5)continue;
++  const names=['butt_hitmonlee',!save.pokemon.some(p=>p.speciesId===138)?'butt_omanyte':'butt_kabuto','butt_next','butt_end','butt_close'];
++  const control=names.map(name=>rt.controls.find(c=>c.name===name)).find(Boolean);
++  if(control)rt.click(control.clip);
++ }
++ assert.equal(rt.closed,true,'original reward movie reaches its closing control');
++}
++
++function finish(save,id,won=true){
++ const level=levels.find(l=>l.id===id),battle=new Battle(data,level,save,()=>{});
++ battle.state='running';battle.finish(won);
++ return {battle,level};
++}
++for(const [id,species]of [[26,106],[32,138],[33,138]])test(`stage ${id} exposes its level1 reward only on first clear`,()=>{
++ const save=newSave(data,1);save.unlocked=id;
++ const first=finish(save,id);assert.equal(first.battle.stageFacts.var_334,true);
++ resolveWin(data,first.level,save,first.battle,{won:true});
++ assert.deepEqual(save.pokemon.filter(p=>p.speciesId===species).map(p=>p.level),[1]);
++ first.battle.dispose();
++ const replay=finish(save,id);assert.equal(replay.battle.stageFacts.var_334,false);
++ resolveWin(data,replay.level,save,replay.battle,{won:true});
++ assert.equal(save.pokemon.filter(p=>p.speciesId===species).length,1);replay.battle.dispose();
++});
++test('the two first-clear fossil choices can supply both fossil families',()=>{
++ const save=newSave(data,1);save.unlocked=32;
++ for(const id of [32,33]){const x=finish(save,id);resolveWin(data,x.level,save,x.battle,{won:true});x.battle.dispose();}
++ assert.deepEqual(save.pokemon.filter(p=>[138,140].includes(p.speciesId)).map(p=>p.speciesId).sort(),[138,140]);
++});
++test('a first-clear loss grants no reward and leaves the next win eligible',()=>{
++ const save=newSave(data,1);save.unlocked=26;
++ const loss=finish(save,26,false);assert.notEqual(loss.battle.stageFacts.var_334,true);assert.equal(save.unlocked,26);loss.battle.dispose();
++ const win=finish(save,26);assert.equal(win.battle.stageFacts.var_334,true);win.battle.dispose();
++});
++test('Fuchsia first-clear item gate is passed to its original reward movie',()=>{
++ const save=newSave(data,1);save.unlocked=27;
++ const x=finish(save,27);assert.equal(x.battle.stageFacts.var_334,true);
++ resolveWin(data,x.level,save,x.battle,{won:true});assert.equal(save.inventory[8],1);x.battle.dispose();
++});

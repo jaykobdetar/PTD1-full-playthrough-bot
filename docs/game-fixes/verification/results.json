@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-09",
+  "scope": "Current working tree, including bot tests; target builds run their own full suite after porting.",
+  "tests": {
+    "command": "npm test",
+    "passed": 338,
+    "failed": 0,
+    "log": "full-tests.log"
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "log": "production-build.log",
+    "warning": "Vite reports chunks above 500 kB; no build error."
+  },
+  "logHashes": {
+    "full-tests.log": "a5d69cc6fd719ce7ab04df7c9ab7c1450d53e83da7ba596ace4cc93bb837aea1",
+    "production-build.log": "af5e01049c004bf97782ea7f739393bd9b3fc78784664b85dd2f7e4bb69b309b"
+  }
+}

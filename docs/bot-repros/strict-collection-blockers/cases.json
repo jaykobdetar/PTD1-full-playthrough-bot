@@ -1,0 +1,870 @@
+{
+  "cases": [
+    {
+      "name": "abra-evolved-before-trade",
+      "checkpoint": "abra-evolved-before-trade.json",
+      "sha256": "3a954413534ee00e72d985de7975f6bbcc0c3c774e7cfa9409c4a62c15181d92",
+      "sourceFingerprint": "6f19ac4b9a58c8810d4b98908185d1386fcd7f78df65fa83f3e154f90ac418d8",
+      "attempt": {
+        "number": 901,
+        "stage": "level_3",
+        "campaignId": 3,
+        "name": "Route 2",
+        "purpose": "collection-story",
+        "seed": 4223050167,
+        "checkpoint": "checkpoints/00901.json",
+        "outcome": "won",
+        "battleOutcome": "won",
+        "frames": 1202,
+        "wave": 4,
+        "stats": {
+          "defeated": 28,
+          "captured": 1,
+          "earned": 56
+        },
+        "candy": 7,
+        "finalState": {
+          "state": "won",
+          "frame": 1202,
+          "wave": 4,
+          "totalWaves": 4,
+          "candy": 7,
+          "potions": 6,
+          "stats": {
+            "defeated": 28,
+            "captured": 1,
+            "earned": 56
+          },
+          "towers": [
+            {
+              "uid": "npc-level_3-2",
+              "speciesId": 19,
+              "level": 4,
+              "hp": 16,
+              "maxHp": 16,
+              "x": 304.6,
+              "y": 103.2,
+              "alive": true,
+              "placed": true,
+              "spot": 2,
+              "move": 1
+            },
+            {
+              "uid": "npc-level_3-5",
+              "speciesId": 16,
+              "level": 5,
+              "hp": 19,
+              "maxHp": 19,
+              "x": 487.05,
+              "y": 103.2,
+              "alive": true,
+              "placed": true,
+              "spot": 5,
+              "move": 1
+            },
+            {
+              "uid": "mtsmao00-3920",
+              "speciesId": 64,
+              "level": 17,
+              "hp": 40,
+              "maxHp": 40,
+              "x": 535.05,
+              "y": 299.7,
+              "alive": true,
+              "placed": true,
+              "spot": 1,
+              "move": 20
+            },
+            {
+              "uid": "mtsmao00-32",
+              "speciesId": 57,
+              "level": 89,
+              "hp": 214,
+              "maxHp": 214,
+              "x": 743.1,
+              "y": 241.5,
+              "alive": true,
+              "placed": true,
+              "spot": 4,
+              "move": 290
+            },
+            {
+              "uid": "mtsmao00-38",
+              "speciesId": 76,
+              "level": 100,
+              "hp": 270,
+              "maxHp": 270,
+              "x": 838.55,
+              "y": 442.05,
+              "alive": true,
+              "placed": true,
+              "spot": 8,
+              "move": 297
+            },
+            {
+              "uid": "mtsmao00-2975",
+              "speciesId": 26,
+              "level": 89,
+              "hp": 205,
+              "maxHp": 205,
+              "x": 1036.25,
+              "y": 246.7,
+              "alive": true,
+              "placed": true,
+              "spot": 6,
+              "move": 202
+            },
+            {
+              "uid": "mtsmao00-1406",
+              "speciesId": 89,
+              "level": 96,
+              "hp": 307,
+              "maxHp": 307,
+              "x": 1038.75,
+              "y": 442.05,
+              "alive": true,
+              "placed": true,
+              "spot": 7,
+              "move": 298
+            },
+            {
+              "uid": "mtsmao00-125",
+              "speciesId": 44,
+              "level": 30,
+              "hp": 76,
+              "maxHp": 76,
+              "x": 730.1,
+              "y": 105.7,
+              "alive": true,
+              "placed": true,
+              "spot": 3,
+              "move": 73
+            }
+          ],
+          "enemies": []
+        },
+        "party": [
+          {
+            "uid": "mtsmao00-3920",
+            "speciesId": 64,
+            "level": 17,
+            "shiny": 0,
+            "moves": [
+              116,
+              20
+            ],
+            "experience": 743
+          },
+          {
+            "uid": "mtsmao00-125",
+            "speciesId": 44,
+            "level": 30,
+            "shiny": 0,
+            "moves": [
+              107,
+              76,
+              73,
+              224
+            ],
+            "experience": 101
+          },
+          {
+            "uid": "mtsmao00-32",
+            "speciesId": 57,
+            "level": 89,
+            "shiny": 0,
+            "moves": [
+              320,
+              143,
+              53,
+              290
+            ],
+            "experience": 706716
+          },
+          {
+            "uid": "mtsmao00-38",
+            "speciesId": 76,
+            "level": 100,
+            "shiny": 0,
+            "moves": [
+              297,
+              155,
+              143,
+              343
+            ],
+            "experience": 1000624
+          },
+          {
+            "uid": "mtsmao00-2975",
+            "speciesId": 26,
+            "level": 89,
+            "shiny": 0,
+            "moves": [
+              22,
+              202
+            ],
+            "experience": 510887
+          },
+          {
+            "uid": "mtsmao00-1406",
+            "speciesId": 89,
+            "level": 96,
+            "shiny": 0,
+            "moves": [
+              382,
+              288,
+              298,
+              143
+            ],
+            "experience": 577521
+          }
+        ],
+        "nextStage": null,
+        "dexGained": [],
+        "rosterDelta": 1,
+        "moneyDelta": -944,
+        "levelGains": [],
+        "saveHash": "f4079910592cfac430b656c3e1006c167366daaacb63cf26297ea4540b59abfb",
+        "collectionGained": []
+      }
+    },
+    {
+      "name": "weak-aerodactyl-party",
+      "checkpoint": "weak-aerodactyl-party.json",
+      "sha256": "ef601e9b6f992dee33e871d643806e5914de1e2c39bd76a250bb9ccab642791c",
+      "sourceFingerprint": "6f19ac4b9a58c8810d4b98908185d1386fcd7f78df65fa83f3e154f90ac418d8",
+      "attempt": {
+        "number": 2843,
+        "stage": "level_32",
+        "campaignId": 32,
+        "name": "Cinnabar Island",
+        "purpose": "collection-strict-reward",
+        "seed": 3541692201,
+        "checkpoint": "checkpoints/02843.json",
+        "outcome": "won",
+        "battleOutcome": "won",
+        "frames": 7910,
+        "wave": 31,
+        "stats": {
+          "defeated": 80,
+          "captured": 129,
+          "earned": 5392
+        },
+        "candy": 4,
+        "finalState": {
+          "state": "won",
+          "frame": 7910,
+          "wave": 31,
+          "totalWaves": 30,
+          "candy": 4,
+          "potions": 0,
+          "stats": {
+            "defeated": 80,
+            "captured": 129,
+            "earned": 5392
+          },
+          "towers": [
+            {
+              "uid": "mtsmao00-3890",
+              "speciesId": 65,
+              "level": 20,
+              "hp": 0,
+              "maxHp": 52,
+              "x": 839.75,
+              "y": 770.15,
+              "alive": false,
+              "placed": false,
+              "spot": null,
+              "move": 20
+            },
+            {
+              "uid": "mtsmao00-1131",
+              "speciesId": 131,
+              "level": 40,
+              "hp": 0,
+              "maxHp": 154,
+              "x": 523.65,
+              "y": 770.15,
+              "alive": false,
+              "placed": false,
+              "spot": null,
+              "move": 328
+            },
+            {
+              "uid": "mtsmao00-2975",
+              "speciesId": 26,
+              "level": 100,
+              "hp": 230,
+              "maxHp": 230,
+              "x": 577.65,
+              "y": 195.85,
+              "alive": true,
+              "placed": true,
+              "spot": 9,
+              "move": 202
+            },
+            {
+              "uid": "mtsmao00-38",
+              "speciesId": 76,
+              "level": 100,
+              "hp": 250,
+              "maxHp": 270,
+              "x": 756.45,
+              "y": 195,
+              "alive": true,
+              "placed": true,
+              "spot": 8,
+              "move": 297
+            },
+            {
+              "uid": "mtsmao00-15999",
+              "speciesId": 150,
+              "level": 87,
+              "hp": 281,
+              "maxHp": 281,
+              "x": 1182.8,
+              "y": 770.15,
+              "alive": true,
+              "placed": true,
+              "spot": 4,
+              "move": 148
+            },
+            {
+              "uid": "mtsmao00-11639",
+              "speciesId": 151,
+              "level": 88,
+              "hp": 244,
+              "maxHp": 274,
+              "x": 979.05,
+              "y": 195,
+              "alive": true,
+              "placed": true,
+              "spot": 7,
+              "move": 148
+            }
+          ],
+          "enemies": []
+        },
+        "party": [
+          {
+            "uid": "mtsmao00-15999",
+            "speciesId": 150,
+            "level": 87,
+            "shiny": 0,
+            "moves": [
+              20,
+              148,
+              115
+            ],
+            "experience": 157154
+          },
+          {
+            "uid": "mtsmao00-3890",
+            "speciesId": 65,
+            "level": 20,
+            "shiny": 0,
+            "moves": [
+              116,
+              20
+            ],
+            "experience": 1936
+          },
+          {
+            "uid": "mtsmao00-11639",
+            "speciesId": 151,
+            "level": 88,
+            "shiny": 0,
+            "moves": [
+              48,
+              148,
+              143
+            ],
+            "experience": 74234
+          },
+          {
+            "uid": "mtsmao00-1131",
+            "speciesId": 131,
+            "level": 40,
+            "shiny": 0,
+            "moves": [
+              346,
+              328,
+              31,
+              93
+            ],
+            "experience": 15556
+          },
+          {
+            "uid": "mtsmao00-38",
+            "speciesId": 76,
+            "level": 100,
+            "shiny": 0,
+            "moves": [
+              297,
+              155,
+              143,
+              343
+            ],
+            "experience": 1000624
+          },
+          {
+            "uid": "mtsmao00-2975",
+            "speciesId": 26,
+            "level": 100,
+            "shiny": 0,
+            "moves": [
+              142,
+              202,
+              143,
+              219
+            ],
+            "experience": 1000335
+          }
+        ],
+        "nextStage": null,
+        "dexGained": [],
+        "rosterDelta": 129,
+        "moneyDelta": -20608,
+        "levelGains": [],
+        "saveHash": "893761ef1814cc3649edd78327fe803ba63bd8d92df87ada2c7ff4754c89445d",
+        "collectionGained": []
+      }
+    }
+  ],
+  "recovery": {
+    "report": "artifacts/bot/strict-recovery-1/report.json",
+    "fingerprint": "e40fdf64a602b0c52bcc55fbdb01c4d5177e7374390ac35c76e6d52bceeabaf9",
+    "resultHash": "26a64257526544fd5a245c91b65ace1133ced51edbfece0be6fea2fc21110f1a",
+    "requestedComplete": true,
+    "attempts": [
+      {
+        "number": 1,
+        "stage": "level_32",
+        "campaignId": 32,
+        "name": "Cinnabar Island",
+        "purpose": "collection-strict-reward",
+        "seed": 814657751,
+        "checkpoint": "checkpoints/00001.json",
+        "outcome": "won",
+        "battleOutcome": "won",
+        "frames": 7813,
+        "wave": 31,
+        "stats": {
+          "defeated": 115,
+          "captured": 94,
+          "earned": 5624
+        },
+        "candy": 8,
+        "finalState": {
+          "state": "won",
+          "frame": 7813,
+          "wave": 31,
+          "totalWaves": 30,
+          "candy": 8,
+          "potions": 5,
+          "stats": {
+            "defeated": 115,
+            "captured": 94,
+            "earned": 5624
+          },
+          "towers": [
+            {
+              "uid": "mtsmao00-15999",
+              "speciesId": 150,
+              "level": 87,
+              "hp": 227,
+              "maxHp": 281,
+              "x": 839.75,
+              "y": 770.15,
+              "alive": true,
+              "placed": true,
+              "spot": 3,
+              "move": 148
+            },
+            {
+              "uid": "mtsmao00-11639",
+              "speciesId": 151,
+              "level": 88,
+              "hp": 208,
+              "maxHp": 274,
+              "x": 577.65,
+              "y": 195.85,
+              "alive": true,
+              "placed": true,
+              "spot": 9,
+              "move": 148
+            },
+            {
+              "uid": "mtsmao00-10014",
+              "speciesId": 64,
+              "level": 89,
+              "hp": 170,
+              "maxHp": 170,
+              "x": 1231.25,
+              "y": 414.05,
+              "alive": true,
+              "placed": true,
+              "spot": 5,
+              "move": 148
+            },
+            {
+              "uid": "mtsmao00-38",
+              "speciesId": 76,
+              "level": 100,
+              "hp": 250,
+              "maxHp": 270,
+              "x": 756.45,
+              "y": 195,
+              "alive": true,
+              "placed": true,
+              "spot": 8,
+              "move": 297
+            },
+            {
+              "uid": "mtsmao00-3016",
+              "speciesId": 87,
+              "level": 100,
+              "hp": 222,
+              "maxHp": 290,
+              "x": 979.05,
+              "y": 195,
+              "alive": true,
+              "placed": true,
+              "spot": 7,
+              "move": 133
+            },
+            {
+              "uid": "mtsmao00-2975",
+              "speciesId": 26,
+              "level": 100,
+              "hp": 230,
+              "maxHp": 230,
+              "x": 1012.75,
+              "y": 419.2,
+              "alive": true,
+              "placed": true,
+              "spot": 10,
+              "move": 202
+            }
+          ],
+          "enemies": []
+        },
+        "party": [
+          {
+            "uid": "mtsmao00-15999",
+            "speciesId": 150,
+            "level": 87,
+            "shiny": 0,
+            "moves": [
+              20,
+              148,
+              115
+            ],
+            "experience": 659124
+          },
+          {
+            "uid": "mtsmao00-10014",
+            "speciesId": 64,
+            "level": 89,
+            "shiny": 0,
+            "moves": [
+              20,
+              148,
+              115,
+              89
+            ],
+            "experience": 157086
+          },
+          {
+            "uid": "mtsmao00-11639",
+            "speciesId": 151,
+            "level": 88,
+            "shiny": 0,
+            "moves": [
+              48,
+              148,
+              143
+            ],
+            "experience": 489276
+          },
+          {
+            "uid": "mtsmao00-3016",
+            "speciesId": 87,
+            "level": 100,
+            "shiny": 0,
+            "moves": [
+              346,
+              133,
+              143,
+              408
+            ],
+            "experience": 97260
+          },
+          {
+            "uid": "mtsmao00-38",
+            "speciesId": 76,
+            "level": 100,
+            "shiny": 0,
+            "moves": [
+              297,
+              155,
+              143,
+              343
+            ],
+            "experience": 1000624
+          },
+          {
+            "uid": "mtsmao00-2975",
+            "speciesId": 26,
+            "level": 100,
+            "shiny": 0,
+            "moves": [
+              142,
+              202,
+              143,
+              219
+            ],
+            "experience": 1000335
+          }
+        ],
+        "nextStage": null,
+        "dexGained": [
+          142
+        ],
+        "rosterDelta": 95,
+        "moneyDelta": 624,
+        "levelGains": [],
+        "saveHash": "447b1238b30af90bb5f9d5f8ef9b14cd8c3cde2b630883f2b91537764c354f1c",
+        "collectionGained": [
+          142
+        ]
+      },
+      {
+        "number": 2,
+        "stage": "level_3",
+        "campaignId": 3,
+        "name": "Route 2",
+        "purpose": "collection-story",
+        "seed": 1364887502,
+        "checkpoint": "checkpoints/00002.json",
+        "outcome": "won",
+        "battleOutcome": "won",
+        "frames": 1209,
+        "wave": 4,
+        "stats": {
+          "defeated": 29,
+          "captured": 0,
+          "earned": 58
+        },
+        "candy": 7,
+        "finalState": {
+          "state": "won",
+          "frame": 1209,
+          "wave": 4,
+          "totalWaves": 4,
+          "candy": 7,
+          "potions": 6,
+          "stats": {
+            "defeated": 29,
+            "captured": 0,
+            "earned": 58
+          },
+          "towers": [
+            {
+              "uid": "npc-level_3-2",
+              "speciesId": 19,
+              "level": 4,
+              "hp": 16,
+              "maxHp": 16,
+              "x": 304.6,
+              "y": 103.2,
+              "alive": true,
+              "placed": true,
+              "spot": 2,
+              "move": 1
+            },
+            {
+              "uid": "npc-level_3-5",
+              "speciesId": 16,
+              "level": 5,
+              "hp": 19,
+              "maxHp": 19,
+              "x": 487.05,
+              "y": 103.2,
+              "alive": true,
+              "placed": true,
+              "spot": 5,
+              "move": 1
+            },
+            {
+              "uid": "mtsmao00-4211",
+              "speciesId": 63,
+              "level": 15,
+              "hp": 32,
+              "maxHp": 32,
+              "x": 535.05,
+              "y": 299.7,
+              "alive": true,
+              "placed": true,
+              "spot": 1,
+              "move": 116
+            },
+            {
+              "uid": "mtsmao00-7567",
+              "speciesId": 82,
+              "level": 100,
+              "hp": 210,
+              "maxHp": 210,
+              "x": 743.1,
+              "y": 241.5,
+              "alive": true,
+              "placed": true,
+              "spot": 4,
+              "move": 219
+            },
+            {
+              "uid": "mtsmao00-2975",
+              "speciesId": 26,
+              "level": 100,
+              "hp": 230,
+              "maxHp": 230,
+              "x": 838.55,
+              "y": 442.05,
+              "alive": true,
+              "placed": true,
+              "spot": 8,
+              "move": 202
+            },
+            {
+              "uid": "mtsmao00-32",
+              "speciesId": 57,
+              "level": 89,
+              "hp": 214,
+              "maxHp": 214,
+              "x": 1036.25,
+              "y": 246.7,
+              "alive": true,
+              "placed": true,
+              "spot": 6,
+              "move": 290
+            },
+            {
+              "uid": "mtsmao00-38",
+              "speciesId": 76,
+              "level": 100,
+              "hp": 270,
+              "maxHp": 270,
+              "x": 1038.75,
+              "y": 442.05,
+              "alive": true,
+              "placed": true,
+              "spot": 7,
+              "move": 297
+            },
+            {
+              "uid": "mtsmao00-125",
+              "speciesId": 44,
+              "level": 30,
+              "hp": 76,
+              "maxHp": 76,
+              "x": 730.1,
+              "y": 105.7,
+              "alive": true,
+              "placed": true,
+              "spot": 3,
+              "move": 73
+            }
+          ],
+          "enemies": []
+        },
+        "party": [
+          {
+            "uid": "mtsmao00-4211",
+            "speciesId": 63,
+            "level": 15,
+            "shiny": 0,
+            "moves": [
+              116
+            ],
+            "experience": 58
+          },
+          {
+            "uid": "mtsmao00-125",
+            "speciesId": 44,
+            "level": 30,
+            "shiny": 0,
+            "moves": [
+              107,
+              76,
+              73,
+              224
+            ],
+            "experience": 443
+          },
+          {
+            "uid": "mtsmao00-7567",
+            "speciesId": 82,
+            "level": 100,
+            "shiny": 0,
+            "moves": [
+              1,
+              219,
+              143
+            ],
+            "experience": 1008541
+          },
+          {
+            "uid": "mtsmao00-2975",
+            "speciesId": 26,
+            "level": 100,
+            "shiny": 0,
+            "moves": [
+              142,
+              202,
+              143,
+              219
+            ],
+            "experience": 1000335
+          },
+          {
+            "uid": "mtsmao00-32",
+            "speciesId": 57,
+            "level": 89,
+            "shiny": 0,
+            "moves": [
+              320,
+              143,
+              53,
+              290
+            ],
+            "experience": 706716
+          },
+          {
+            "uid": "mtsmao00-38",
+            "speciesId": 76,
+            "level": 100,
+            "shiny": 0,
+            "moves": [
+              297,
+              155,
+              143,
+              343
+            ],
+            "experience": 1000624
+          }
+        ],
+        "nextStage": null,
+        "dexGained": [
+          122
+        ],
+        "rosterDelta": 0,
+        "moneyDelta": 58,
+        "levelGains": [],
+        "saveHash": "ad3fedc5a3bde1e90e5f950f9a2165b1ef37f969bd7490cfb6b249e782afcfa3",
+        "collectionGained": [
+          122
+        ]
+      }
+    ]
+  }
+}

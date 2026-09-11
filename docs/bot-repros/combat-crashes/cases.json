@@ -1,0 +1,1236 @@
+[
+  {
+    "id": "QA-006",
+    "case": "mirror-earthquake",
+    "checkpoint": "mirror-earthquake.json",
+    "sha256": "3d1acd006bf6d11501602ddc7a358fbbfc773e6a23cca170a90d299dd5fdfb93",
+    "source": "artifacts/bot/starter-policy-14/checkpoints/00037.json",
+    "sourceFingerprint": "e9a9624290c24cd9859ce49d3e258206f1e4b869fec72e961275ee96e39d86d0",
+    "attempt": {
+      "number": 37,
+      "stage": "level_21",
+      "campaignId": 21,
+      "name": "Rocket Hideout",
+      "purpose": "progression",
+      "seed": 1974644251,
+      "checkpoint": "checkpoints/00037.json",
+      "outcome": "error",
+      "battleOutcome": "error",
+      "frames": 2481,
+      "wave": 8,
+      "stats": {
+        "defeated": 14,
+        "captured": 0,
+        "earned": 560
+      },
+      "candy": 10,
+      "finalState": {
+        "state": "error",
+        "frame": 2481,
+        "wave": 8,
+        "totalWaves": 47,
+        "candy": 10,
+        "potions": 0,
+        "stats": {
+          "defeated": 14,
+          "captured": 0,
+          "earned": 560
+        },
+        "towers": [
+          {
+            "uid": "mtsmao00-517",
+            "speciesId": 75,
+            "level": 69,
+            "hp": 138,
+            "maxHp": 154,
+            "x": 246.35,
+            "y": 307.05,
+            "alive": true,
+            "placed": true,
+            "spot": 2,
+            "move": 297
+          },
+          {
+            "uid": "mtsmao00-1",
+            "speciesId": 3,
+            "level": 40,
+            "hp": 46,
+            "maxHp": 114,
+            "x": 534.15,
+            "y": 353.95,
+            "alive": true,
+            "placed": true,
+            "spot": 4,
+            "move": 153
+          },
+          {
+            "uid": "mtsmao00-518",
+            "speciesId": 42,
+            "level": 52,
+            "hp": 140,
+            "maxHp": 140,
+            "x": 534.15,
+            "y": 446.9,
+            "alive": true,
+            "placed": true,
+            "spot": 5,
+            "move": 75
+          },
+          {
+            "uid": "mtsmao00-1754",
+            "speciesId": 56,
+            "level": 37,
+            "hp": 0,
+            "maxHp": 76,
+            "x": 246.35,
+            "y": 209.3,
+            "alive": false,
+            "placed": false,
+            "spot": null,
+            "move": 53
+          },
+          {
+            "uid": "mtsmao00-10",
+            "speciesId": 20,
+            "level": 48,
+            "hp": 130,
+            "maxHp": 130,
+            "x": 246.35,
+            "y": 209.3,
+            "alive": true,
+            "placed": true,
+            "spot": 1,
+            "move": 136
+          },
+          {
+            "uid": "mtsmao00-84",
+            "speciesId": 18,
+            "level": 51,
+            "hp": 145,
+            "maxHp": 145,
+            "x": 246.35,
+            "y": 403.95,
+            "alive": true,
+            "placed": true,
+            "spot": 3,
+            "move": 75
+          }
+        ],
+        "enemies": [
+          {
+            "uid": "enemy-14",
+            "speciesId": 22,
+            "level": 53,
+            "hp": 146,
+            "maxHp": 165,
+            "x": 397.35,
+            "y": 205.85,
+            "alive": true,
+            "move": 78
+          }
+        ]
+      },
+      "party": [
+        {
+          "uid": "mtsmao00-517",
+          "speciesId": 75,
+          "level": 69,
+          "shiny": 0,
+          "moves": [
+            194,
+            297,
+            143,
+            155
+          ],
+          "experience": 157032
+        },
+        {
+          "uid": "mtsmao00-10",
+          "speciesId": 20,
+          "level": 48,
+          "shiny": 0,
+          "moves": [
+            136,
+            34,
+            127,
+            83
+          ],
+          "experience": 19691
+        },
+        {
+          "uid": "mtsmao00-1",
+          "speciesId": 3,
+          "level": 40,
+          "shiny": 0,
+          "moves": [
+            149,
+            153,
+            83,
+            225
+          ],
+          "experience": 44114
+        },
+        {
+          "uid": "mtsmao00-518",
+          "speciesId": 42,
+          "level": 52,
+          "shiny": 0,
+          "moves": [
+            75,
+            143,
+            188,
+            162
+          ],
+          "experience": 36942
+        },
+        {
+          "uid": "mtsmao00-84",
+          "speciesId": 18,
+          "level": 51,
+          "shiny": 0,
+          "moves": [
+            1,
+            36,
+            75,
+            158
+          ],
+          "experience": 90835
+        },
+        {
+          "uid": "mtsmao00-1754",
+          "speciesId": 56,
+          "level": 37,
+          "shiny": 0,
+          "moves": [
+            53,
+            96,
+            190,
+            51
+          ],
+          "experience": 43936
+        }
+      ],
+      "dexGained": [],
+      "rosterDelta": 0,
+      "moneyDelta": 560,
+      "levelGains": [],
+      "saveHash": "152681446c4447e9b04ca7e67ed4ba3ad60b59b231f770f55694ddb105ff313c"
+    },
+    "issues": [
+      {
+        "id": "BOT-001",
+        "kind": "runtime-error",
+        "message": "Original cast to poke_Tower failed",
+        "stage": "level_21",
+        "attempt": 37,
+        "seed": 1974644251,
+        "frame": 2481,
+        "count": 1,
+        "checkpoint": "checkpoints/00037.json",
+        "error": {
+          "message": "Original cast to poke_Tower failed",
+          "stack": "TypeError: Original cast to poke_Tower failed\n    at Object.poke_Tower (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:49:117)\n    at Klass.run (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-source-generated.js:32550:36)\n    at <computed> [as do_Attack] (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:53:161)\n    at Klass.run (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-source-generated.js:30359:17)\n    at <computed> [as do_Attack] (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:53:161)\n    at Klass.run (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-source-generated.js:40499:36)\n    at <computed> [as checkEnemy] (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:53:161)\n    at file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:161:372\n    at withSource (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:157:138)\n    at Object.attack (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:161:342)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "QA-007",
+    "case": "stone-edge",
+    "checkpoint": "stone-edge.json",
+    "sha256": "22ca1b7f48b5ace92e48dbdb49a3d9bd4d22a708c85f8f9b7a4bf3924d3057db",
+    "source": "artifacts/bot/starter-policy-16/checkpoints/00061.json",
+    "sourceFingerprint": "eb2371dc4f2230cc6e2a3111a2d225f3b08cfdf0b00efae6047533535da70659",
+    "attempt": {
+      "number": 61,
+      "stage": "level_25",
+      "campaignId": 25,
+      "name": "Saffron City",
+      "purpose": "progression",
+      "seed": 494992048,
+      "checkpoint": "checkpoints/00061.json",
+      "outcome": "error",
+      "battleOutcome": "error",
+      "frames": 346,
+      "wave": 2,
+      "stats": {
+        "defeated": 3,
+        "captured": 0,
+        "earned": 140
+      },
+      "candy": 1,
+      "finalState": {
+        "state": "error",
+        "frame": 346,
+        "wave": 2,
+        "totalWaves": 7,
+        "candy": 1,
+        "potions": 6,
+        "stats": {
+          "defeated": 3,
+          "captured": 0,
+          "earned": 140
+        },
+        "towers": [
+          {
+            "uid": "mtsmao00-517",
+            "speciesId": 75,
+            "level": 70,
+            "hp": 157,
+            "maxHp": 157,
+            "x": 916.55,
+            "y": 623.6,
+            "alive": true,
+            "placed": true,
+            "spot": 6,
+            "move": 297
+          },
+          {
+            "uid": "mtsmao00-98",
+            "speciesId": 75,
+            "level": 65,
+            "hp": 0,
+            "maxHp": 146,
+            "x": 268.45,
+            "y": 155.8,
+            "alive": false,
+            "placed": false,
+            "spot": null,
+            "move": 297
+          },
+          {
+            "uid": "mtsmao00-518",
+            "speciesId": 42,
+            "level": 65,
+            "hp": 172,
+            "maxHp": 172,
+            "x": 477.4,
+            "y": 169.2,
+            "alive": true,
+            "placed": true,
+            "spot": 2,
+            "move": 246
+          },
+          {
+            "uid": "mtsmao00-10",
+            "speciesId": 20,
+            "level": 53,
+            "hp": 142,
+            "maxHp": 142,
+            "x": 645.2,
+            "y": 169.2,
+            "alive": true,
+            "placed": true,
+            "spot": 3,
+            "move": 136
+          },
+          {
+            "uid": "mtsmao00-84",
+            "speciesId": 18,
+            "level": 62,
+            "hp": 174,
+            "maxHp": 174,
+            "x": 475.95,
+            "y": 360.95,
+            "alive": true,
+            "placed": true,
+            "spot": 4,
+            "move": 246
+          },
+          {
+            "uid": "mtsmao00-1754",
+            "speciesId": 57,
+            "level": 46,
+            "hp": 115,
+            "maxHp": 115,
+            "x": 454.9,
+            "y": 502,
+            "alive": true,
+            "placed": true,
+            "spot": 5,
+            "move": 53
+          }
+        ],
+        "enemies": []
+      },
+      "party": [
+        {
+          "uid": "mtsmao00-517",
+          "speciesId": 75,
+          "level": 70,
+          "shiny": 0,
+          "moves": [
+            194,
+            297,
+            143,
+            155
+          ],
+          "experience": 115401
+        },
+        {
+          "uid": "mtsmao00-518",
+          "speciesId": 42,
+          "level": 65,
+          "shiny": 0,
+          "moves": [
+            75,
+            143,
+            246,
+            162
+          ],
+          "experience": 91401
+        },
+        {
+          "uid": "mtsmao00-10",
+          "speciesId": 20,
+          "level": 53,
+          "shiny": 0,
+          "moves": [
+            136,
+            34,
+            127,
+            143
+          ],
+          "experience": 42482
+        },
+        {
+          "uid": "mtsmao00-84",
+          "speciesId": 18,
+          "level": 62,
+          "shiny": 0,
+          "moves": [
+            246,
+            36,
+            75,
+            158
+          ],
+          "experience": 99124
+        },
+        {
+          "uid": "mtsmao00-1754",
+          "speciesId": 57,
+          "level": 46,
+          "shiny": 0,
+          "moves": [
+            53,
+            96,
+            190,
+            51
+          ],
+          "experience": 67362
+        },
+        {
+          "uid": "mtsmao00-98",
+          "speciesId": 75,
+          "level": 65,
+          "shiny": 0,
+          "moves": [
+            155,
+            194,
+            143,
+            297
+          ],
+          "experience": 128625
+        }
+      ],
+      "dexGained": [],
+      "rosterDelta": 0,
+      "moneyDelta": 140,
+      "levelGains": [],
+      "saveHash": "0ef6e1a10db96a322c3b41f058cc3ce718d2eda7ed4fe4ebe152cfe9e50822a2"
+    },
+    "issues": [
+      {
+        "id": "BOT-001",
+        "kind": "runtime-error",
+        "message": "Cannot read properties of null (reading 'length')",
+        "stage": "level_25",
+        "attempt": 61,
+        "seed": 494992048,
+        "frame": 346,
+        "count": 1,
+        "checkpoint": "checkpoints/00061.json",
+        "error": {
+          "message": "Cannot read properties of null (reading 'length')",
+          "stack": "TypeError: Cannot read properties of null (reading 'length')\n    at Klass.run (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-source-generated.js:16577:49)\n    at <computed> [as run] (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:53:161)\n    at file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:167:127\n    at withSource (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:157:138)\n    at Object.tickBeforeMovement (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:167:75)\n    at Battle.tickBeforeMovement (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/battle.js:164:44)\n    at Battle.tickRunning (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/battle.js:859:12)\n    at Battle.tick (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/battle.js:847:16)\n    at battle.tick (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/stage-hooks.js:113:14)\n    at Runner.play (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:120:18)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "QA-007",
+    "case": "air-slash",
+    "checkpoint": "air-slash.json",
+    "sha256": "5cc4c672249eb190f1226550783dae0df874f852aac949921b974b55ac89ae61",
+    "source": "artifacts/bot/starter-policy-17/checkpoints/00018.json",
+    "sourceFingerprint": "2450f0229351accdceeb1a57f475b2aea179b7ae3e0152f0c55bba61a3eb5a6c",
+    "attempt": {
+      "number": 18,
+      "stage": "level_25",
+      "campaignId": 25,
+      "name": "Saffron City",
+      "purpose": "progression",
+      "seed": 1370345969,
+      "checkpoint": "checkpoints/00018.json",
+      "outcome": "error",
+      "battleOutcome": "error",
+      "frames": 1552,
+      "wave": 5,
+      "stats": {
+        "defeated": 12,
+        "captured": 0,
+        "earned": 860
+      },
+      "candy": 1,
+      "finalState": {
+        "state": "error",
+        "frame": 1552,
+        "wave": 5,
+        "totalWaves": 7,
+        "candy": 1,
+        "potions": 0,
+        "stats": {
+          "defeated": 12,
+          "captured": 0,
+          "earned": 860
+        },
+        "towers": [
+          {
+            "uid": "mtsmao00-1754",
+            "speciesId": 57,
+            "level": 46,
+            "hp": 0,
+            "maxHp": 115,
+            "x": 454.9,
+            "y": 502,
+            "alive": false,
+            "placed": false,
+            "spot": null,
+            "move": 53
+          },
+          {
+            "uid": "mtsmao00-517",
+            "speciesId": 75,
+            "level": 70,
+            "hp": 0,
+            "maxHp": 157,
+            "x": 1073.4,
+            "y": 624.6,
+            "alive": false,
+            "placed": false,
+            "spot": null,
+            "move": 143
+          },
+          {
+            "uid": "mtsmao00-10",
+            "speciesId": 20,
+            "level": 53,
+            "hp": 0,
+            "maxHp": 142,
+            "x": 1073.35,
+            "y": 169.2,
+            "alive": false,
+            "placed": false,
+            "spot": null,
+            "move": 143
+          },
+          {
+            "uid": "mtsmao00-518",
+            "speciesId": 42,
+            "level": 65,
+            "hp": 140,
+            "maxHp": 172,
+            "x": 285.95,
+            "y": 685.75,
+            "alive": true,
+            "placed": true,
+            "spot": 11,
+            "move": 246
+          },
+          {
+            "uid": "mtsmao00-84",
+            "speciesId": 18,
+            "level": 62,
+            "hp": 0,
+            "maxHp": 174,
+            "x": 388.9,
+            "y": 685.75,
+            "alive": false,
+            "placed": false,
+            "spot": null,
+            "move": 246
+          },
+          {
+            "uid": "mtsmao00-98",
+            "speciesId": 75,
+            "level": 65,
+            "hp": 118,
+            "maxHp": 146,
+            "x": 454.9,
+            "y": 502,
+            "alive": true,
+            "placed": true,
+            "spot": 5,
+            "move": 194
+          }
+        ],
+        "enemies": []
+      },
+      "party": [
+        {
+          "uid": "mtsmao00-517",
+          "speciesId": 75,
+          "level": 70,
+          "shiny": 0,
+          "moves": [
+            194,
+            67,
+            143,
+            155
+          ],
+          "experience": 115401
+        },
+        {
+          "uid": "mtsmao00-518",
+          "speciesId": 42,
+          "level": 65,
+          "shiny": 0,
+          "moves": [
+            75,
+            143,
+            246,
+            162
+          ],
+          "experience": 123468
+        },
+        {
+          "uid": "mtsmao00-10",
+          "speciesId": 20,
+          "level": 53,
+          "shiny": 0,
+          "moves": [
+            136,
+            34,
+            127,
+            143
+          ],
+          "experience": 42482
+        },
+        {
+          "uid": "mtsmao00-84",
+          "speciesId": 18,
+          "level": 62,
+          "shiny": 0,
+          "moves": [
+            246,
+            36,
+            75,
+            158
+          ],
+          "experience": 158848
+        },
+        {
+          "uid": "mtsmao00-1754",
+          "speciesId": 57,
+          "level": 46,
+          "shiny": 0,
+          "moves": [
+            53,
+            96,
+            190,
+            51
+          ],
+          "experience": 67362
+        },
+        {
+          "uid": "mtsmao00-98",
+          "speciesId": 75,
+          "level": 65,
+          "shiny": 0,
+          "moves": [
+            155,
+            194,
+            143,
+            67
+          ],
+          "experience": 234468
+        }
+      ],
+      "dexGained": [],
+      "rosterDelta": 0,
+      "moneyDelta": 860,
+      "levelGains": [],
+      "saveHash": "ca05e76425ad1a5a394b6692ddfb4ce09c2b2dae5b425d78d98bf3aa40a18a59"
+    },
+    "issues": [
+      {
+        "id": "BOT-001",
+        "kind": "runtime-error",
+        "message": "Cannot read properties of null (reading 'length')",
+        "stage": "level_25",
+        "attempt": 18,
+        "seed": 1370345969,
+        "frame": 1552,
+        "count": 1,
+        "checkpoint": "checkpoints/00018.json",
+        "error": {
+          "message": "Cannot read properties of null (reading 'length')",
+          "stack": "TypeError: Cannot read properties of null (reading 'length')\n    at Klass.run (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-source-generated.js:9584:49)\n    at <computed> [as run] (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:53:161)\n    at file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:167:127\n    at withSource (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:157:138)\n    at Object.tickBeforeMovement (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:167:75)\n    at Battle.tickBeforeMovement (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/battle.js:164:44)\n    at Battle.tickRunning (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/battle.js:859:12)\n    at Battle.tick (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/battle.js:847:16)\n    at battle.tick (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/stage-hooks.js:113:14)\n    at Runner.play (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:120:18)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "QA-008",
+    "case": "mirror-whirlwind",
+    "checkpoint": "mirror-whirlwind.json",
+    "sha256": "2eb28f98d816095b62ff4993140aa70182dc968d35aaf7969d903610cd2db2fa",
+    "source": "artifacts/bot/patched-collection-4/auxiliary-1-1/checkpoints/00243.json",
+    "sourceFingerprint": "9ca38e225b84fc63e41ddb455e033f0d2f21882925d976798e5a7138f498ac83",
+    "attempt": {
+      "number": 243,
+      "stage": "level_21",
+      "campaignId": 21,
+      "name": "Rocket Hideout",
+      "purpose": "progression",
+      "seed": 2807888682,
+      "checkpoint": "checkpoints/00243.json",
+      "outcome": "error",
+      "battleOutcome": "error",
+      "frames": 2703,
+      "wave": 9,
+      "stats": {
+        "defeated": 13,
+        "captured": 0,
+        "earned": 460
+      },
+      "candy": 8,
+      "finalState": {
+        "state": "error",
+        "frame": 2703,
+        "wave": 9,
+        "totalWaves": 47,
+        "candy": 8,
+        "potions": 0,
+        "stats": {
+          "defeated": 13,
+          "captured": 0,
+          "earned": 460
+        },
+        "towers": [
+          {
+            "uid": "mtsmao00-3890",
+            "speciesId": 64,
+            "level": 46,
+            "hp": 0,
+            "maxHp": 92,
+            "x": 534.15,
+            "y": 353.95,
+            "alive": false,
+            "placed": false,
+            "spot": null,
+            "move": 148
+          },
+          {
+            "uid": "mtsmao00-4592",
+            "speciesId": 38,
+            "level": 39,
+            "hp": 0,
+            "maxHp": 105,
+            "x": 246.35,
+            "y": 209.3,
+            "alive": false,
+            "placed": false,
+            "spot": null,
+            "move": 106
+          },
+          {
+            "uid": "center-pc-1",
+            "speciesId": 6,
+            "level": 57,
+            "hp": 155,
+            "maxHp": 155,
+            "x": 246.35,
+            "y": 496.9,
+            "alive": true,
+            "placed": true,
+            "spot": 6,
+            "move": 106
+          },
+          {
+            "uid": "mtsmao00-3946",
+            "speciesId": 42,
+            "level": 46,
+            "hp": 51,
+            "maxHp": 125,
+            "x": 246.35,
+            "y": 403.95,
+            "alive": true,
+            "placed": true,
+            "spot": 3,
+            "move": 75
+          },
+          {
+            "uid": "mtsmao00-3812",
+            "speciesId": 12,
+            "level": 48,
+            "hp": 115,
+            "maxHp": 115,
+            "x": 534.15,
+            "y": 446.9,
+            "alive": true,
+            "placed": true,
+            "spot": 5,
+            "move": 218
+          },
+          {
+            "uid": "mtsmao00-3947",
+            "speciesId": 75,
+            "level": 54,
+            "hp": 101,
+            "maxHp": 123,
+            "x": 534.15,
+            "y": 353.95,
+            "alive": true,
+            "placed": true,
+            "spot": 4,
+            "move": 194
+          }
+        ],
+        "enemies": [
+          {
+            "uid": "enemy-15",
+            "speciesId": 22,
+            "level": 53,
+            "hp": 10,
+            "maxHp": 165,
+            "x": 397.35,
+            "y": 560.85,
+            "alive": true,
+            "move": 78
+          }
+        ]
+      },
+      "party": [
+        {
+          "uid": "center-pc-1",
+          "speciesId": 6,
+          "level": 57,
+          "shiny": 0,
+          "moves": [
+            106,
+            184,
+            246,
+            143
+          ],
+          "experience": 115541
+        },
+        {
+          "uid": "mtsmao00-3947",
+          "speciesId": 75,
+          "level": 54,
+          "shiny": 0,
+          "moves": [
+            155,
+            67,
+            194,
+            143
+          ],
+          "experience": 73329
+        },
+        {
+          "uid": "mtsmao00-3890",
+          "speciesId": 64,
+          "level": 46,
+          "shiny": 0,
+          "moves": [
+            83,
+            89,
+            20,
+            148
+          ],
+          "experience": 3391
+        },
+        {
+          "uid": "mtsmao00-3812",
+          "speciesId": 12,
+          "level": 48,
+          "shiny": 0,
+          "moves": [
+            36,
+            218,
+            83,
+            26
+          ],
+          "experience": 79584
+        },
+        {
+          "uid": "mtsmao00-3946",
+          "speciesId": 42,
+          "level": 46,
+          "shiny": 0,
+          "moves": [
+            75,
+            36,
+            188,
+            162
+          ],
+          "experience": 20979
+        },
+        {
+          "uid": "mtsmao00-4592",
+          "speciesId": 38,
+          "level": 39,
+          "shiny": 0,
+          "moves": [
+            10,
+            106,
+            101,
+            4
+          ],
+          "experience": 28724
+        }
+      ],
+      "dexGained": [],
+      "rosterDelta": 0,
+      "moneyDelta": 460,
+      "levelGains": [],
+      "saveHash": "d127d2a3c5b04bccc1e9140297f6d4fcae5372aa244eba505bb91799f00b548e"
+    },
+    "issues": [
+      {
+        "id": "BOT-002",
+        "kind": "runtime-error",
+        "message": "Cannot read properties of undefined (reading '0')",
+        "stage": "level_21",
+        "attempt": 243,
+        "seed": 2807888682,
+        "frame": 2703,
+        "count": 1,
+        "checkpoint": "checkpoints/00243.json",
+        "error": {
+          "message": "Cannot read properties of undefined (reading '0')",
+          "stack": "TypeError: Cannot read properties of undefined (reading '0')\n    at Battle.turnAround (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/battle.js:946:37)\n    at a.turnAround (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:149:91)\n    at Klass.run (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-source-generated.js:20932:21)\n    at <computed> [as remove_Me] (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:54:161)\n    at Klass.run (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-source-generated.js:20884:18)\n    at <computed> [as run] (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:54:161)\n    at file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:191:69\n    at withSource (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:184:138)\n    at runEffect (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:191:17)\n    at Object.tickBeforeMovement (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/move-native.js:200:75)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "QA-009",
+    "case": "capture-capacity",
+    "checkpoint": "capture-capacity.json",
+    "sha256": "d31daf3d33c50a624d7740a34974536b620d7f74e3272210744c453a87eb6157",
+    "source": "artifacts/bot/strict-candidate-1/auxiliary-1-1/checkpoints/01164.json",
+    "sourceFingerprint": "16e15a4d3db9851b74dfdde1c11b27f032f809b18c3ee5fd662d71216f9e10b7",
+    "attempt": {
+      "number": 1164,
+      "stage": "level_31",
+      "campaignId": 31,
+      "name": "Route 19",
+      "purpose": "training",
+      "seed": 1860322713,
+      "checkpoint": "checkpoints/01164.json",
+      "outcome": "error",
+      "battleOutcome": "won",
+      "frames": 15393,
+      "wave": 60,
+      "stats": {
+        "defeated": 354,
+        "captured": 6,
+        "earned": 5118
+      },
+      "candy": 1,
+      "finalState": {
+        "state": "won",
+        "frame": 15393,
+        "wave": 60,
+        "totalWaves": 60,
+        "candy": 1,
+        "potions": 6,
+        "stats": {
+          "defeated": 354,
+          "captured": 6,
+          "earned": 5118
+        },
+        "towers": [
+          {
+            "uid": "mtsmao00-5717",
+            "speciesId": 26,
+            "level": 100,
+            "hp": 230,
+            "maxHp": 230,
+            "x": 396.6,
+            "y": 325.05,
+            "alive": true,
+            "placed": true,
+            "spot": 4,
+            "move": 202
+          },
+          {
+            "uid": "center-pc-1",
+            "speciesId": 6,
+            "level": 100,
+            "hp": 266,
+            "maxHp": 266,
+            "x": 387.6,
+            "y": 57.8,
+            "alive": true,
+            "placed": true,
+            "spot": 2,
+            "move": 303
+          },
+          {
+            "uid": "mtsmao00-5745",
+            "speciesId": 20,
+            "level": 100,
+            "hp": 260,
+            "maxHp": 260,
+            "x": 589.65,
+            "y": 233.8,
+            "alive": true,
+            "placed": true,
+            "spot": 3,
+            "move": 136
+          },
+          {
+            "uid": "mtsmao00-5840",
+            "speciesId": 75,
+            "level": 100,
+            "hp": 220,
+            "maxHp": 220,
+            "x": 580.65,
+            "y": 54,
+            "alive": true,
+            "placed": true,
+            "spot": 1,
+            "move": 297
+          },
+          {
+            "uid": "mtsmao00-6970",
+            "speciesId": 126,
+            "level": 90,
+            "hp": 217,
+            "maxHp": 217,
+            "x": 705,
+            "y": 329.8,
+            "alive": true,
+            "placed": true,
+            "spot": 6,
+            "move": 351
+          },
+          {
+            "uid": "mtsmao00-6753",
+            "speciesId": 89,
+            "level": 92,
+            "hp": 295,
+            "maxHp": 295,
+            "x": 176.95,
+            "y": 414.05,
+            "alive": true,
+            "placed": true,
+            "spot": 5,
+            "move": 298
+          }
+        ],
+        "enemies": []
+      },
+      "party": [
+        {
+          "uid": "mtsmao00-5717",
+          "speciesId": 26,
+          "level": 100,
+          "shiny": 0,
+          "moves": [
+            143,
+            202,
+            219,
+            225
+          ],
+          "experience": 1000145
+        },
+        {
+          "uid": "center-pc-1",
+          "speciesId": 6,
+          "level": 100,
+          "shiny": 0,
+          "moves": [
+            143,
+            330,
+            303,
+            224
+          ],
+          "experience": 1000354
+        },
+        {
+          "uid": "mtsmao00-5745",
+          "speciesId": 20,
+          "level": 100,
+          "shiny": 0,
+          "moves": [
+            34,
+            143,
+            136,
+            127
+          ],
+          "experience": 1000407
+        },
+        {
+          "uid": "mtsmao00-5840",
+          "speciesId": 75,
+          "level": 100,
+          "shiny": 0,
+          "moves": [
+            155,
+            297,
+            194,
+            143
+          ],
+          "experience": 1000166
+        },
+        {
+          "uid": "mtsmao00-6970",
+          "speciesId": 126,
+          "level": 90,
+          "shiny": 0,
+          "moves": [
+            184,
+            351,
+            143,
+            106
+          ],
+          "experience": 718014
+        },
+        {
+          "uid": "mtsmao00-6753",
+          "speciesId": 89,
+          "level": 92,
+          "shiny": 0,
+          "moves": [
+            382,
+            288,
+            298,
+            143
+          ],
+          "experience": 758055
+        }
+      ],
+      "nextStage": null,
+      "error": {
+        "message": "Invalid Pokémon collection.",
+        "stack": "Error: Invalid Pokémon collection.\n    at validateSave (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/model.js:143:11)\n    at checkSave (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/runtime.mjs:105:47)\n    at Runner.play (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:136:7)\n    at Runner.grind (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:170:50)\n    at Runner.objective (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:177:73)\n    at Runner.campaign (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:212:27)\n    at outcome.planner.withAuxiliary.neededSpecies (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:290:21)\n    at file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/collection.mjs:300:22\n    at async exclusive (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/collection.mjs:234:61)\n    at async Runner.collect (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:284:20)"
+      }
+    },
+    "issues": [
+      {
+        "id": "BOT-003",
+        "kind": "harness-or-game-error",
+        "message": "Invalid Pokémon collection.",
+        "stage": "level_31",
+        "attempt": 1164,
+        "seed": 1860322713,
+        "frame": 15393,
+        "count": 1,
+        "checkpoint": "checkpoints/01164.json",
+        "error": {
+          "message": "Invalid Pokémon collection.",
+          "stack": "Error: Invalid Pokémon collection.\n    at validateSave (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/src/model.js:143:11)\n    at checkSave (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/runtime.mjs:105:47)\n    at Runner.play (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:136:7)\n    at Runner.grind (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:170:50)\n    at Runner.objective (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:177:73)\n    at Runner.campaign (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:212:27)\n    at outcome.planner.withAuxiliary.neededSpecies (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:290:21)\n    at file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/collection.mjs:300:22\n    at async exclusive (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/collection.mjs:234:61)\n    at async Runner.collect (file:///home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/tools/bot/run.mjs:284:20)"
+        },
+        "invalidProfiles": [],
+        "snapshot": {
+          "state": "won",
+          "frame": 15393,
+          "wave": 60,
+          "totalWaves": 60,
+          "candy": 1,
+          "potions": 6,
+          "stats": {
+            "defeated": 354,
+            "captured": 6,
+            "earned": 5118
+          },
+          "towers": [
+            {
+              "uid": "mtsmao00-5717",
+              "speciesId": 26,
+              "level": 100,
+              "hp": 230,
+              "maxHp": 230,
+              "x": 396.6,
+              "y": 325.05,
+              "alive": true,
+              "placed": true,
+              "spot": 4,
+              "move": 202
+            },
+            {
+              "uid": "center-pc-1",
+              "speciesId": 6,
+              "level": 100,
+              "hp": 266,
+              "maxHp": 266,
+              "x": 387.6,
+              "y": 57.8,
+              "alive": true,
+              "placed": true,
+              "spot": 2,
+              "move": 303
+            },
+            {
+              "uid": "mtsmao00-5745",
+              "speciesId": 20,
+              "level": 100,
+              "hp": 260,
+              "maxHp": 260,
+              "x": 589.65,
+              "y": 233.8,
+              "alive": true,
+              "placed": true,
+              "spot": 3,
+              "move": 136
+            },
+            {
+              "uid": "mtsmao00-5840",
+              "speciesId": 75,
+              "level": 100,
+              "hp": 220,
+              "maxHp": 220,
+              "x": 580.65,
+              "y": 54,
+              "alive": true,
+              "placed": true,
+              "spot": 1,
+              "move": 297
+            },
+            {
+              "uid": "mtsmao00-6970",
+              "speciesId": 126,
+              "level": 90,
+              "hp": 217,
+              "maxHp": 217,
+              "x": 705,
+              "y": 329.8,
+              "alive": true,
+              "placed": true,
+              "spot": 6,
+              "move": 351
+            },
+            {
+              "uid": "mtsmao00-6753",
+              "speciesId": 89,
+              "level": 92,
+              "hp": 295,
+              "maxHp": 295,
+              "x": 176.95,
+              "y": 414.05,
+              "alive": true,
+              "placed": true,
+              "spot": 5,
+              "move": 298
+            }
+          ],
+          "enemies": []
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,2084 @@
+
+> ptd-phaser-port@1.2.0 test
+> node tools/run-tests.mjs
+
+TAP version 13
+# Subtest: source ability table has precisely the nine original behaviors, not modern abilities
+ok 1 - source ability table has precisely the nine original behaviors, not modern abilities
+  ---
+  duration_ms: 1.112865
+  type: 'test'
+  ...
+# Subtest: starter ability threshold and integer multiplier match source classes397..399
+ok 2 - starter ability threshold and integer multiplier match source classes397..399
+  ---
+  duration_ms: 0.299192
+  type: 'test'
+  ...
+# Subtest: Keen Eye and Inner Focus block hostile effects but permit self-inflicted effects
+ok 3 - Keen Eye and Inner Focus block hostile effects but permit self-inflicted effects
+  ---
+  duration_ms: 1.93564
+  type: 'test'
+  ...
+# Subtest: Shed Skin checks every18 ticks and cures first source status; Guts grants source attackx2
+ok 4 - Shed Skin checks every18 ticks and cures first source status; Guts grants source attackx2
+  ---
+  duration_ms: 0.879364
+  type: 'test'
+  ...
+# Subtest: Sand Veil is sandstorm immunity and source evasionx3, with opposition cancellation
+ok 5 - Sand Veil is sandstorm immunity and source evasionx3, with opposition cancellation
+  ---
+  duration_ms: 0.484802
+  type: 'test'
+  ...
+# Subtest: damage handles source screens, physical-defense attacks, starter ability and discrete critical roll
+ok 6 - damage handles source screens, physical-defense attacks, starter ability and discrete critical roll
+  ---
+  duration_ms: 0.657533
+  type: 'test'
+  ...
+# Subtest: source cardinal movement preserves overshoot, one turn per tick, final-marker timing
+ok 7 - source cardinal movement preserves overshoot, one turn per tick, final-marker timing
+  ---
+  duration_ms: 1.469147
+  type: 'test'
+  ...
+# Subtest: all nine source target modes and protected-target filtering are available
+ok 8 - all nine source target modes and protected-target filtering are available
+  ---
+  duration_ms: 0.681783
+  type: 'test'
+  ...
+# Subtest: all three starters can win the original Oak's Lab waves at each deployment spot
+ok 9 - all three starters can win the original Oak's Lab waves at each deployment spot
+  ---
+  duration_ms: 185.817229
+  type: 'test'
+  ...
+# Subtest: start requires a deployment; occupied spots reject another party member; recall permits reuse
+ok 10 - start requires a deployment; occupied spots reject another party member; recall permits reuse
+  ---
+  duration_ms: 0.608623
+  type: 'test'
+  ...
+# Subtest: weak capture removes a real wave enemy, adds a usable party member, and validates as a save
+ok 11 - weak capture removes a real wave enemy, adds a usable party member, and validates as a save
+  ---
+  duration_ms: 4.677082
+  type: 'test'
+  ...
+# Subtest: healthy ordinary enemies cannot be captured, shiny enemies can, and full parties send captures to collection
+ok 12 - healthy ordinary enemies cannot be captured, shiny enemies can, and full parties send captures to collection
+  ---
+  duration_ms: 0.640673
+  type: 'test'
+  ...
+# Subtest: catching a candy carrier drops its candy where caught and another enemy can retrieve it
+ok 13 - catching a candy carrier drops its candy where caught and another enemy can retrieve it
+  ---
+  duration_ms: 0.843084
+  type: 'test'
+  ...
+# Subtest: Route 1 is lost naturally if every deployed tower is recalled
+ok 14 - Route 1 is lost naturally if every deployed tower is recalled
+  ---
+  duration_ms: 54.017733
+  type: 'test'
+  ...
+# Subtest: pause freezes authored waves, HP, cooldowns, positions and frame count, then resumes
+ok 15 - pause freezes authored waves, HP, cooldowns, positions and frame count, then resumes
+  ---
+  duration_ms: 4.412121
+  type: 'test'
+  ...
+# Subtest: earned XP upgrades a starter, deducts exact money, heals the synchronized fighter and gates another upgrade
+ok 16 - earned XP upgrades a starter, deducts exact money, heals the synchronized fighter and gates another upgrade
+  ---
+  duration_ms: 10.523949
+  type: 'test'
+  ...
+# Subtest: uncapturable enemies remain uncapturable even at 1 HP or shiny
+ok 17 - uncapturable enemies remain uncapturable even at 1 HP or shiny
+  ---
+  duration_ms: 0.711293
+  type: 'test'
+  ...
+# Subtest: REGRESSION: candy collisions account for visible sprite bounds beyond a 23px center radius
+ok 18 - REGRESSION: candy collisions account for visible sprite bounds beyond a 23px center radius
+  ---
+  duration_ms: 0.712853
+  type: 'test'
+  ...
+# Subtest: REGRESSION: a returning enemy can pick up newly dropped candy
+ok 19 - REGRESSION: a returning enemy can pick up newly dropped candy
+  ---
+  duration_ms: 3.159564
+  type: 'test'
+  ...
+# Subtest: REGRESSION: non-running enemies surrender carried candy at entrance and reset outward travel
+ok 20 - REGRESSION: non-running enemies surrender carried candy at entrance and reset outward travel
+  ---
+  duration_ms: 0.547892
+  type: 'test'
+  ...
+# Subtest: REGRESSION: free-roam enemies keep moving toward the far exit after candy pickup
+ok 21 - REGRESSION: free-roam enemies keep moving toward the far exit after candy pickup
+  ---
+  duration_ms: 0.452333
+  type: 'test'
+  ...
+# Subtest: REGRESSION: ordinary defense stages do not impose an undeclared party-survival loss rule
+ok 22 - REGRESSION: ordinary defense stages do not impose an undeclared party-survival loss rule
+  ---
+  duration_ms: 0.350661
+  type: 'test'
+  ...
+# Subtest: Mewtwo source AI chooses Amnesia, Barrier, offense and Recover by effect state/30%HP
+ok 23 - Mewtwo source AI chooses Amnesia, Barrier, offense and Recover by effect state/30%HP
+  ---
+  duration_ms: 8.928432
+  type: 'test'
+  ...
+# Subtest: Zapdos switches only after its exact current attack sequence reports end
+ok 24 - Zapdos switches only after its exact current attack sequence reports end
+  ---
+  duration_ms: 4.832043
+  type: 'test'
+  ...
+# Subtest: source stage achievements track deployed levels/types and source choice priority
+ok 25 - source stage achievements track deployed levels/types and source choice priority
+  ---
+  duration_ms: 2.06731
+  type: 'test'
+  ...
+# Subtest: legendary wave contexts use live save flags, type eligibility and selected version
+ok 26 - legendary wave contexts use live save flags, type eligibility and selected version
+  ---
+  duration_ms: 6.736241
+  type: 'test'
+  ...
+# Subtest: native life bars use original attachment, constructor positioning, and capture/shiny frames
+ok 27 - native life bars use original attachment, constructor positioning, and capture/shiny frames
+  ---
+  duration_ms: 196.467449
+  type: 'test'
+  ...
+# Subtest: Pokeball point includes the enemy life bar while potion collision uses only Pokemon graphic
+ok 28 - Pokeball point includes the enemy life bar while potion collision uses only Pokemon graphic
+  ---
+  duration_ms: 39.609755
+  type: 'test'
+  ...
+# Subtest: carried candy contributes to the whole-actor capture rectangle at the carrier origin
+ok 29 - carried candy contributes to the whole-actor capture rectangle at the carrier origin
+  ---
+  duration_ms: 15.09255
+  type: 'test'
+  ...
+# Subtest: native Mewtwo uses original Amnesia/Barrier effect states and heals at30%HP
+ok 30 - native Mewtwo uses original Amnesia/Barrier effect states and heals at30%HP
+  ---
+  duration_ms: 279.225786
+  type: 'test'
+  ...
+# Subtest: native Zapdos completes DrillPeck and Thunder source states before changingmoves
+ok 31 - native Zapdos completes DrillPeck and Thunder source states before changingmoves
+  ---
+  duration_ms: 36.579681
+  type: 'test'
+  ...
+# Subtest: source NPC list is friendly support, excluded from enemy targets and XP
+ok 32 - source NPC list is friendly support, excluded from enemy targets and XP
+  ---
+  duration_ms: 16.384277
+  type: 'test'
+  ...
+# Subtest: native faint clears a tower spot and source damage awards only saved contributors
+ok 33 - native faint clears a tower spot and source damage awards only saved contributors
+  ---
+  duration_ms: 15.09077
+  type: 'test'
+  ...
+# Subtest: attack movement multipliers stop travelers and two reversals retain the full route
+ok 34 - attack movement multipliers stop travelers and two reversals retain the full route
+  ---
+  duration_ms: 28.965615
+  type: 'test'
+  ...
+# Subtest: native campaign combat and supporting effects run across recovered stages without adapter errors
+ok 35 - native campaign combat and supporting effects run across recovered stages without adapter errors
+  ---
+  duration_ms: 3960.458851
+  type: 'test'
+  ...
+# Subtest: Champion stage multiplies party base HP20 without persisting the battle modifier
+ok 36 - Champion stage multiplies party base HP20 without persisting the battle modifier
+  ---
+  duration_ms: 9.606024
+  type: 'test'
+  ...
+# Subtest: stage14 Spearow and stage32 all-candy gift expose exact story facts
+ok 37 - stage14 Spearow and stage32 all-candy gift expose exact story facts
+  ---
+  duration_ms: 35.091353
+  type: 'test'
+  ...
+# Subtest: recalling and replacing creates fresh combat state while retaining remaining HP
+ok 38 - recalling and replacing creates fresh combat state while retaining remaining HP
+  ---
+  duration_ms: 8.207488
+  type: 'test'
+  ...
+# Subtest: Elite Four phase HP boosts use source base-stat factors10/10/18 and reset each battle
+ok 39 - Elite Four phase HP boosts use source base-stat factors10/10/18 and reset each battle
+  ---
+  duration_ms: 28.535813
+  type: 'test'
+  ...
+# Subtest: all original starters can defend OaksLab from each spot without normal travelers attacking them
+ok 40 - all original starters can defend OaksLab from each spot without normal travelers attacking them
+  ---
+  duration_ms: 1118.777944
+  type: 'test'
+  ...
+# Subtest: Garys native potion heals eligible named spots and ignores spot3
+ok 41 - Garys native potion heals eligible named spots and ignores spot3
+  ---
+  duration_ms: 8.656011
+  type: 'test'
+  ...
+# Subtest: native TowerTeleport reservations free correctly after recall and faint
+ok 42 - native TowerTeleport reservations free correctly after recall and faint
+  ---
+  duration_ms: 4.772632
+  type: 'test'
+  ...
+# Subtest: avoid-red-HP source targeting treats catchable shiny travelers as weakened immediately
+ok 43 - avoid-red-HP source targeting treats catchable shiny travelers as weakened immediately
+  ---
+  duration_ms: 5.216755
+  type: 'test'
+  ...
+# Subtest: native training heals existing HP capacity; evolution preserves ability until redeployment
+ok 44 - native training heals existing HP capacity; evolution preserves ability until redeployment
+  ---
+  duration_ms: 3.853758
+  type: 'test'
+  ...
+# Subtest: source Encore prevents player move selection until the native effect ends
+ok 45 - source Encore prevents player move selection until the native effect ends
+  ---
+  duration_ms: 14.94598
+  type: 'test'
+  ...
+# Subtest: source type-only spots reject incompatible placement and allow either matching type
+ok 46 - source type-only spots reject incompatible placement and allow either matching type
+  ---
+  duration_ms: 161.953867
+  type: 'test'
+  ...
+# Subtest: native start begins source waves with no deployed party and no placeholder actor
+ok 47 - native start begins source waves with no deployed party and no placeholder actor
+  ---
+  duration_ms: 71.985737
+  type: 'test'
+  ...
+# Subtest: reposition drag retains actor/effects/HP/cooldown and resets only source profile modifiers
+ok 48 - reposition drag retains actor/effects/HP/cooldown and resets only source profile modifiers
+  ---
+  duration_ms: 16.710598
+  type: 'test'
+  ...
+# Subtest: occupied destination swaps existing actors without reconstructing effects or rechecking displaced type
+ok 49 - occupied destination swaps existing actors without reconstructing effects or rechecking displaced type
+  ---
+  duration_ms: 26.755486
+  type: 'test'
+  ...
+# Subtest: new party drag to an occupied spot recalls occupant; invalid drop recalls dragged actor
+ok 50 - new party drag to an occupied spot recalls occupant; invalid drop recalls dragged actor
+  ---
+  duration_ms: 43.203362
+  type: 'test'
+  ...
+# Subtest: native drag rejects NPC spots and fires original placement quest hooks
+ok 51 - native drag rejects NPC spots and fires original placement quest hooks
+  ---
+  duration_ms: 11.847065
+  type: 'test'
+  ...
+# Subtest: large source Pokémon drag graphics scale to70 and restore on drop
+ok 52 - large source Pokémon drag graphics scale to70 and restore on drop
+  ---
+  duration_ms: 39.610605
+  type: 'test'
+  ...
+# Subtest: CLI resume preserves actual progress and Center claims, then replays exactly
+ok 53 - CLI resume preserves actual progress and Center claims, then replays exactly
+  ---
+  duration_ms: 3923.369887
+  type: 'test'
+  ...
+# Subtest: CLI reports a bounded incomplete run honestly and refuses to overwrite artifacts
+ok 54 - CLI reports a bounded incomplete run honestly and refuses to overwrite artifacts
+  ---
+  duration_ms: 688.826822
+  type: 'test'
+  ...
+# Subtest: an invalid final save can be preserved while restarting its recorded valid checkpoint
+ok 55 - an invalid final save can be preserved while restarting its recorded valid checkpoint
+  ---
+  duration_ms: 2001.946057
+  type: 'test'
+  ...
+# Subtest: a bounded Blue profile trip returns loans, counts visits, and replays with its parent
+ok 56 - a bounded Blue profile trip returns loans, counts visits, and replays with its parent
+  ---
+  duration_ms: 7484.612911
+  type: 'test'
+  ...
+# Subtest: starter-and-captures campaign preparation replays without adoption or credit claims
+ok 57 - starter-and-captures campaign preparation replays without adoption or credit claims
+  ---
+  duration_ms: 2630.043747
+  type: 'test'
+  ...
+# Subtest: collection preparation spends actual daily credits, exchanges starters, and preserves unearned campaign progress
+ok 58 - collection preparation spends actual daily credits, exchanges starters, and preserves unearned campaign progress
+  ---
+  duration_ms: 62.342761
+  type: 'test'
+  ...
+# Subtest: wallets and live battle progress survive checkpoint resume without duplicate same-day claims
+ok 59 - wallets and live battle progress survive checkpoint resume without duplicate same-day claims
+  ---
+  duration_ms: 151.137977
+  type: 'test'
+  ...
+# Subtest: targeted visits respect version, real unlocks, and remain read-only
+ok 60 - targeted visits respect version, real unlocks, and remain read-only
+  ---
+  duration_ms: 8.267958
+  type: 'test'
+  ...
+# Subtest: targeted visits request another Eevee for a missing branch even when Eevee is recorded
+ok 61 - targeted visits request another Eevee for a missing branch even when Eevee is recorded
+  ---
+  duration_ms: 0.769534
+  type: 'test'
+  ...
+# Subtest: targeted training includes an actual owned predecessor for an unowned evolution
+ok 62 - targeted training includes an actual owned predecessor for an unowned evolution
+  ---
+  duration_ms: 4.629552
+  type: 'test'
+  ...
+# Subtest: Safari plans preserve Joey instead of selecting the False Swipe specialist
+ok 63 - Safari plans preserve Joey instead of selecting the False Swipe specialist
+  ---
+  duration_ms: 0.550302
+  type: 'test'
+  ...
+# Subtest: duplicate cleanup releases through game actions and retains three Eevee and recorded dex
+ok 64 - duplicate cleanup releases through game actions and retains three Eevee and recorded dex
+  ---
+  duration_ms: 188.988464
+  type: 'test'
+  ...
+# Subtest: auxiliary trips lend and return unique owned Pokémon through actual Center inbox actions
+ok 65 - auxiliary trips lend and return unique owned Pokémon through actual Center inbox actions
+  ---
+  duration_ms: 144.231125
+  type: 'test'
+  ...
+# Subtest: story trades request actual predecessor deployment without capture-only restrictions
+ok 66 - story trades request actual predecessor deployment without capture-only restrictions
+  ---
+  duration_ms: 1.017115
+  type: 'test'
+  ...
+# Subtest: a missing NPC trade target can require training an already-recorded predecessor again
+ok 67 - a missing NPC trade target can require training an already-recorded predecessor again
+  ---
+  duration_ms: 1.478677
+  type: 'test'
+  ...
+# Subtest: training advances the existing later evolution instead of repeatedly replacing it
+ok 68 - training advances the existing later evolution instead of repeatedly replacing it
+  ---
+  duration_ms: 0.768174
+  type: 'test'
+  ...
+# Subtest: an auxiliary gameplay error returns all loaned Pokémon before propagating
+ok 69 - an auxiliary gameplay error returns all loaned Pokémon before propagating
+  ---
+  duration_ms: 113.172789
+  type: 'test'
+  ...
+# Subtest: bot plays Oak’s Lab from a fresh starter and produces repeatable native results
+ok 70 - bot plays Oak’s Lab from a fresh starter and produces repeatable native results
+  ---
+  duration_ms: 540.265176
+  type: 'test'
+  ...
+# Subtest: bot’s storage selection honors required companions and exclusions
+ok 71 - bot’s storage selection honors required companions and exclusions
+  ---
+  duration_ms: 212.257993
+  type: 'test'
+  ...
+# Subtest: bot wins challenge 1 with its actual temporary team and native mechanics
+ok 72 - bot wins challenge 1 with its actual temporary team and native mechanics
+  ---
+  duration_ms: 472.600589
+  type: 'test'
+  ...
+# Subtest: bot wins challenge 2 with its actual temporary team and native mechanics
+ok 73 - bot wins challenge 2 with its actual temporary team and native mechanics
+  ---
+  duration_ms: 204.269865
+  type: 'test'
+  ...
+# Subtest: bot wins challenge 3 with its actual temporary team and native mechanics
+ok 74 - bot wins challenge 3 with its actual temporary team and native mechanics
+  ---
+  duration_ms: 1485.707398
+  type: 'test'
+  ...
+# Subtest: bot wins challenge 6 with its actual temporary team and native mechanics
+ok 75 - bot wins challenge 6 with its actual temporary team and native mechanics
+  ---
+  duration_ms: 2538.671927
+  type: 'test'
+  ...
+#    1 progression: level_1 won (1056 ticks; roster 11; money 80)
+#    1 progression: level_1 won (1032 ticks; roster 7; money 80)
+# Subtest: an account failure after auxiliary gameplay retains its evidence and stops later work
+ok 76 - an account failure after auxiliary gameplay retains its evidence and stops later work
+  ---
+  duration_ms: 1750.339161
+  type: 'test'
+  ...
+# Subtest: all-mode retries the campaign after collection improves the earned team and stops without progress
+ok 77 - all-mode retries the campaign after collection improves the earned team and stops without progress
+  ---
+  duration_ms: 212.274572
+  type: 'test'
+  ...
+# Subtest: all-mode does not continue to challenges or collection after a runtime error
+ok 78 - all-mode does not continue to challenges or collection after a runtime error
+  ---
+  duration_ms: 228.109665
+  type: 'test'
+  ...
+# Subtest: an auxiliary returns after its target capture without inventing a win or grinding again
+ok 79 - an auxiliary returns after its target capture without inventing a win or grinding again
+  ---
+  duration_ms: 281.649395
+  type: 'test'
+  ...
+# Subtest: native fresh-save bot clears stages 1–4 and repeats all decisions across fresh processes
+ok 80 - native fresh-save bot clears stages 1–4 and repeats all decisions across fresh processes
+  ---
+  duration_ms: 5821.62295
+  type: 'test'
+  ...
+# Subtest: Center snapshots repeat across processes and a restored bank cannot claim its daily reward twice
+ok 81 - Center snapshots repeat across processes and a restored bank cannot claim its daily reward twice
+  ---
+  duration_ms: 817.033234
+  type: 'test'
+  ...
+# Subtest: checkpoint identity reservation prevents a fresh process from reusing captured Pokémon identities
+ok 82 - checkpoint identity reservation prevents a fresh process from reusing captured Pokémon identities
+  ---
+  duration_ms: 209.776937
+  type: 'test'
+  ...
+# Subtest: coverage distinguishes failed objectives from unreached content and does not imply a complete Pokédex
+ok 83 - coverage distinguishes failed objectives from unreached content and does not imply a complete Pokédex
+  ---
+  duration_ms: 2.12058
+  type: 'test'
+  ...
+# Subtest: battle invariants catch corrupted money and actor values, and save checking catches duplicate identities
+ok 84 - battle invariants catch corrupted money and actor values, and save checking catches duplicate identities
+  ---
+  duration_ms: 49.891243
+  type: 'test'
+  ...
+# Subtest: seeded policy randomness is stable and is represented in hashes
+ok 85 - seeded policy randomness is stable and is represented in hashes
+  ---
+  duration_ms: 0.999494
+  type: 'test'
+  ...
+# Subtest: recorded player catches natural Tauros and Kangaskhan through deterministic Joey controls
+ok 86 - recorded player catches natural Tauros and Kangaskhan through deterministic Joey controls
+  ---
+  duration_ms: 10228.930904
+  type: 'test'
+  ...
+# Subtest: bot traverses every recovered campaign and variant story without Skip
+ok 87 - bot traverses every recovered campaign and variant story without Skip
+  ---
+  duration_ms: 3017.785828
+  type: 'test'
+  ...
+# Subtest: stage 36 resolves through game progression, optional trade, Pokédex and badge operations
+ok 88 - stage 36 resolves through game progression, optional trade, Pokédex and badge operations
+  ---
+  duration_ms: 111.713601
+  type: 'test'
+  ...
+# Subtest: a finished part of Indigo Plateau exposes the actual next stage without marking it complete
+ok 89 - a finished part of Indigo Plateau exposes the actual next stage without marking it complete
+  ---
+  duration_ms: 21.306739
+  type: 'test'
+  ...
+# Subtest: bounded story failure retains visible controls and last inputs
+ok 90 - bounded story failure retains visible controls and last inputs
+  ---
+  duration_ms: 5.714576
+  type: 'test'
+  ...
+# Subtest: source story encounters use the supplied deterministic RNG and restore the host RNG
+ok 91 - source story encounters use the supplied deterministic RNG and restore the host RNG
+  ---
+  duration_ms: 66.735922
+  type: 'test'
+  ...
+# Subtest: tunnel policy visits every battle room and only the real exit operation completes stage 17
+ok 92 - tunnel policy visits every battle room and only the real exit operation completes stage 17
+  ---
+  duration_ms: 3.702027
+  type: 'test'
+  ...
+# Subtest: tunnel policy reports missing Flash instead of bypassing the entry requirement
+ok 93 - tunnel policy reports missing Flash instead of bypassing the entry requirement
+  ---
+  duration_ms: 0.345622
+  type: 'test'
+  ...
+# Subtest: strict preparation leaves exactly the earned starter and does not claim any Center benefit
+ok 94 - strict preparation leaves exactly the earned starter and does not claim any Center benefit
+  ---
+  duration_ms: 15.757824
+  type: 'test'
+  ...
+# Subtest: strict collection cannot enable gifts or purchases, and auxiliaries start with their own level5 starters
+ok 95 - strict collection cannot enable gifts or purchases, and auxiliaries start with their own level5 starters
+  ---
+  duration_ms: 45.598073
+  type: 'test'
+  ...
+# Subtest: strict Porygon exception spends exactly earned funds once and grants only the level1 prize
+ok 96 - strict Porygon exception spends exactly earned funds once and grants only the level1 prize
+  ---
+  duration_ms: 33.583407
+  type: 'test'
+  ...
+# Subtest: strict reward planning is read-only and respects an untouched fresh save
+ok 97 - strict reward planning is read-only and respects an untouched fresh save
+  ---
+  duration_ms: 4.640331
+  type: 'test'
+  ...
+# Subtest: Dojo plan excludes above-70 attackers and leaves earned reward claims to the source API
+ok 98 - Dojo plan excludes above-70 attackers and leaves earned reward claims to the source API
+  ---
+  duration_ms: 0.932224
+  type: 'test'
+  ...
+# Subtest: bird prerequisites require six distinct owned exact-level-100 matching types
+ok 99 - bird prerequisites require six distinct owned exact-level-100 matching types
+  ---
+  duration_ms: 10.821951
+  type: 'test'
+  ...
+# Subtest: bird form-specific once flags select an available native form without writing flags
+ok 100 - bird form-specific once flags select an available native form without writing flags
+  ---
+  duration_ms: 1.227256
+  type: 'test'
+  ...
+# Subtest: Aerodactyl visits retain candy and stop requesting exhausted reward routes
+ok 101 - Aerodactyl visits retain candy and stop requesting exhausted reward routes
+  ---
+  duration_ms: 0.647653
+  type: 'test'
+  ...
+# Subtest: Mr. Mime trade preparation preserves an evolution-eligible Abra
+ok 102 - Mr. Mime trade preparation preserves an evolution-eligible Abra
+  ---
+  duration_ms: 7.697936
+  type: 'test'
+  ...
+# Subtest: Aerodactyl defense selects trained role members over low-level evolved entries
+ok 103 - Aerodactyl defense selects trained role members over low-level evolved entries
+  ---
+  duration_ms: 1.876618
+  type: 'test'
+  ...
+# Subtest: training chooses contributor damage over Dragon Tail and earns XP before downstream support defeats targets
+ok 104 - training chooses contributor damage over Dragon Tail and earns XP before downstream support defeats targets
+  ---
+  duration_ms: 1037.876473
+  type: 'test'
+  ...
+# Subtest: legal Center Gastly and starter earn their evolution levels through contributor hits and original training menus
+ok 105 - legal Center Gastly and starter earn their evolution levels through contributor hits and original training menus
+  ---
+  duration_ms: 8852.535863
+  type: 'test'
+  ...
+# level 22: all waves dispatched, 150 spawned, save valid, party condition n/a
+# level 37: all waves dispatched, 181 spawned, save valid, party condition matched
+# level 38: all waves dispatched, 209 spawned, save valid, party condition matched
+# level 39: all waves dispatched, 209 spawned, save valid, party condition matched
+# Subtest: tests/campaign-compat.test.js
+ok 17 - tests/campaign-compat.test.js
+  ---
+  duration_ms: 485.30623
+  type: 'test'
+  ...
+# Subtest: cached paths retain exact source operations after transformed strokes and morph ratios
+ok 107 - cached paths retain exact source operations after transformed strokes and morph ratios
+  ---
+  duration_ms: 23.871712
+  type: 'test'
+  ...
+# Subtest: indexed placement retains nearest ties, hidden consumption, nesting and next-render source mutations
+ok 108 - indexed placement retains nearest ties, hidden consumption, nesting and next-render source mutations
+  ---
+  duration_ms: 3.324966
+  type: 'test'
+  ...
+# Subtest: cached layouts preserve every source text field and live color, size, alpha and transform changes
+ok 109 - cached layouts preserve every source text field and live color, size, alpha and transform changes
+  ---
+  duration_ms: 1465.217659
+  type: 'test'
+  ...
+# Subtest: shared path/text caches evict within both budgets and oversized entries remain uncached
+ok 110 - shared path/text caches evict within both budgets and oversized entries remain uncached
+  ---
+  duration_ms: 91.495298
+  type: 'test'
+  ...
+# Subtest: project-local maintained helper sources exactly reproduce committed runtime sections
+ok 111 - project-local maintained helper sources exactly reproduce committed runtime sections
+  ---
+  duration_ms: 3.964349
+  type: 'test'
+  ...
+# Subtest: Battle rejects capture at capacity without consuming the enemy or corrupting the save
+ok 112 - Battle rejects capture at capacity without consuming the enemy or corrupting the save
+  ---
+  duration_ms: 90.110042
+  type: 'test'
+  ...
+# Subtest: SafariBattle rejects capture at capacity without consuming the enemy or corrupting the save
+ok 113 - SafariBattle rejects capture at capacity without consuming the enemy or corrupting the save
+  ---
+  duration_ms: 70.896832
+  type: 'test'
+  ...
+# Subtest: adoption catalogs match the 260 source cards inspected on 2026-09-07
+ok 114 - adoption catalogs match the 260 source cards inspected on 2026-09-07
+  ---
+  duration_ms: 4.157199
+  type: 'test'
+  ...
+# Subtest: catalog species and named moves resolve to recovered playable game data
+ok 115 - catalog species and named moves resolve to recovered playable game data
+  ---
+  duration_ms: 7.078453
+  type: 'test'
+  ...
+# Subtest: daily tables preserve published odds and conversion currencies remain alternatives
+ok 116 - daily tables preserve published odds and conversion currencies remain alternatives
+  ---
+  duration_ms: 2.320111
+  type: 'test'
+  ...
+# Subtest: Center date formatting preserves active locale, zone and hour cycle (en_US.UTF-8, UTC)
+ok 117 - Center date formatting preserves active locale, zone and hour cycle (en_US.UTF-8, UTC)
+  ---
+  duration_ms: 132.61009
+  type: 'test'
+  ...
+# Subtest: Center date formatting preserves active locale, zone and hour cycle (en_US.UTF-8, America/New_York)
+ok 118 - Center date formatting preserves active locale, zone and hour cycle (en_US.UTF-8, America/New_York)
+  ---
+  duration_ms: 103.994066
+  type: 'test'
+  ...
+# Subtest: Center date formatting preserves active locale, zone and hour cycle (de_DE.UTF-8, Asia/Kolkata)
+ok 119 - Center date formatting preserves active locale, zone and hour cycle (de_DE.UTF-8, Asia/Kolkata)
+  ---
+  duration_ms: 122.815615
+  type: 'test'
+  ...
+# Subtest: Center inventory names source stones and rods using only recorded item counts
+ok 120 - Center inventory names source stones and rods using only recorded item counts
+  ---
+  duration_ms: 9.785846
+  type: 'test'
+  ...
+# Subtest: Center inventory never infers ownership from quests, completed stages or unused numeric IDs
+ok 121 - Center inventory never infers ownership from quests, completed stages or unused numeric IDs
+  ---
+  duration_ms: 0.496753
+  type: 'test'
+  ...
+# Subtest: Center inventory includes all reference entries for empty profiles and ignores invalid counts
+ok 122 - Center inventory includes all reference entries for empty profiles and ignores invalid counts
+  ---
+  duration_ms: 0.428872
+  type: 'test'
+  ...
+# Subtest: all 260 adoptions resolve source moves, shadow move placement and persistent unique ownership
+ok 123 - all 260 adoptions resolve source moves, shadow move placement and persistent unique ownership
+  ---
+  duration_ms: 3500.342635
+  type: 'test'
+  ...
+# Subtest: overlapping offers cancel atomically on wishlist auto-accept and evolve traded Pokémon once
+ok 124 - overlapping offers cancel atomically on wishlist auto-accept and evolve traded Pokémon once
+  ---
+  duration_ms: 21.34216
+  type: 'test'
+  ...
+# Subtest: wishlist matching is bijective across repeated species, forms and level ranges; hacked acceptance is explicit
+ok 125 - wishlist matching is bijective across repeated species, forms and level ranges; hacked acceptance is explicit
+  ---
+  duration_ms: 0.344632
+  type: 'test'
+  ...
+# Subtest: manual offer review enforces both owners and keeps listings available after cancel or decline
+ok 126 - manual offer review enforces both owners and keeps listings available after cancel or decline
+  ---
+  duration_ms: 13.109491
+  type: 'test'
+  ...
+# Subtest: tag restrictions reject manual offers and are checked again after the target listing changes
+ok 127 - tag restrictions reject manual offers and are checked again after the target listing changes
+  ---
+  duration_ms: 32.536632
+  type: 'test'
+  ...
+# Subtest: listing recall and one-way transfer archives retain custody without duplication
+ok 128 - listing recall and one-way transfer archives retain custody without duplication
+  ---
+  duration_ms: 13.378592
+  type: 'test'
+  ...
+# Subtest: transfer destinations preserve owners, attributes and gender through backup import with no reverse action
+ok 129 - transfer destinations preserve owners, attributes and gender through backup import with no reverse action
+  ---
+  duration_ms: 10.66616
+  type: 'test'
+  ...
+# Subtest: insufficient funds and capped recipient balances roll back purchases and trainer settlement
+ok 130 - insufficient funds and capped recipient balances roll back purchases and trainer settlement
+  ---
+  duration_ms: 11.343163
+  type: 'test'
+  ...
+# Subtest: every daily-gift weighted interval boundary matches published probabilities
+ok 131 - every daily-gift weighted interval boundary matches published probabilities
+  ---
+  duration_ms: 24.925076
+  type: 'test'
+  ...
+# Subtest: gift progression gates reject before spending and daily limits survive reload and backward clocks
+ok 132 - gift progression gates reject before spending and daily limits survive reload and backward clocks
+  ---
+  duration_ms: 8.457309
+  type: 'test'
+  ...
+# Subtest: free credits and badge bonuses are granted once; game gifts enforce UTC daily and Monday weekly boundaries
+ok 133 - free credits and badge bonuses are granted once; game gifts enforce UTC daily and Monday weekly boundaries
+  ---
+  duration_ms: 11.898996
+  type: 'test'
+  ...
+# Subtest: MissingNo gift codes preserve source compatibility and reject repeat claims
+ok 134 - MissingNo gift codes preserve source compatibility and reject repeat claims
+  ---
+  duration_ms: 3.337926
+  type: 'test'
+  ...
+# Subtest: conversion preserves identity and unrelated attributes, uses alternative prices and cleans all tagged forms
+ok 135 - conversion preserves identity and unrelated attributes, uses alternative prices and cleans all tagged forms
+  ---
+  duration_ms: 6.127159
+  type: 'test'
+  ...
+# Subtest: all Corner rewards are functional; regular shininess uses the one-percent boundary and eggs are unevolved
+ok 136 - all Corner rewards are functional; regular shininess uses the one-percent boundary and eggs are unevolved
+  ---
+  duration_ms: 23.72867
+  type: 'test'
+  ...
+# Subtest: slots count all five published winning lines, exclude verticals, and enforce 50 daily spins
+ok 137 - slots count all five published winning lines, exclude verticals, and enforce 50 daily spins
+  ---
+  duration_ms: 40.462639
+  type: 'test'
+  ...
+# Subtest: giveaway settlement is deterministic, distributes custody once and refunds empty or cancelled events
+ok 138 - giveaway settlement is deterministic, distributes custody once and refunds empty or cancelled events
+  ---
+  duration_ms: 9.763045
+  type: 'test'
+  ...
+# Subtest: giveaways enforce 20 prizes, 1–30 days and the 24-hour cancellation window
+ok 139 - giveaways enforce 20 prizes, 1–30 days and the 24-hour cancellation window
+  ---
+  duration_ms: 3.632587
+  type: 'test'
+  ...
+# Subtest: single-winner giveaways award all prizes together and per-Pokémon winners do not repeat while entrants suffice
+ok 140 - single-winner giveaways award all prizes together and per-Pokémon winners do not repeat while entrants suffice
+  ---
+  duration_ms: 7.253234
+  type: 'test'
+  ...
+# Subtest: avatar changes enforce source rewards and 19 styles while keeping legacy avatars readable
+ok 141 - avatar changes enforce source rewards and 19 styles while keeping legacy avatars readable
+  ---
+  duration_ms: 7.630266
+  type: 'test'
+  ...
+# Subtest: malformed imported Center metadata and duplicate custody reject without replacing the bank
+ok 142 - malformed imported Center metadata and duplicate custody reject without replacing the bank
+  ---
+  duration_ms: 7.424665
+  type: 'test'
+  ...
+# Subtest: imported Center sequence cannot collide with a pre-existing record on the next command
+ok 143 - imported Center sequence cannot collide with a pre-existing record on the next command
+  ---
+  duration_ms: 1.837489
+  type: 'test'
+  ...
+# Subtest: sequence validation reserves IDs in every roster, escrow, historical record and reference
+ok 144 - sequence validation reserves IDs in every roster, escrow, historical record and reference
+  ---
+  duration_ms: 9.095332
+  type: 'test'
+  ...
+# Subtest: all cooldown fields reject malformed or impossible dates and accept leap days
+ok 145 - all cooldown fields reject malformed or impossible dates and accept leap days
+  ---
+  duration_ms: 17.945023
+  type: 'test'
+  ...
+# Subtest: account Pokédex migrates every history and custody source and mirrors only the first 151 species
+ok 146 - account Pokédex migrates every history and custody source and mirrors only the first 151 species
+  ---
+  duration_ms: 1.193185
+  type: 'test'
+  ...
+# Subtest: unclaimed rewards, trade evolution, conversion and release keep cumulative account discoveries
+ok 147 - unclaimed rewards, trade evolution, conversion and release keep cumulative account discoveries
+  ---
+  duration_ms: 10.116977
+  type: 'test'
+  ...
+# Subtest: older imports and game profile replacement cannot erase prior account Pokédex history
+ok 148 - older imports and game profile replacement cannot erase prior account Pokédex history
+  ---
+  duration_ms: 3.892708
+  type: 'test'
+  ...
+# Subtest: indexed offer ownership validation retains open-row and error behavior
+ok 149 - indexed offer ownership validation retains open-row and error behavior
+  ---
+  duration_ms: 1.840759
+  type: 'test'
+  ...
+# Subtest: large variable-size views render at most 24 cards or 50 table rows with bounded navigation
+ok 150 - large variable-size views render at most 24 cards or 50 table rows with bounded navigation
+  ---
+  duration_ms: 177.665431
+  type: 'test'
+  ...
+# Subtest: every record is reachable; shrinking results clamps pages and collection selection survives page changes
+ok 151 - every record is reachable; shrinking results clamps pages and collection selection survives page changes
+  ---
+  duration_ms: 35.148455
+  type: 'test'
+  ...
+# Subtest: picker selection survives pages and filters, enforces the total limit, and submits all selected IDs
+ok 152 - picker selection survives pages and filters, enforces the total limit, and submits all selected IDs
+  ---
+  duration_ms: 88.741835
+  type: 'test'
+  ...
+# Subtest: large trade dropdown and offer picker remain bounded and retain selections off-page
+ok 153 - large trade dropdown and offer picker remain bounded and retain selections off-page
+  ---
+  duration_ms: 82.558846
+  type: 'test'
+  ...
+# Subtest: small lists retain all cards without pagination or picker toolbars
+ok 154 - small lists retain all cards without pagination or picker toolbars
+  ---
+  duration_ms: 1.478117
+  type: 'test'
+  ...
+# Subtest: filters reset page cursors while a dialog search only resets its own page and preserves choices
+ok 155 - filters reset page cursors while a dialog search only resets its own page and preserves choices
+  ---
+  duration_ms: 88.552884
+  type: 'test'
+  ...
+# Subtest: giveaway ticks update only cancellation text/availability until settlement changes state
+ok 156 - giveaway ticks update only cancellation text/availability until settlement changes state
+  ---
+  duration_ms: 1.488447
+  type: 'test'
+  ...
+# Subtest: Center inventory displays recorded rod counts and keeps unknown imported items visible
+ok 157 - Center inventory displays recorded rod counts and keeps unknown imported items visible
+  ---
+  duration_ms: 28.979345
+  type: 'test'
+  ...
+# Subtest: Center inventory does not imply Ice Stone or Silph Scope ownership from progress or unknown IDs
+ok 158 - Center inventory does not imply Ice Stone or Silph Scope ownership from progress or unknown IDs
+  ---
+  duration_ms: 0.601923
+  type: 'test'
+  ...
+# Subtest: offer table preserves first matching listing, status actions, missing references and escaping
+ok 159 - offer table preserves first matching listing, status actions, missing references and escaping
+  ---
+  duration_ms: 0.656833
+  type: 'test'
+  ...
+# Subtest: malformed encoded hashes safely use Home while valid routes retain decoding
+ok 160 - malformed encoded hashes safely use Home while valid routes retain decoding
+  ---
+  duration_ms: 5.388155
+  type: 'test'
+  ...
+# Subtest: unchanged focus refresh preserves inline drafts but still redraws changed custody or display context
+ok 161 - unchanged focus refresh preserves inline drafts but still redraws changed custody or display context
+  ---
+  duration_ms: 1.087845
+  type: 'test'
+  ...
+# Subtest: focus refresh preserves failure reporting and rejects overlapping refresh work
+ok 162 - focus refresh preserves failure reporting and rejects overlapping refresh work
+  ---
+  duration_ms: 0.350142
+  type: 'test'
+  ...
+# Subtest: six challenges have original routes and start in their native engine
+ok 163 - six challenges have original routes and start in their native engine
+  ---
+  duration_ms: 268.821106
+  type: 'test'
+  ...
+# Subtest: challenge rewards update challenge progress once and retain campaign party
+ok 164 - challenge rewards update challenge progress once and retain campaign party
+  ---
+  duration_ms: 58.339402
+  type: 'test'
+  ...
+# Subtest: versus players have source teams and share one battlefield
+ok 165 - versus players have source teams and share one battlefield
+  ---
+  duration_ms: 74.134967
+  type: 'test'
+  ...
+# Subtest: co-op uses two original teams without campaign mutation
+ok 166 - co-op uses two original teams without campaign mutation
+  ---
+  duration_ms: 49.440001
+  type: 'test'
+  ...
+# Subtest: achievement rewards obey source claim counters
+ok 167 - achievement rewards obey source claim counters
+  ---
+  duration_ms: 0.627153
+  type: 'test'
+  ...
+# Subtest: challenge3 captures remain temporary while global earnings survive abandonment
+ok 168 - challenge3 captures remain temporary while global earnings survive abandonment
+  ---
+  duration_ms: 13.252692
+  type: 'test'
+  ...
+# Subtest: invasion challenge uses native source moves and isolated forcedparty across relaunch
+ok 169 - invasion challenge uses native source moves and isolated forcedparty across relaunch
+  ---
+  duration_ms: 133.831705
+  type: 'test'
+  ...
+# Subtest: local versus halfspeed uses original integer stat through native actors and leaves campaign unchanged
+ok 170 - local versus halfspeed uses original integer stat through native actors and leaves campaign unchanged
+  ---
+  duration_ms: 86.650345
+  type: 'test'
+  ...
+# Subtest: local co-op survives one team fainting and loses after all six faint, excluding Gary
+ok 171 - local co-op survives one team fainting and loses after all six faint, excluding Gary
+  ---
+  duration_ms: 35.084744
+  type: 'test'
+  ...
+# stage class_950
+# Boss XP awards independent bonuses and round-trips through the save validator.
+# Subtest: tests/experience-overflow.test.js
+ok 27 - tests/experience-overflow.test.js
+  ---
+  duration_ms: 204.848307
+  type: 'test'
+  ...
+# Passed original invasion energy/launch costs, 14 Saffron defenders, return routing, four candy bonuses, attacker reuse, straight-through Route 24 phase, capture disabled, drop on defeat, no money rewards, and energy defeat.
+# Subtest: tests/invasion.test.js
+ok 28 - tests/invasion.test.js
+  ---
+  duration_ms: 297.663872
+  type: 'test'
+  ...
+# Subtest: real App.store cannot replace a large displaced mirror while its backup is blocked, even when a smaller mirror would fit
+ok 174 - real App.store cannot replace a large displaced mirror while its backup is blocked, even when a smaller mirror would fit
+  ---
+  duration_ms: 12.088786
+  type: 'test'
+  ...
+# Subtest: normal browser and disk App.store synchronously preserve the latest draft before queued bank persistence
+ok 175 - normal browser and disk App.store synchronously preserve the latest draft before queued bank persistence
+  ---
+  duration_ms: 3.275085
+  type: 'test'
+  ...
+# Subtest: held disk acknowledgment retains the synchronous game draft for interrupted navigation recovery
+ok 176 - held disk acknowledgment retains the synchronous game draft for interrupted navigation recovery
+  ---
+  duration_ms: 1.776869
+  type: 'test'
+  ...
+# Subtest: repeated offline/full-cache saves retain original displaced records without queueing every failed autosave
+ok 177 - repeated offline/full-cache saves retain original displaced records without queueing every failed autosave
+  ---
+  duration_ms: 15.614023
+  type: 'test'
+  ...
+# Subtest: App.store retains its valid single-save fallback without a profile manager
+ok 178 - App.store retains its valid single-save fallback without a profile manager
+  ---
+  duration_ms: 0.406462
+  type: 'test'
+  ...
+# Subtest: initialization uses the disk bank and retains the displaced browser bank exactly
+ok 179 - initialization uses the disk bank and retains the displaced browser bank exactly
+  ---
+  duration_ms: 7.877327
+  type: 'test'
+  ...
+# Subtest: a last-second current-profile draft is backed up before authoritative reload replaces its mirror
+ok 180 - a last-second current-profile draft is backed up before authoritative reload replaces its mirror
+  ---
+  duration_ms: 1.163105
+  type: 'test'
+  ...
+# Subtest: a stale game client cannot replace a completed Center change in shared browser storage
+ok 181 - a stale game client cannot replace a completed Center change in shared browser storage
+  ---
+  duration_ms: 3.357226
+  type: 'test'
+  ...
+# Subtest: disk CAS rejects stale clients even when their browsers have separate storage
+ok 182 - disk CAS rejects stale clients even when their browsers have separate storage
+  ---
+  duration_ms: 3.262186
+  type: 'test'
+  ...
+# Subtest: thrown, rejected, asynchronous, and invalid mutations leave bank and persistence unchanged
+ok 183 - thrown, rejected, asynchronous, and invalid mutations leave bank and persistence unchanged
+  ---
+  duration_ms: 3.267725
+  type: 'test'
+  ...
+# Subtest: storage quota and server failures do not expose half of a transaction
+ok 184 - storage quota and server failures do not expose half of a transaction
+  ---
+  duration_ms: 3.416536
+  type: 'test'
+  ...
+# Subtest: two concurrent browser commands serialize and the stale intent must refresh before retrying
+ok 185 - two concurrent browser commands serialize and the stale intent must refresh before retrying
+  ---
+  duration_ms: 2.21373
+  type: 'test'
+  ...
+# Subtest: queued legacy writes retain their own snapshots and transaction commands wait for them
+ok 186 - queued legacy writes retain their own snapshots and transaction commands wait for them
+  ---
+  duration_ms: 1.725678
+  type: 'test'
+  ...
+# Subtest: normal game writes are blocked while a transaction is queued and cannot erase its Center state
+ok 187 - normal game writes are blocked while a transaction is queued and cannot erase its Center state
+  ---
+  duration_ms: 1.334306
+  type: 'test'
+  ...
+# Subtest: the Center validator is optional for legacy banks and preserves normalized Center extensions
+ok 188 - the Center validator is optional for legacy banks and preserves normalized Center extensions
+  ---
+  duration_ms: 2.614242
+  type: 'test'
+  ...
+# Subtest: game saves and older imports preserve accepted account Dex history across all profiles
+ok 189 - game saves and older imports preserve accepted account Dex history across all profiles
+  ---
+  duration_ms: 2.632863
+  type: 'test'
+  ...
+# Subtest: concurrent automatic giveaway settlement commits one prize and rejects the stale client
+ok 190 - concurrent automatic giveaway settlement commits one prize and rejects the stale client
+  ---
+  duration_ms: 10.066007
+  type: 'test'
+  ...
+# Subtest: storage notifications flag external changes once and dispose removes the listener
+ok 191 - storage notifications flag external changes once and dispose removes the listener
+  ---
+  duration_ms: 0.826254
+  type: 'test'
+  ...
+# Subtest: a disk-committed transaction remains successful if only its browser mirror fails
+ok 192 - a disk-committed transaction remains successful if only its browser mirror fails
+  ---
+  duration_ms: 1.165696
+  type: 'test'
+  ...
+# Subtest: a full browser cache still loads the authoritative disk bank without replacing its displaced records
+ok 193 - a full browser cache still loads the authoritative disk bank without replacing its displaced records
+  ---
+  duration_ms: 1.185445
+  type: 'test'
+  ...
+# Subtest: refresh of an empty active slot leaves its previous mirror intact without duplicate backups
+ok 194 - refresh of an empty active slot leaves its previous mirror intact without duplicate backups
+  ---
+  duration_ms: 1.144826
+  type: 'test'
+  ...
+# Subtest: full-cache authoritative refresh preserves old browser records and succeeds after disk initialization
+ok 195 - full-cache authoritative refresh preserves old browser records and succeeds after disk initialization
+  ---
+  duration_ms: 1.289636
+  type: 'test'
+  ...
+# Subtest: refresh cannot discard an in-memory-only draft when its backup cannot be saved
+ok 196 - refresh cannot discard an in-memory-only draft when its backup cannot be saved
+  ---
+  duration_ms: 2.407251
+  type: 'test'
+  ...
+# Subtest: cache recovery backs up deferred browser bank and profile drafts before replacing either record
+ok 197 - cache recovery backs up deferred browser bank and profile drafts before replacing either record
+  ---
+  duration_ms: 1.912408
+  type: 'test'
+  ...
+# Subtest: delayed storage events do not invalidate a newer accepted bank but new changes still conflict
+ok 198 - delayed storage events do not invalidate a newer accepted bank but new changes still conflict
+  ---
+  duration_ms: 1.129965
+  type: 'test'
+  ...
+# Subtest: legacy writes validate one isolated bank including retained Center state before queuing
+ok 199 - legacy writes validate one isolated bank including retained Center state before queuing
+  ---
+  duration_ms: 0.854344
+  type: 'test'
+  ...
+# PASS Recovered dataset: all Kanto species and every learnset reference exists
+# PASS New save validates and browser-storage round trip preserves party
+# PASS Save validation rejects duplicate IDs, nonexistent party members and invalid move IDs
+# PASS Legacy import retains custom move IDs, selected slot, shiny form and account progress
+# PASS Damage follows original integer truncation, STAB, physical category and type immunity
+# PASS Stat modifiers, critical boost and ignore-positive-defense options affect damage
+# PASS Training charges original cost, resets XP and level evolution is gated
+# PASS Movement crosses segments identically at different frame subdivisions
+# PASS Sleep Powder has zero immediate damage and original72-tick sleep
+# PASS Harden and Growl apply source-specific stat multipliers and opposition cancellation
+# PASS Fixed damage, healing, poison immunity and Leech Seed periodic healing
+# PASS Every declared core handler returns descriptors without mutating fighters
+# PASS No-formula damage subclasses cannot silently fall back to invented damage
+# 13/13 validation groups passed.
+# Subtest: tests/model.test.js
+ok 31 - tests/model.test.js
+  ---
+  duration_ms: 164.983501
+  type: 'test'
+  ...
+# Subtest: all 433 source move classes execute with exact dependency classes in two branch scenarios
+ok 201 - all 433 source move classes execute with exact dependency classes in two branch scenarios
+  ---
+  duration_ms: 11648.142327
+  type: 'test'
+  ...
+# Subtest: integer damage, STAB, critical rolls and physical defense are source values
+ok 202 - integer damage, STAB, critical rolls and physical defense are source values
+  ---
+  duration_ms: 12.368537
+  type: 'test'
+  ...
+# Subtest: projectile damage happens on source arrival tick, not at attack launch
+ok 203 - projectile damage happens on source arrival tick, not at attack launch
+  ---
+  duration_ms: 3.800478
+  type: 'test'
+  ...
+# Subtest: Growl quarter attack, opposing boost cancellation and original buff expiry
+ok 204 - Growl quarter attack, opposing boost cancellation and original buff expiry
+  ---
+  duration_ms: 24.761205
+  type: 'test'
+  ...
+# Subtest: Sleep Powder deals no direct damage and sleep lasts the original 72 ticks
+ok 205 - Sleep Powder deals no direct damage and sleep lasts the original 72 ticks
+  ---
+  duration_ms: 4.934663
+  type: 'test'
+  ...
+# Subtest: Substitute uses the original HP threshold, then Endure saves one lethal hit
+ok 206 - Substitute uses the original HP threshold, then Endure saves one lethal hit
+  ---
+  duration_ms: 3.419206
+  type: 'test'
+  ...
+# Subtest: Rest heals completely, cures statuses, and leaves the source 36-tick sleep
+ok 207 - Rest heals completely, cures statuses, and leaves the source 36-tick sleep
+  ---
+  duration_ms: 3.635157
+  type: 'test'
+  ...
+# Subtest: Mirror Move copies target move1, even when a different move is selected
+ok 208 - Mirror Move copies target move1, even when a different move is selected
+  ---
+  duration_ms: 8.205038
+  type: 'test'
+  ...
+# Subtest: Transform copies original species data and moves for 720 ticks, then restores
+ok 209 - Transform copies original species data and moves for 720 ticks, then restores
+  ---
+  duration_ms: 11.637014
+  type: 'test'
+  ...
+# Subtest: weather replacement and dynamic Thunder accuracy use source field identities
+ok 210 - weather replacement and dynamic Thunder accuracy use source field identities
+  ---
+  duration_ms: 3.510696
+  type: 'test'
+  ...
+# Subtest: Guts, Keen Eye, Inner Focus and Shed Skin run the original ability classes
+ok 211 - Guts, Keen Eye, Inner Focus and Shed Skin run the original ability classes
+  ---
+  duration_ms: 16.754397
+  type: 'test'
+  ...
+# Subtest: Selfdestruct removes only its active party member after the source animation
+ok 212 - Selfdestruct removes only its active party member after the source animation
+  ---
+  duration_ms: 8.263659
+  type: 'test'
+  ...
+# Subtest: Teleport chooses an unoccupied original spot and updates placement
+ok 213 - Teleport chooses an unoccupied original spot and updates placement
+  ---
+  duration_ms: 2.986244
+  type: 'test'
+  ...
+# Subtest: Sleep Talk is permitted during sleep and delegates another original move
+ok 214 - Sleep Talk is permitted during sleep and delegates another original move
+  ---
+  duration_ms: 7.215893
+  type: 'test'
+  ...
+# Subtest: native timeline end labels, stop actions, child source placement and geometry survive
+ok 215 - native timeline end labels, stop actions, child source placement and geometry survive
+  ---
+  duration_ms: 0.377112
+  type: 'test'
+  ...
+# Subtest: native unknown IDs and missing timeline metadata fail explicitly
+ok 216 - native unknown IDs and missing timeline metadata fail explicitly
+  ---
+  duration_ms: 3.419106
+  type: 'test'
+  ...
+# Subtest: all supported move IDs have source evidence; no generic damage fallback remains
+ok 217 - all supported move IDs have source evidence; no generic damage fallback remains
+  ---
+  duration_ms: 0.755304
+  type: 'test'
+  ...
+# Subtest: ordinary travelers retain source var107=false; only explicit attack-enabled enemies attack
+ok 218 - ordinary travelers retain source var107=false; only explicit attack-enabled enemies attack
+  ---
+  duration_ms: 3.910488
+  type: 'test'
+  ...
+# Subtest: source Zapdos AI alternates the completed multi-phase moves
+ok 219 - source Zapdos AI alternates the completed multi-phase moves
+  ---
+  duration_ms: 12.192306
+  type: 'test'
+  ...
+# Subtest: native candy pickup uses the actual source candy and current Pokémon geometry
+ok 220 - native candy pickup uses the actual source candy and current Pokémon geometry
+  ---
+  duration_ms: 3.682357
+  type: 'test'
+  ...
+# Subtest: recall abandonment does not resolve a pending source-owned projectile
+ok 221 - recall abandonment does not resolve a pending source-owned projectile
+  ---
+  duration_ms: 7.080063
+  type: 'test'
+  ...
+# Subtest: disposing every move cancels callbacks, pending damage and party removal
+ok 222 - disposing every move cancels callbacks, pending damage and party removal
+  ---
+  duration_ms: 2043.48614
+  type: 'test'
+  ...
+# Subtest: native direction and evolution graphics follow host changes without replacing active behavior
+ok 223 - native direction and evolution graphics follow host changes without replacing active behavior
+  ---
+  duration_ms: 9.357064
+  type: 'test'
+  ...
+# Subtest: enemy Mirror Move can copy Earthquake without casting its owner to a tower
+ok 224 - enemy Mirror Move can copy Earthquake without casting its owner to a tower
+  ---
+  duration_ms: 3.061954
+  type: 'test'
+  ...
+# Subtest: projectile 297 stops if defeat cleanup disposes its active effect
+ok 225 - projectile 297 stops if defeat cleanup disposes its active effect
+  ---
+  duration_ms: 8.477859
+  type: 'test'
+  ...
+# Subtest: projectile 246 stops if defeat cleanup disposes its active effect
+ok 226 - projectile 246 stops if defeat cleanup disposes its active effect
+  ---
+  duration_ms: 4.231849
+  type: 'test'
+  ...
+# Subtest: effect interruption waits for nested damage and defeat bookkeeping to finish
+ok 227 - effect interruption waits for nested damage and defeat bookkeeping to finish
+  ---
+  duration_ms: 6.795601
+  type: 'test'
+  ...
+# Subtest: enemy Mirror Move copying Whirlwind leaves a stationary tower in place without a path crash
+ok 228 - enemy Mirror Move copying Whirlwind leaves a stationary tower in place without a path crash
+  ---
+  duration_ms: 5.580095
+  type: 'test'
+  ...
+# Subtest: campaign move144 removes its actor only after the original animation
+ok 229 - campaign move144 removes its actor only after the original animation
+  ---
+  duration_ms: 115.747351
+  type: 'test'
+  ...
+# Subtest: campaign move238 removes its actor only after the original animation
+ok 230 - campaign move238 removes its actor only after the original animation
+  ---
+  duration_ms: 58.388653
+  type: 'test'
+  ...
+# Subtest: Mt. Moon challenge3 move144 removes its actor only after the original animation
+ok 231 - Mt. Moon challenge3 move144 removes its actor only after the original animation
+  ---
+  duration_ms: 67.351415
+  type: 'test'
+  ...
+# Subtest: Mt. Moon challenge3 move238 removes its actor only after the original animation
+ok 232 - Mt. Moon challenge3 move238 removes its actor only after the original animation
+  ---
+  duration_ms: 79.132259
+  type: 'test'
+  ...
+# Subtest: fainting during the effect phase cannot reattach an actor during attack or collision phases
+ok 233 - fainting during the effect phase cannot reattach an actor during attack or collision phases
+  ---
+  duration_ms: 24.946286
+  type: 'test'
+  ...
+# Subtest: ordinary recall abandons delayed effects while legitimate redeployment creates one fresh actor
+ok 234 - ordinary recall abandons delayed effects while legitimate redeployment creates one fresh actor
+  ---
+  duration_ms: 16.788608
+  type: 'test'
+  ...
+# Subtest: long battles release retired fighter graphs outside the bounded diagnostic window
+ok 235 - long battles release retired fighter graphs outside the bounded diagnostic window
+  ---
+  duration_ms: 1176.747306
+  type: 'test'
+  ...
+# Subtest: long diagnostic histories preserve chronological recent records and the total event count
+ok 236 - long diagnostic histories preserve chronological recent records and the total event count
+  ---
+  duration_ms: 69.289294
+  type: 'test'
+  ...
+# Subtest: disabling diagnostic storage preserves damage, healing, source traces and callback behavior
+ok 237 - disabling diagnostic storage preserves damage, healing, source traces and callback behavior
+  ---
+  duration_ms: 54.993977
+  type: 'test'
+  ...
+# Subtest: diagnostic limits are explicit bounded integers and disposal leaves callbacks inactive
+ok 238 - diagnostic limits are explicit bounded integers and disposal leaves callbacks inactive
+  ---
+  duration_ms: 28.928305
+  type: 'test'
+  ...
+# Subtest: native upload reuse detects same-tick interaction and nested source text changes
+ok 239 - native upload reuse detects same-tick interaction and nested source text changes
+  ---
+  duration_ms: 8.908041
+  type: 'test'
+  ...
+# Subtest: native upload reuse invalidates for source time, late artwork, tree order and empty world
+ok 240 - native upload reuse invalidates for source time, late artwork, tree order and empty world
+  ---
+  duration_ms: 0.623563
+  type: 'test'
+  ...
+# Subtest: native comparison buffers release removed graph values and retry an interrupted paint
+ok 241 - native comparison buffers release removed graph values and retry an interrupted paint
+  ---
+  duration_ms: 18.718608
+  type: 'test'
+  ...
+# Subtest: tint canvases reuse dimensions with least-recently-used entry and retained-byte limits
+ok 242 - tint canvases reuse dimensions with least-recently-used entry and retained-byte limits
+  ---
+  duration_ms: 1.894199
+  type: 'test'
+  ...
+# Subtest: damage, healing, and misses create the original text clip and exact source colors/strings
+ok 243 - damage, healing, and misses create the original text clip and exact source colors/strings
+  ---
+  duration_ms: 96.09721
+  type: 'test'
+  ...
+# Subtest: source text advances once per combat frame, is removed at end, and respects live settings
+ok 244 - source text advances once per combat frame, is removed at end, and respects live settings
+  ---
+  duration_ms: 22.147443
+  type: 'test'
+  ...
+# Subtest: native XP receiver preserves shiny truncation, overflow, and the pre-award threshold
+ok 245 - native XP receiver preserves shiny truncation, overflow, and the pre-award threshold
+  ---
+  duration_ms: 32.748523
+  type: 'test'
+  ...
+# Subtest: battle defeat uses the original receiver in contributor order with independent level bonuses
+ok 246 - battle defeat uses the original receiver in contributor order with independent level bonuses
+  ---
+  duration_ms: 58.324423
+  type: 'test'
+  ...
+# Subtest: recalled contributors receive XP offstage and keep source identity after redeployment
+ok 247 - recalled contributors receive XP offstage and keep source identity after redeployment
+  ---
+  duration_ms: 18.499446
+  type: 'test'
+  ...
+# Subtest: native rendering forwards text formats and draws all original XP/MISS glyphs in the source font
+ok 248 - native rendering forwards text formats and draws all original XP/MISS glyphs in the source font
+  ---
+  duration_ms: 43.097342
+  type: 'test'
+  ...
+# Subtest: repeated deployment contributes one XP share per owned Pokemon
+ok 249 - repeated deployment contributes one XP share per owned Pokemon
+  ---
+  duration_ms: 21.633951
+  type: 'test'
+  ...
+# Subtest: source check exposes only moves, nine targets, training and Done at original coordinates
+ok 250 - source check exposes only moves, nine targets, training and Done at original coordinates
+  ---
+  duration_ms: 84.038922
+  type: 'test'
+  ...
+# Subtest: selection changes original attack immediately; all nine target modes persist
+ok 251 - selection changes original attack immediately; all nine target modes persist
+  ---
+  duration_ms: 19.633182
+  type: 'test'
+  ...
+# Subtest: Encore locks move selection; transformed selection does not alter saved moves
+ok 252 - Encore locks move selection; transformed selection does not alter saved moves
+  ---
+  duration_ms: 23.947682
+  type: 'test'
+  ...
+# Subtest: exact paid training heals existing capacity, preserves effects, then returns to battle
+ok 253 - exact paid training heals existing capacity, preserves effects, then returns to battle
+  ---
+  duration_ms: 17.756843
+  type: 'test'
+  ...
+# Subtest: learned move uses original timeline and closes on source click
+ok 254 - learned move uses original timeline and closes on source click
+  ---
+  duration_ms: 42.788679
+  type: 'test'
+  ...
+# Subtest: full moves use original offer and repeated replacement swap until Done
+ok 255 - full moves use original offer and repeated replacement swap until Done
+  ---
+  duration_ms: 41.908766
+  type: 'test'
+  ...
+# Subtest: evolution changes species at the original animation event and then checks learned move
+ok 256 - evolution changes species at the original animation event and then checks learned move
+  ---
+  duration_ms: 36.784582
+  type: 'test'
+  ...
+# Subtest: original multiplayer disables checks; reverse Check2 has no target/training controls
+ok 257 - original multiplayer disables checks; reverse Check2 has no target/training controls
+  ---
+  duration_ms: 55.070738
+  type: 'test'
+  ...
+# Subtest: replacing selected slot three keeps the new move selected in the live actor
+ok 258 - replacing selected slot three keeps the new move selected in the live actor
+  ---
+  duration_ms: 59.714749
+  type: 'test'
+  ...
+# Subtest: first game gift initializes legacy Center state only after the original profile save succeeds
+ok 259 - first game gift initializes legacy Center state only after the original profile save succeeds
+  ---
+  duration_ms: 13.472423
+  type: 'test'
+  ...
+# Subtest: original gift waits for both profile and gift commits while retaining live game references
+ok 260 - original gift waits for both profile and gift commits while retaining live game references
+  ---
+  duration_ms: 5.079364
+  type: 'test'
+  ...
+# Subtest: game and Center daily/weekly buttons share cooldowns and deliver exclusively to Pick Up
+ok 261 - game and Center daily/weekly buttons share cooldowns and deliver exclusively to Pick Up
+  ---
+  duration_ms: 5.643946
+  type: 'test'
+  ...
+# Subtest: failed gift persistence leaves cooldown/prize unclaimed and retry grants one gift
+ok 262 - failed gift persistence leaves cooldown/prize unclaimed and retry grants one gift
+  ---
+  duration_ms: 3.560717
+  type: 'test'
+  ...
+# Subtest: runtime MissingNo code uses the Center redemption record without adding a direct game copy
+ok 263 - runtime MissingNo code uses the Center redemption record without adding a direct game copy
+  ---
+  duration_ms: 2.609833
+  type: 'test'
+  ...
+# Subtest: source gift controls retain waiting, completed, used, and database-error frames
+ok 264 - source gift controls retain waiting, completed, used, and database-error frames
+  ---
+  duration_ms: 12.84752
+  type: 'test'
+  ...
+# Subtest: source party states keep occupied cards opaque and only empty slots half transparent
+ok 265 - source party states keep occupied cards opaque and only empty slots half transparent
+  ---
+  duration_ms: 13.027281
+  type: 'test'
+  ...
+# Subtest: explicit card alpha replaces its authored dimming and preserves the parent HUD fade
+ok 266 - explicit card alpha replaces its authored dimming and preserves the parent HUD fade
+  ---
+  duration_ms: 2.224261
+  type: 'test'
+  ...
+# Subtest: source party drag preserves six slot identities; occupied destination returns to storage
+ok 267 - source party drag preserves six slot identities; occupied destination returns to storage
+  ---
+  duration_ms: 3.797038
+  type: 'test'
+  ...
+# Subtest: source release confirmation allows last Pokémon and leaves null party slots
+ok 268 - source release confirmation allows last Pokémon and leaves null party slots
+  ---
+  duration_ms: 6.805381
+  type: 'test'
+  ...
+# Subtest: source storage grid uses original pokeList indices and vacates exact party slots
+ok 269 - source storage grid uses original pokeList indices and vacates exact party slots
+  ---
+  duration_ms: 0.640003
+  type: 'test'
+  ...
+# Subtest: achievement Pokémon retain source reward extra tags
+ok 270 - achievement Pokémon retain source reward extra tags
+  ---
+  duration_ms: 1.094085
+  type: 'test'
+  ...
+# Subtest: source item is consumed before evolution; cancellation leaves species unchanged
+ok 271 - source item is consumed before evolution; cancellation leaves species unchanged
+  ---
+  duration_ms: 9.721195
+  type: 'test'
+  ...
+# Subtest: source TM/relearn charge before offer and preserve unmodified four moves
+ok 272 - source TM/relearn charge before offer and preserve unmodified four moves
+  ---
+  duration_ms: 12.279218
+  type: 'test'
+  ...
+# Subtest: source profile replacement supports repeated swap until Done
+ok 273 - source profile replacement supports repeated swap until Done
+  ---
+  duration_ms: 10.916631
+  type: 'test'
+  ...
+# Subtest: source profile evolution mutates only on almost_done_evolving
+ok 274 - source profile evolution mutates only on almost_done_evolving
+  ---
+  duration_ms: 19.24769
+  type: 'test'
+  ...
+# Subtest: selected move slot survives replacement and all Eevee stones have distinct controls
+ok 275 - selected move slot survives replacement and all Eevee stones have distinct controls
+  ---
+  duration_ms: 22.670196
+  type: 'test'
+  ...
+# Subtest: party selection preserves selected stage through details, tutorial and chapter Back
+ok 276 - party selection preserves selected stage through details, tutorial and chapter Back
+  ---
+  duration_ms: 53.862052
+  type: 'test'
+  ...
+# Subtest: Oak completion leaves starter in storage and empty-profile recovery preserves campaign progress
+ok 277 - Oak completion leaves starter in storage and empty-profile recovery preserves campaign progress
+  ---
+  duration_ms: 0.797373
+  type: 'test'
+  ...
+# Subtest: original Dex uses forty rows, three caught indicators and four-page bounds
+ok 278 - original Dex uses forty rows, three caught indicators and four-page bounds
+  ---
+  duration_ms: 10.783731
+  type: 'test'
+  ...
+# Subtest: original ptdicu gift is repeatable MissingNo with exact level and moves
+ok 279 - original ptdicu gift is repeatable MissingNo with exact level and moves
+  ---
+  duration_ms: 0.448322
+  type: 'test'
+  ...
+# Subtest: source Save waits for the local disk acknowledgment
+ok 280 - source Save waits for the local disk acknowledgment
+  ---
+  duration_ms: 6.21943
+  type: 'test'
+  ...
+# Subtest: source Save can succeed in static browser storage and catches storage failure
+ok 281 - source Save can succeed in static browser storage and catches storage failure
+  ---
+  duration_ms: 4.135279
+  type: 'test'
+  ...
+# Subtest: disk failure selects source retry state and a successful retry can recover
+ok 282 - disk failure selects source retry state and a successful retry can recover
+  ---
+  duration_ms: 1.332617
+  type: 'test'
+  ...
+# Subtest: disk conflict never becomes a false successful browser-only retry
+ok 283 - disk conflict never becomes a false successful browser-only retry
+  ---
+  duration_ms: 0.725864
+  type: 'test'
+  ...
+# Subtest: source options default on and persist independently of profile selection
+ok 284 - source options default on and persist independently of profile selection
+  ---
+  duration_ms: 0.787833
+  type: 'test'
+  ...
+# Subtest: source options migrate existing profile preferences and tolerate malformed device settings
+ok 285 - source options migrate existing profile preferences and tolerate malformed device settings
+  ---
+  duration_ms: 0.405151
+  type: 'test'
+  ...
+# Subtest: source global options immediately update a temporary challenge or multiplayer battle
+ok 286 - source global options immediately update a temporary challenge or multiplayer battle
+  ---
+  duration_ms: 0.727593
+  type: 'test'
+  ...
+# Subtest: release, capture insertion and validation retain the six original slot identities
+ok 287 - release, capture insertion and validation retain the six original slot identities
+  ---
+  duration_ms: 4.1554
+  type: 'test'
+  ...
+# Subtest: last release produces a valid empty profile and local bank roundtrip preserves gaps
+ok 288 - last release produces a valid empty profile and local bank roundtrip preserves gaps
+  ---
+  duration_ms: 3.961569
+  type: 'test'
+  ...
+# Subtest: defense and invasion membership skip nulls without moving HUD slots
+ok 289 - defense and invasion membership skip nulls without moving HUD slots
+  ---
+  duration_ms: 200.920288
+  type: 'test'
+  ...
+# Subtest: native Selfdestruct vacates its exact slot and keeps adjacent party identities
+ok 290 - native Selfdestruct vacates its exact slot and keeps adjacent party identities
+  ---
+  duration_ms: 24.234313
+  type: 'test'
+  ...
+# Subtest: v1 saves migrate while retaining the original stored backup
+ok 291 - v1 saves migrate while retaining the original stored backup
+  ---
+  duration_ms: 8.404239
+  type: 'test'
+  ...
+# Subtest: legacy complete count, all nine target modes, items, flags and form dex import
+ok 292 - legacy complete count, all nine target modes, items, flags and form dex import
+  ---
+  duration_ms: 8.378769
+  type: 'test'
+  ...
+# Subtest: shop and stone evolution validate before charging and retain identity
+ok 293 - shop and stone evolution validate before charging and retain identity
+  ---
+  duration_ms: 3.545067
+  type: 'test'
+  ...
+# Subtest: invalid move replacement cannot charge or alter moves
+ok 294 - invalid move replacement cannot charge or alter moves
+  ---
+  duration_ms: 0.588943
+  type: 'test'
+  ...
+# Subtest: local trades swap both parties, preserve custom names and apply trade evolution once
+ok 295 - local trades swap both parties, preserve custom names and apply trade evolution once
+  ---
+  duration_ms: 0.425062
+  type: 'test'
+  ...
+# Subtest: profile bank roundtrips all three profiles and trades in a single snapshot
+ok 296 - profile bank roundtrips all three profiles and trades in a single snapshot
+  ---
+  duration_ms: 7.149393
+  type: 'test'
+  ...
+# Subtest: offline gifts enforce progression and one-time claims
+ok 297 - offline gifts enforce progression and one-time claims
+  ---
+  duration_ms: 1.110466
+  type: 'test'
+  ...
+# Subtest: sparse source party positions normalize to six explicit null-capable slots
+ok 298 - sparse source party positions normalize to six explicit null-capable slots
+  ---
+  duration_ms: 1.781798
+  type: 'test'
+  ...
+# Rock Tunnel passed: exact ten-room navigation, mandatory trainers/invasions, optional secret loop, all 15 wild schedules (2100 spawns), actual Battle/ReverseBattle integration, deferred progression, loss reset, Flash acquisition/TM costs, and one-time shiny quest.
+# Subtest: tests/rock-tunnel.test.js
+ok 44 - tests/rock-tunnel.test.js
+  ---
+  duration_ms: 469.632043
+  type: 'test'
+  ...
+# PASS Safari identity and temporary Joey match level29 source
+# PASS Temporary party never enters saved collection or saved party
+# PASS Bait guarantees36-tick flinch and1800-tick half-speed without damage
+# PASS Bait and Rock speed opposites cancel without stacking
+# PASS Rock preserves computed damage and exact30-percent speed-up chance
+# PASS Safari projectile moves23 px/axis and resolves a tick after arrival
+# PASS Removed targets cancel projectiles without late effects
+# PASS Safari captures enter collection without changing the original party
+# PASS Original Rock/Bait actions operate through Battle without global move fallback
+# PASS Complete original60-wave/419-spawn Safari schedule can finish and unlock level30
+# 10/10 Safari validation groups passed.
+# Subtest: tests/safari.test.js
+ok 45 - tests/safari.test.js
+  ---
+  duration_ms: 565.883831
+  type: 'test'
+  ...
+# Passed friendly NPC allegiance, enemy target exclusion, fixed slots, Route2 Cut hook, Celebi player-only healing, Gary exact eligible slots and delayed healing, Pewter dismissal, preserved collection, and party-wipe loss despite living Gary.
+# Subtest: tests/stage-hooks.test.js
+ok 46 - tests/stage-hooks.test.js
+  ---
+  duration_ms: 236.051412
+  type: 'test'
+  ...
+# Subtest: stage 26 exposes its level1 reward only on first clear
+ok 302 - stage 26 exposes its level1 reward only on first clear
+  ---
+  duration_ms: 110.809967
+  type: 'test'
+  ...
+# Subtest: stage 32 exposes its level1 reward only on first clear
+ok 303 - stage 32 exposes its level1 reward only on first clear
+  ---
+  duration_ms: 48.226485
+  type: 'test'
+  ...
+# Subtest: stage 33 exposes its level1 reward only on first clear
+ok 304 - stage 33 exposes its level1 reward only on first clear
+  ---
+  duration_ms: 42.310007
+  type: 'test'
+  ...
+# Subtest: the two first-clear fossil choices can supply both fossil families
+ok 305 - the two first-clear fossil choices can supply both fossil families
+  ---
+  duration_ms: 36.831722
+  type: 'test'
+  ...
+# Subtest: a first-clear loss grants no reward and leaves the next win eligible
+ok 306 - a first-clear loss grants no reward and leaves the next win eligible
+  ---
+  duration_ms: 39.299853
+  type: 'test'
+  ...
+# Subtest: Fuchsia first-clear item gate is passed to its original reward movie
+ok 307 - Fuchsia first-clear item gate is passed to its original reward movie
+  ---
+  duration_ms: 9.742106
+  type: 'test'
+  ...
+# Subtest: all source MovieClip timelines initialize and preserve source stop/loop actions
+ok 308 - all source MovieClip timelines initialize and preserve source stop/loop actions
+  ---
+  duration_ms: 346.237765
+  type: 'test'
+  ...
+# Subtest: every campaign and variant intro/win reaches its original transition without Skip
+ok 309 - every campaign and variant intro/win reaches its original transition without Skip
+  ---
+  duration_ms: 1468.776538
+  type: 'test'
+  ...
+# Subtest: first visit source intro prevents Skip and closing records the attempted stage
+ok 310 - first visit source intro prevents Skip and closing records the attempted stage
+  ---
+  duration_ms: 35.540325
+  type: 'test'
+  ...
+# Subtest: ending trade modifies the first party Slowbro identity and preserves its appearance
+ok 311 - ending trade modifies the first party Slowbro identity and preserves its appearance
+  ---
+  duration_ms: 3.489347
+  type: 'test'
+  ...
+# Subtest: ending trade ignores Slowbro in storage and accepts the source No branch
+ok 312 - ending trade ignores Slowbro in storage and accepts the source No branch
+  ---
+  duration_ms: 3.239195
+  type: 'test'
+  ...
+# Subtest: quest flags stay compatible with both existing Rock Tunnel and recovered controllers
+ok 313 - quest flags stay compatible with both existing Rock Tunnel and recovered controllers
+  ---
+  duration_ms: 0.620333
+  type: 'test'
+  ...
+# Subtest: temporary challenge party reads and writes do not replace the campaign collection
+ok 314 - temporary challenge party reads and writes do not replace the campaign collection
+  ---
+  duration_ms: 0.823663
+  type: 'test'
+  ...
+# Subtest: all recovered defeat dialogs retain their source close behavior
+ok 315 - all recovered defeat dialogs retain their source close behavior
+  ---
+  duration_ms: 140.504744
+  type: 'test'
+  ...
+# Subtest: original capture popup names its Pokémon and closes through its source end click
+ok 316 - original capture popup names its Pokémon and closes through its source end click
+  ---
+  duration_ms: 7.396194
+  type: 'test'
+  ...
+# Subtest: original evolution timeline reaches its mutation callback and can be stopped
+ok 317 - original evolution timeline reaches its mutation callback and can be stopped
+  ---
+  duration_ms: 14.686658
+  type: 'test'
+  ...
+# Subtest: Oak victory controls retain the map-parent translation after its source tween
+ok 318 - Oak victory controls retain the map-parent translation after its source tween
+  ---
+  duration_ms: 2.02643
+  type: 'test'
+  ...
+# Subtest: source Ready Go finishes on its original end label and starts the prepared wave
+ok 319 - source Ready Go finishes on its original end label and starts the prepared wave
+  ---
+  duration_ms: 0.723153
+  type: 'test'
+  ...
+# Subtest: source party null slots retain indices and rewards fill the first empty slot
+ok 320 - source party null slots retain indices and rewards fill the first empty slot
+  ---
+  duration_ms: 0.857313
+  type: 'test'
+  ...
+# Subtest: replacing the selected source move keeps the selected slot
+ok 321 - replacing the selected source move keeps the selected slot
+  ---
+  duration_ms: 0.637653
+  type: 'test'
+  ...
+# Subtest: map-parent endings preserve the current source zoom through their camera movement
+ok 322 - map-parent endings preserve the current source zoom through their camera movement
+  ---
+  duration_ms: 4.40171
+  type: 'test'
+  ...
+# Subtest: Rock Tunnel encounter selection uses the supplied RNG without replacing global randomness
+ok 323 - Rock Tunnel encounter selection uses the supplied RNG without replacing global randomness
+  ---
+  duration_ms: 12.84008
+  type: 'test'
+  ...
+# first visit: 7 exact intro panels, no initial skip, unlock37 before ending, no combat/rewards, no-Slowbro branch and badge8
+# source trade accepted: exactbranch, identity/appearance/party preserved
+# source trade declined: exactbranch, identity/appearance/party preserved
+# storage Slowbro does not trigger original party-only trade
+# preview clone completion leaves real save unchanged
+# Subtest: tests/story.test.js
+ok 49 - tests/story.test.js
+  ---
+  duration_ms: 227.731153
+  type: 'test'
+  ...
+# Subtest: Phaser blur/focus suspends wanted music and preserves explicit pauses and resource cleanup
+ok 325 - Phaser blur/focus suspends wanted music and preserves explicit pauses and resource cleanup
+  ---
+  duration_ms: 7.813396
+  type: 'test'
+  ...
+# Subtest: a play rejection after blur does not attach gesture handlers until focus returns
+ok 326 - a play rejection after blur does not attach gesture handlers until focus returns
+  ---
+  duration_ms: 3.269805
+  type: 'test'
+  ...
+# Subtest: streamed battle music keeps source volume, looping and pause/resume position
+ok 327 - streamed battle music keeps source volume, looping and pause/resume position
+  ---
+  duration_ms: 1.497647
+  type: 'test'
+  ...
+# Subtest: autoplay refusal retries on a gesture and removes both retry listeners
+ok 328 - autoplay refusal retries on a gesture and removes both retry listeners
+  ---
+  duration_ms: 1.520377
+  type: 'test'
+  ...
+# Subtest: a paused or destroyed track cannot re-arm a late rejected play request
+ok 329 - a paused or destroyed track cannot re-arm a late rejected play request
+  ---
+  duration_ms: 1.509137
+  type: 'test'
+  ...
+# Subtest: rapid track replacement releases media resources and leaves no gesture handlers
+ok 330 - rapid track replacement releases media resources and leaves no gesture handlers
+  ---
+  duration_ms: 10.247058
+  type: 'test'
+  ...
+# Subtest: media errors report once and aborts never arm an autoplay retry
+ok 331 - media errors report once and aborts never arm an autoplay retry
+  ---
+  duration_ms: 3.722248
+  type: 'test'
+  ...
+# Subtest: every existing combat effect stays eagerly decoded and long music/unused cries do not
+ok 332 - every existing combat effect stays eagerly decoded and long music/unused cries do not
+  ---
+  duration_ms: 1.098855
+  type: 'test'
+  ...
+# Subtest: joins child runs at their original action boundary and maps every action once
+ok 333 - joins child runs at their original action boundary and maps every action once
+  ---
+  duration_ms: 14.415978
+  type: 'test'
+  ...
+# Subtest: menu, navigation, acquisition and final cleanup cards are labeled summaries with source ranges
+ok 334 - menu, navigation, acquisition and final cleanup cards are labeled summaries with source ranges
+  ---
+  duration_ms: 9.618365
+  type: 'test'
+  ...
+# Subtest: schedules the same native timeline at each speed while retaining readable card holds
+ok 335 - schedules the same native timeline at each speed while retaining readable card holds
+  ---
+  duration_ms: 5.717137
+  type: 'test'
+  ...
+# Subtest: fails closed when child insertion evidence, action continuity or final dex disagree
+ok 336 - fails closed when child insertion evidence, action continuity or final dex disagree
+  ---
+  duration_ms: 3.983759
+  type: 'test'
+  ...
+# Subtest: requires descriptors to match frozen replay evidence and per-visit identity
+ok 337 - requires descriptors to match frozen replay evidence and per-visit identity
+  ---
+  duration_ms: 5.070184
+  type: 'test'
+  ...
+# Passed exact first-stage schedule, seeded profiles, version-dependent species, all campaign/variant combat waves, invasion/branch/story safeguards, NPC profiles, and stage transitions (66 stages).
+# Subtest: tests/waves.test.js
+ok 52 - tests/waves.test.js
+  ---
+  duration_ms: 624.385113
+  type: 'test'
+  ...
+1..338
+# tests 338
+# suites 0
+# pass 338
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 16847.36983

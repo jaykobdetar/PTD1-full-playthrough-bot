@@ -1,0 +1,337 @@
+{
+  "sourceReport": "artifacts/bot/policy-late-4/report.json",
+  "sourceHashes": {
+    "checkpoint": "9378ff75e2c31f4261062b537605fbb5ddb65a529fb8e97adab2892e6721b897",
+    "finalSave": "a22e086a1c64a132613f23be89215a8b185f2cb87864f4b9ad1dfe947a78e35a",
+    "report": "f068125ce3fd655c4813664f89ff7ffa317fcca45f1b9f7fb3ad5be4eea44bc2"
+  },
+  "version": 1,
+  "engine": "native (with recovered move timelines)",
+  "environment": {
+    "node": "v22.16.0",
+    "platform": "linux",
+    "arch": "x64",
+    "locale": "en-US"
+  },
+  "fingerprint": "f63cd2ee39cb02114710ef62cbd295ef61b025823f781a8e8709fe96ece41ec9",
+  "config": {
+    "seed": 1,
+    "starter": 1,
+    "through": 42,
+    "mode": "campaign",
+    "center": "on",
+    "maxAttempts": 12,
+    "grind": 0,
+    "maxBattles": 1500,
+    "maxTicks": 100000,
+    "dexVisits": 100
+  },
+  "resultHash": "9c39b01422097425d136593f3c1e3d032cc60f861d3fd24f1402e9effce594d1",
+  "attempt": {
+    "number": 11,
+    "stage": "class_953",
+    "campaignId": 40,
+    "name": "Victory Road",
+    "purpose": "progression",
+    "seed": 2633394879,
+    "checkpoint": "checkpoints/00011.json",
+    "outcome": "error",
+    "frames": 2274,
+    "wave": 5,
+    "stats": {
+      "defeated": 33,
+      "captured": 0,
+      "earned": 598
+    },
+    "candy": 5,
+    "finalState": {
+      "state": "won",
+      "frame": 2274,
+      "wave": 5,
+      "totalWaves": 4,
+      "candy": 5,
+      "potions": 6,
+      "stats": {
+        "defeated": 33,
+        "captured": 0,
+        "earned": 598
+      },
+      "towers": [
+        {
+          "uid": "center-pc-17",
+          "speciesId": 26,
+          "level": 100,
+          "hp": 1272,
+          "maxHp": 1310,
+          "x": 1230.15,
+          "y": 327.45,
+          "alive": true,
+          "placed": true,
+          "spot": 13,
+          "move": 202
+        },
+        {
+          "uid": "center-pc-37",
+          "speciesId": 76,
+          "level": 97,
+          "hp": 1632,
+          "maxHp": 1659,
+          "x": 1229.95,
+          "y": 446.9,
+          "alive": true,
+          "placed": true,
+          "spot": 27,
+          "move": 297
+        },
+        {
+          "uid": "center-pc-12",
+          "speciesId": 6,
+          "level": 99,
+          "hp": 1636,
+          "maxHp": 1636,
+          "x": 1229.7,
+          "y": 591.35,
+          "alive": true,
+          "placed": true,
+          "spot": 36,
+          "move": 303
+        },
+        {
+          "uid": "center-pc-2",
+          "speciesId": 65,
+          "level": 100,
+          "hp": 1198,
+          "maxHp": 1198,
+          "x": 1229.7,
+          "y": 716.65,
+          "alive": true,
+          "placed": true,
+          "spot": 45,
+          "move": 148
+        },
+        {
+          "uid": "center-pc-7",
+          "speciesId": 94,
+          "level": 97,
+          "hp": 1258,
+          "maxHp": 1258,
+          "x": 1229.45,
+          "y": 861.1,
+          "alive": true,
+          "placed": true,
+          "spot": 54,
+          "move": 308
+        },
+        {
+          "uid": "center-pc-22",
+          "speciesId": 34,
+          "level": 95,
+          "hp": 1411,
+          "maxHp": 1644,
+          "x": 1102.65,
+          "y": 591.35,
+          "alive": true,
+          "placed": true,
+          "spot": 35,
+          "move": 206
+        }
+      ],
+      "enemies": []
+    },
+    "party": [
+      {
+        "uid": "center-pc-17",
+        "speciesId": 26,
+        "level": 100,
+        "shiny": 0,
+        "moves": [
+          142,
+          143,
+          202,
+          219
+        ],
+        "experience": 1382336
+      },
+      {
+        "uid": "center-pc-12",
+        "speciesId": 6,
+        "level": 99,
+        "shiny": 0,
+        "moves": [
+          184,
+          143,
+          303,
+          106
+        ],
+        "experience": 0
+      },
+      {
+        "uid": "center-pc-2",
+        "speciesId": 65,
+        "level": 100,
+        "shiny": 0,
+        "moves": [
+          148,
+          115,
+          89
+        ],
+        "experience": 795196
+      },
+      {
+        "uid": "center-pc-37",
+        "speciesId": 76,
+        "level": 97,
+        "shiny": 0,
+        "moves": [
+          155,
+          343,
+          143,
+          297
+        ],
+        "experience": 267150
+      },
+      {
+        "uid": "center-pc-22",
+        "speciesId": 34,
+        "level": 95,
+        "shiny": 0,
+        "moves": [
+          206,
+          143,
+          171,
+          182
+        ],
+        "experience": -1103410264
+      },
+      {
+        "uid": "center-pc-7",
+        "speciesId": 94,
+        "level": 97,
+        "shiny": 0,
+        "moves": [
+          308,
+          143,
+          237,
+          307
+        ],
+        "experience": 410462
+      }
+    ],
+    "nextStage": "class_955",
+    "error": {
+      "message": "Invalid experience.",
+      "stack": "Error: Invalid experience.\n    at integer (file://src/model.js:127:11)\n    at file://src/model.js:166:19\n    at Array.map (<anonymous>)\n    at validateSave (file://src/model.js:145:33)\n    at checkSave (file://tools/bot/runtime.mjs:103:47)\n    at Runner.play (file://tools/bot/run.mjs:117:7)\n    at Runner.objective (file://tools/bot/run.mjs:141:25)\n    at Runner.campaign (file://tools/bot/run.mjs:156:27)\n    at main (file://tools/bot/run.mjs:279:59)"
+    }
+  },
+  "issues": [
+    {
+      "id": "BOT-001",
+      "kind": "harness-or-game-error",
+      "message": "Invalid experience.",
+      "stage": "class_953",
+      "attempt": 11,
+      "seed": 2633394879,
+      "frame": 2274,
+      "count": 1,
+      "checkpoint": "checkpoints/00011.json",
+      "error": {
+        "message": "Invalid experience.",
+        "stack": "Error: Invalid experience.\n    at integer (file://src/model.js:127:11)\n    at file://src/model.js:166:19\n    at Array.map (<anonymous>)\n    at validateSave (file://src/model.js:145:33)\n    at checkSave (file://tools/bot/runtime.mjs:103:47)\n    at Runner.play (file://tools/bot/run.mjs:117:7)\n    at Runner.objective (file://tools/bot/run.mjs:141:25)\n    at Runner.campaign (file://tools/bot/run.mjs:156:27)\n    at main (file://tools/bot/run.mjs:279:59)"
+      },
+      "snapshot": {
+        "state": "won",
+        "frame": 2274,
+        "wave": 5,
+        "totalWaves": 4,
+        "candy": 5,
+        "potions": 6,
+        "stats": {
+          "defeated": 33,
+          "captured": 0,
+          "earned": 598
+        },
+        "towers": [
+          {
+            "uid": "center-pc-17",
+            "speciesId": 26,
+            "level": 100,
+            "hp": 1272,
+            "maxHp": 1310,
+            "x": 1230.15,
+            "y": 327.45,
+            "alive": true,
+            "placed": true,
+            "spot": 13,
+            "move": 202
+          },
+          {
+            "uid": "center-pc-37",
+            "speciesId": 76,
+            "level": 97,
+            "hp": 1632,
+            "maxHp": 1659,
+            "x": 1229.95,
+            "y": 446.9,
+            "alive": true,
+            "placed": true,
+            "spot": 27,
+            "move": 297
+          },
+          {
+            "uid": "center-pc-12",
+            "speciesId": 6,
+            "level": 99,
+            "hp": 1636,
+            "maxHp": 1636,
+            "x": 1229.7,
+            "y": 591.35,
+            "alive": true,
+            "placed": true,
+            "spot": 36,
+            "move": 303
+          },
+          {
+            "uid": "center-pc-2",
+            "speciesId": 65,
+            "level": 100,
+            "hp": 1198,
+            "maxHp": 1198,
+            "x": 1229.7,
+            "y": 716.65,
+            "alive": true,
+            "placed": true,
+            "spot": 45,
+            "move": 148
+          },
+          {
+            "uid": "center-pc-7",
+            "speciesId": 94,
+            "level": 97,
+            "hp": 1258,
+            "maxHp": 1258,
+            "x": 1229.45,
+            "y": 861.1,
+            "alive": true,
+            "placed": true,
+            "spot": 54,
+            "move": 308
+          },
+          {
+            "uid": "center-pc-22",
+            "speciesId": 34,
+            "level": 95,
+            "hp": 1411,
+            "maxHp": 1644,
+            "x": 1102.65,
+            "y": 591.35,
+            "alive": true,
+            "placed": true,
+            "spot": 35,
+            "move": 206
+          }
+        ],
+        "enemies": []
+      }
+    }
+  ]
+}

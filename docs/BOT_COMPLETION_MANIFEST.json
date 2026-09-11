@@ -1,0 +1,2327 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "2f73d0c8588e52a8c0c53ee1485a289c34e2962b",
+  "status": "content audit, not successful playthrough",
+  "completion": {
+    "campaignIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "challengeIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pokedexSpeciesIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151
+    ],
+    "pokedexForms": [
+      "normal",
+      "shiny",
+      "shadow"
+    ],
+    "recommendedPokedexTarget": "151 unique species across forms, report all form counts separately",
+    "achievementIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "multiplayerVariants": [
+      "multi_level_1_0",
+      "multi_level_1_1",
+      "multi_level_2"
+    ]
+  },
+  "campaign": [
+    {
+      "id": 1,
+      "name": "Oak's Lab",
+      "mode": "defense",
+      "waves": 5,
+      "phases": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Route 1",
+      "mode": "defense",
+      "waves": 6,
+      "phases": [
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Route 2",
+      "mode": "defense",
+      "waves": 4,
+      "phases": [
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Viridian Forest 1",
+      "mode": "defense",
+      "waves": 10,
+      "phases": [
+        4
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Pewter Gym",
+      "mode": "defense",
+      "waves": 10,
+      "phases": [
+        5
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Route 3",
+      "mode": "defense",
+      "waves": 30,
+      "phases": [
+        6
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Viridian Forest 2",
+      "mode": "defense",
+      "waves": 30,
+      "phases": [
+        7
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Mt. Moon 1",
+      "mode": "defense",
+      "waves": 9,
+      "phases": [
+        8
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Mt. Moon 2",
+      "mode": "defense",
+      "waves": 30,
+      "phases": [
+        9
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Cerulean Gym 1",
+      "mode": "defense",
+      "waves": 20,
+      "phases": [
+        10
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Cerulean Gym 2",
+      "mode": "defense",
+      "waves": 1,
+      "phases": [
+        11
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Route 24",
+      "mode": "defense",
+      "waves": 1,
+      "phases": [
+        12,
+        "class_1115",
+        "class_957",
+        "class_1116",
+        "class_960",
+        "class_1117",
+        "class_962",
+        "class_1119",
+        "class_965",
+        "class_1120"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Route 5",
+      "mode": "defense",
+      "waves": 45,
+      "phases": [
+        13
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Vermillion City",
+      "mode": "defense",
+      "waves": 15,
+      "phases": [
+        14
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Vermillion Gym",
+      "mode": "defense",
+      "waves": 40,
+      "phases": [
+        15
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Diglett's Cave",
+      "mode": "defense",
+      "waves": 25,
+      "phases": [
+        16
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Rock Tunnel",
+      "mode": "branch",
+      "waves": 0,
+      "phases": [
+        17
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Lavender Town",
+      "mode": "defense",
+      "waves": 8,
+      "phases": [
+        18
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Route 8",
+      "mode": "defense",
+      "waves": 45,
+      "phases": [
+        19
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Celadon Gym",
+      "mode": "defense",
+      "waves": 16,
+      "phases": [
+        20
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Rocket Hideout",
+      "mode": "defense",
+      "waves": 47,
+      "phases": [
+        21
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Poke Tower 1",
+      "mode": "defense",
+      "waves": 30,
+      "phases": [
+        22
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Poke Tower 2",
+      "mode": "defense",
+      "waves": 10,
+      "phases": [
+        23
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Route 12",
+      "mode": "defense",
+      "waves": 45,
+      "phases": [
+        24
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Saffron City",
+      "mode": "defense",
+      "waves": 7,
+      "phases": [
+        25
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Saffron Dojo",
+      "mode": "invasion",
+      "waves": 1,
+      "phases": [
+        26
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Route 15",
+      "mode": "defense",
+      "waves": 60,
+      "phases": [
+        27
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Fuchsia Gym",
+      "mode": "defense",
+      "waves": 9,
+      "phases": [
+        28
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Safari Zone",
+      "mode": "safari",
+      "waves": 60,
+      "phases": [
+        29
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Route 17",
+      "mode": "defense",
+      "waves": 10,
+      "phases": [
+        30
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Route 19",
+      "mode": "defense",
+      "waves": 60,
+      "phases": [
+        31
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Cinnabar Island",
+      "mode": "defense",
+      "waves": 30,
+      "phases": [
+        32
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Cinnabar Gym",
+      "mode": "defense",
+      "waves": 10,
+      "phases": [
+        33
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Pallet Town",
+      "mode": "defense",
+      "waves": 60,
+      "phases": [
+        34
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Viridian City",
+      "mode": "defense",
+      "waves": 8,
+      "phases": [
+        35
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Viridian Ending",
+      "mode": "story",
+      "waves": 0,
+      "phases": [
+        36
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Power Plant",
+      "mode": "defense",
+      "waves": 30,
+      "phases": [
+        37
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Seafoam Island",
+      "mode": "defense",
+      "waves": 30,
+      "phases": [
+        38
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Victory Road",
+      "mode": "defense",
+      "waves": 30,
+      "phases": [
+        39
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Elite 4",
+      "mode": "defense",
+      "waves": 4,
+      "phases": [
+        40,
+        "class_953",
+        "class_955",
+        "class_958"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Champion",
+      "mode": "defense",
+      "waves": 6,
+      "phases": [
+        41
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Unknown Dungeon",
+      "mode": "defense",
+      "waves": 40,
+      "phases": [
+        42
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "id": 1,
+      "stage": "class_951",
+      "mode": "defense",
+      "waves": 1,
+      "temporaryParty": true,
+      "forcedParty": [
+        {
+          "speciesId": 19,
+          "level": 6,
+          "moves": [
+            3,
+            4
+          ],
+          "selectedMove": 3
+        },
+        {
+          "speciesId": 11,
+          "level": 6,
+          "moves": [
+            14,
+            7
+          ],
+          "selectedMove": 14
+        },
+        {
+          "speciesId": 16,
+          "level": 6,
+          "moves": [
+            1,
+            2
+          ],
+          "selectedMove": 1
+        },
+        {
+          "speciesId": 14,
+          "level": 6,
+          "moves": [
+            14,
+            7
+          ],
+          "selectedMove": 14
+        },
+        {
+          "speciesId": 4,
+          "level": 6,
+          "moves": [
+            6,
+            10
+          ],
+          "selectedMove": 6
+        }
+      ],
+      "rewards": "shiny Geodude"
+    },
+    {
+      "id": 2,
+      "stage": "class_949",
+      "mode": "invasion",
+      "waves": 1,
+      "temporaryParty": true,
+      "forcedParty": [
+        {
+          "speciesId": 39,
+          "level": 9,
+          "moves": [
+            47,
+            25,
+            48
+          ],
+          "selectedMove": 47
+        },
+        {
+          "speciesId": 35,
+          "level": 9,
+          "moves": [
+            48,
+            25,
+            62,
+            63
+          ],
+          "selectedMove": 48
+        },
+        {
+          "speciesId": 74,
+          "level": 9,
+          "moves": [
+            1,
+            25,
+            64,
+            66
+          ],
+          "selectedMove": 1
+        },
+        {
+          "speciesId": 16,
+          "level": 9,
+          "moves": [
+            1,
+            2
+          ],
+          "selectedMove": 1
+        },
+        {
+          "speciesId": 25,
+          "level": 9,
+          "moves": [
+            5,
+            22
+          ],
+          "selectedMove": 5
+        },
+        {
+          "speciesId": 4,
+          "level": 9,
+          "moves": [
+            6,
+            10
+          ],
+          "selectedMove": 6
+        }
+      ],
+      "rewards": "Old Rod (inventory 6)"
+    },
+    {
+      "id": 3,
+      "stage": "class_950",
+      "mode": "defense",
+      "waves": 20,
+      "temporaryParty": true,
+      "forcedParty": [],
+      "rewards": "achievement and collection access"
+    },
+    {
+      "id": 4,
+      "stage": "class_928",
+      "mode": "defense",
+      "waves": 9,
+      "temporaryParty": false,
+      "forcedParty": [],
+      "rewards": null
+    },
+    {
+      "id": 5,
+      "stage": "class_910",
+      "mode": "defense",
+      "waves": 40,
+      "temporaryParty": false,
+      "forcedParty": [],
+      "rewards": null
+    },
+    {
+      "id": 6,
+      "stage": "class_952",
+      "mode": "defense",
+      "waves": 16,
+      "temporaryParty": true,
+      "forcedParty": [
+        {
+          "speciesId": 6,
+          "level": 47,
+          "moves": [
+            203,
+            184
+          ],
+          "selectedMove": 203
+        },
+        {
+          "speciesId": 122,
+          "level": 47,
+          "moves": [
+            148,
+            253
+          ],
+          "selectedMove": 148
+        },
+        {
+          "speciesId": 3,
+          "level": 47,
+          "moves": [
+            157,
+            94,
+            26
+          ],
+          "selectedMove": 157
+        },
+        {
+          "speciesId": 22,
+          "level": 47,
+          "moves": [
+            185,
+            158,
+            43
+          ],
+          "selectedMove": 185
+        },
+        {
+          "speciesId": 114,
+          "level": 47,
+          "moves": [
+            283,
+            108,
+            91
+          ],
+          "selectedMove": 283
+        },
+        {
+          "speciesId": 45,
+          "level": 47,
+          "moves": [
+            24,
+            73,
+            163
+          ],
+          "selectedMove": 24
+        }
+      ],
+      "rewards": "shiny Magnemite"
+    }
+  ],
+  "tunnel": {
+    "rooms": {
+      "1": {
+        "stage": "class_954",
+        "flag": 0,
+        "wildWaves": 10,
+        "exits": {
+          "left": "wild",
+          "right": 2
+        },
+        "wild": {
+          "41": "class_23",
+          "66": "class_69",
+          "74": "class_71",
+          "95": "class_70",
+          "100": "class_72"
+        }
+      },
+      "2": {
+        "stage": "class_956",
+        "flag": 1,
+        "battle": "trainer",
+        "exits": {
+          "left": 1,
+          "up": 3
+        }
+      },
+      "3": {
+        "stage": "class_959",
+        "exits": {
+          "down": 2,
+          "right": 5,
+          "up": 4
+        }
+      },
+      "4": {
+        "stage": "class_1118",
+        "flag": 2,
+        "battle": "invasion",
+        "exits": {
+          "down": 3,
+          "up": 6
+        }
+      },
+      "5": {
+        "stage": "class_961",
+        "flag": 6,
+        "wildWaves": 20,
+        "exits": {
+          "left": 3,
+          "up": 7
+        },
+        "wild": {
+          "41": "class_82",
+          "66": "class_79",
+          "74": "class_83",
+          "95": "class_80",
+          "100": "class_81"
+        }
+      },
+      "6": {
+        "stage": "class_964",
+        "exits": {
+          "down": 4,
+          "right": 7,
+          "left": "exit",
+          "up": 10
+        }
+      },
+      "7": {
+        "stage": "class_963",
+        "flag": 5,
+        "wildWaves": 30,
+        "exits": {
+          "left": 6,
+          "up": 8,
+          "down": 5
+        },
+        "wild": {
+          "41": "class_86",
+          "66": "class_87",
+          "74": "class_89",
+          "95": "class_85",
+          "100": "class_88"
+        }
+      },
+      "8": {
+        "stage": "class_1121",
+        "flag": 4,
+        "battle": "invasion",
+        "exits": {
+          "down": 7,
+          "left": 9
+        }
+      },
+      "9": {
+        "stage": "class_968",
+        "flag": 7,
+        "battle": "secret",
+        "exits": {
+          "left": 10,
+          "right": 8
+        }
+      },
+      "10": {
+        "stage": "class_966",
+        "flag": 3,
+        "battle": "trainer",
+        "exits": {
+          "down": 6,
+          "right": 9
+        }
+      }
+    },
+    "completeRoute": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      "exit"
+    ],
+    "allRoomRoute": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      6,
+      4,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      6,
+      "exit"
+    ],
+    "requirements": [
+      "Teach Cut (224) after stage16 for10000",
+      "Replay stage3; place Cut-knower in spot3; never deploy Abra; win",
+      "awardRoute2Flash result; teach Flash (225) for10000",
+      "Include Flash-knower in party; enter through RockTunnel API",
+      "Fight room1 wild encounter to set flag0 before secret room9 route",
+      "Visit every battle/wild flag0..6 before secret room9"
+    ]
+  },
+  "evolutions": [
+    {
+      "from": 1,
+      "name": "Bulbasaur",
+      "to": [
+        {
+          "to": 2,
+          "level": 16,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 2,
+      "name": "Ivysaur",
+      "to": [
+        {
+          "to": 3,
+          "level": 32,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 4,
+      "name": "Charmander",
+      "to": [
+        {
+          "to": 5,
+          "level": 16,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 5,
+      "name": "Charmeleon",
+      "to": [
+        {
+          "to": 6,
+          "level": 36,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 7,
+      "name": "Squirtle",
+      "to": [
+        {
+          "to": 8,
+          "level": 16,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 8,
+      "name": "Wartortle",
+      "to": [
+        {
+          "to": 9,
+          "level": 36,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 10,
+      "name": "Caterpie",
+      "to": [
+        {
+          "to": 11,
+          "level": 7,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 11,
+      "name": "Metapod",
+      "to": [
+        {
+          "to": 12,
+          "level": 10,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 13,
+      "name": "Weedle",
+      "to": [
+        {
+          "to": 14,
+          "level": 7,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 14,
+      "name": "Kakuna",
+      "to": [
+        {
+          "to": 15,
+          "level": 10,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 16,
+      "name": "Pidgey",
+      "to": [
+        {
+          "to": 17,
+          "level": 18,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 17,
+      "name": "Pidgeotto",
+      "to": [
+        {
+          "to": 18,
+          "level": 36,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 19,
+      "name": "Rattata",
+      "to": [
+        {
+          "to": 20,
+          "level": 20,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 21,
+      "name": "Spearow",
+      "to": [
+        {
+          "to": 22,
+          "level": 20,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 23,
+      "name": "Ekans",
+      "to": [
+        {
+          "to": 24,
+          "level": 22,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 25,
+      "name": "Pikachu",
+      "to": [
+        {
+          "to": 26,
+          "itemId": 3,
+          "item": "Thunder Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 27,
+      "name": "Sandshrew",
+      "to": [
+        {
+          "to": 28,
+          "level": 22,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 29,
+      "name": "Nidoran F",
+      "to": [
+        {
+          "to": 30,
+          "level": 16,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 30,
+      "name": "Nidorina",
+      "to": [
+        {
+          "to": 31,
+          "itemId": 1,
+          "item": "Moon Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 32,
+      "name": "Nidoran M",
+      "to": [
+        {
+          "to": 33,
+          "level": 16,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 33,
+      "name": "Nidorino",
+      "to": [
+        {
+          "to": 34,
+          "itemId": 1,
+          "item": "Moon Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 35,
+      "name": "Clefairy",
+      "to": [
+        {
+          "to": 36,
+          "itemId": 1,
+          "item": "Moon Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 37,
+      "name": "Vulpix",
+      "to": [
+        {
+          "to": 38,
+          "itemId": 5,
+          "item": "Fire Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 39,
+      "name": "Jigglypuff",
+      "to": [
+        {
+          "to": 40,
+          "itemId": 1,
+          "item": "Moon Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 41,
+      "name": "Zubat",
+      "to": [
+        {
+          "to": 42,
+          "level": 22,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 43,
+      "name": "Oddish",
+      "to": [
+        {
+          "to": 44,
+          "level": 21,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 44,
+      "name": "Gloom",
+      "to": [
+        {
+          "to": 45,
+          "itemId": 2,
+          "item": "Leaf Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 46,
+      "name": "Paras",
+      "to": [
+        {
+          "to": 47,
+          "level": 24,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 48,
+      "name": "Venonat",
+      "to": [
+        {
+          "to": 49,
+          "level": 31,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 50,
+      "name": "Diglett",
+      "to": [
+        {
+          "to": 51,
+          "level": 26,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 52,
+      "name": "Meowth",
+      "to": [
+        {
+          "to": 53,
+          "level": 28,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 54,
+      "name": "Psyduck",
+      "to": [
+        {
+          "to": 55,
+          "level": 33,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 56,
+      "name": "Mankey",
+      "to": [
+        {
+          "to": 57,
+          "level": 28,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 58,
+      "name": "Growlithe",
+      "to": [
+        {
+          "to": 59,
+          "itemId": 5,
+          "item": "Fire Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 60,
+      "name": "Poliwag",
+      "to": [
+        {
+          "to": 61,
+          "level": 25,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 61,
+      "name": "Poliwhirl",
+      "to": [
+        {
+          "to": 62,
+          "itemId": 4,
+          "item": "Water Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 63,
+      "name": "Abra",
+      "to": [
+        {
+          "to": 64,
+          "level": 16,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 66,
+      "name": "Machop",
+      "to": [
+        {
+          "to": 67,
+          "level": 28,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 69,
+      "name": "Bellsprout",
+      "to": [
+        {
+          "to": 70,
+          "level": 21,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 70,
+      "name": "Weepinbell",
+      "to": [
+        {
+          "to": 71,
+          "itemId": 2,
+          "item": "Leaf Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 72,
+      "name": "Tentacool",
+      "to": [
+        {
+          "to": 73,
+          "level": 30,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 74,
+      "name": "Geodude",
+      "to": [
+        {
+          "to": 75,
+          "level": 25,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 77,
+      "name": "Ponyta",
+      "to": [
+        {
+          "to": 78,
+          "level": 40,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 79,
+      "name": "Slowpoke",
+      "to": [
+        {
+          "to": 80,
+          "level": 37,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 81,
+      "name": "Magnemite",
+      "to": [
+        {
+          "to": 82,
+          "level": 30,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 84,
+      "name": "Doduo",
+      "to": [
+        {
+          "to": 85,
+          "level": 31,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 86,
+      "name": "Seel",
+      "to": [
+        {
+          "to": 87,
+          "level": 34,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 88,
+      "name": "Grimer",
+      "to": [
+        {
+          "to": 89,
+          "level": 38,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 90,
+      "name": "Shellder",
+      "to": [
+        {
+          "to": 91,
+          "itemId": 4,
+          "item": "Water Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 92,
+      "name": "Gastly",
+      "to": [
+        {
+          "to": 93,
+          "level": 25,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 96,
+      "name": "Drowzee",
+      "to": [
+        {
+          "to": 97,
+          "level": 26,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 98,
+      "name": "Krabby",
+      "to": [
+        {
+          "to": 99,
+          "level": 28,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 100,
+      "name": "Voltorb",
+      "to": [
+        {
+          "to": 101,
+          "level": 30,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 102,
+      "name": "Exeggcute",
+      "to": [
+        {
+          "to": 103,
+          "itemId": 2,
+          "item": "Leaf Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 104,
+      "name": "Cubone",
+      "to": [
+        {
+          "to": 105,
+          "level": 28,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 109,
+      "name": "Koffing",
+      "to": [
+        {
+          "to": 110,
+          "level": 35,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 111,
+      "name": "Rhyhorn",
+      "to": [
+        {
+          "to": 112,
+          "level": 42,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 116,
+      "name": "Horsea",
+      "to": [
+        {
+          "to": 117,
+          "level": 32,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 118,
+      "name": "Goldeen",
+      "to": [
+        {
+          "to": 119,
+          "level": 33,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 120,
+      "name": "Staryu",
+      "to": [
+        {
+          "to": 121,
+          "itemId": 4,
+          "item": "Water Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 129,
+      "name": "Magikarp",
+      "to": [
+        {
+          "to": 130,
+          "level": 20,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 133,
+      "name": "Eevee",
+      "to": [
+        {
+          "to": 135,
+          "itemId": 3,
+          "item": "Thunder Stone",
+          "method": "item"
+        },
+        {
+          "to": 134,
+          "itemId": 4,
+          "item": "Water Stone",
+          "method": "item"
+        },
+        {
+          "to": 136,
+          "itemId": 5,
+          "item": "Fire Stone",
+          "method": "item"
+        }
+      ]
+    },
+    {
+      "from": 138,
+      "name": "Omanyte",
+      "to": [
+        {
+          "to": 139,
+          "level": 40,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 140,
+      "name": "Kabuto",
+      "to": [
+        {
+          "to": 141,
+          "level": 40,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 147,
+      "name": "Dratini",
+      "to": [
+        {
+          "to": 148,
+          "level": 30,
+          "method": "level"
+        }
+      ]
+    },
+    {
+      "from": 148,
+      "name": "Dragonair",
+      "to": [
+        {
+          "to": 149,
+          "level": 55,
+          "method": "level"
+        }
+      ]
+    }
+  ],
+  "tradeEvolutions": [
+    {
+      "from": 64,
+      "to": 65
+    },
+    {
+      "from": 67,
+      "to": 68
+    },
+    {
+      "from": 75,
+      "to": 76
+    },
+    {
+      "from": 93,
+      "to": 94
+    }
+  ],
+  "commerce": {
+    "freshProfileCredits": 10,
+    "creditsPerBadgeFirstClaim": 5,
+    "battleAdoptions": [
+      {
+        "id": "battle-1",
+        "speciesId": 3,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-2",
+        "speciesId": 6,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-3",
+        "speciesId": 9,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-4",
+        "speciesId": 12,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-5",
+        "speciesId": 15,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-6",
+        "speciesId": 18,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-7",
+        "speciesId": 20,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-8",
+        "speciesId": 22,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-9",
+        "speciesId": 24,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-10",
+        "speciesId": 26,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-11",
+        "speciesId": 28,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-12",
+        "speciesId": 31,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-13",
+        "speciesId": 34,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-14",
+        "speciesId": 36,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-15",
+        "speciesId": 37,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-16",
+        "speciesId": 40,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-17",
+        "speciesId": 42,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-18",
+        "speciesId": 45,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-19",
+        "speciesId": 47,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-20",
+        "speciesId": 49,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-21",
+        "speciesId": 51,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-22",
+        "speciesId": 53,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-23",
+        "speciesId": 55,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-24",
+        "speciesId": 57,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-25",
+        "speciesId": 59,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-26",
+        "speciesId": 62,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-27",
+        "speciesId": 65,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-28",
+        "speciesId": 68,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-29",
+        "speciesId": 71,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-30",
+        "speciesId": 73,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-31",
+        "speciesId": 76,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-32",
+        "speciesId": 78,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-33",
+        "speciesId": 80,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-34",
+        "speciesId": 82,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-35",
+        "speciesId": 83,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-36",
+        "speciesId": 85,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-37",
+        "speciesId": 87,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-38",
+        "speciesId": 91,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-39",
+        "speciesId": 94,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-40",
+        "speciesId": 95,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-41",
+        "speciesId": 97,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-42",
+        "speciesId": 99,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-43",
+        "speciesId": 101,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-44",
+        "speciesId": 103,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-45",
+        "speciesId": 105,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-46",
+        "speciesId": 108,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-47",
+        "speciesId": 110,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-48",
+        "speciesId": 112,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-49",
+        "speciesId": 113,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-50",
+        "speciesId": 114,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-51",
+        "speciesId": 115,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-52",
+        "speciesId": 119,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-53",
+        "speciesId": 121,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-54",
+        "speciesId": 122,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-55",
+        "speciesId": 123,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-56",
+        "speciesId": 124,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-57",
+        "speciesId": 125,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-58",
+        "speciesId": 126,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-59",
+        "speciesId": 127,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-60",
+        "speciesId": 128,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-61",
+        "speciesId": 130,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-62",
+        "speciesId": 131,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-63",
+        "speciesId": 132,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-64",
+        "speciesId": 133,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-65",
+        "speciesId": 137,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-66",
+        "speciesId": 139,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-67",
+        "speciesId": 141,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-68",
+        "speciesId": 142,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-69",
+        "speciesId": 143,
+        "level": 90,
+        "cost": 1
+      },
+      {
+        "id": "battle-70",
+        "speciesId": 149,
+        "level": 90,
+        "cost": 1
+      }
+    ],
+    "corner": [
+      {
+        "id": "corner-1",
+        "speciesId": 63,
+        "variant": "regular",
+        "cost": 120,
+        "kind": "pokemon"
+      },
+      {
+        "id": "corner-2",
+        "speciesId": 35,
+        "variant": "regular",
+        "cost": 500,
+        "kind": "pokemon"
+      },
+      {
+        "id": "corner-3",
+        "speciesId": 127,
+        "variant": "regular",
+        "cost": 2500,
+        "kind": "pokemon"
+      },
+      {
+        "id": "corner-4",
+        "speciesId": 123,
+        "variant": "regular",
+        "cost": 2800,
+        "kind": "pokemon"
+      },
+      {
+        "id": "corner-5",
+        "speciesId": 137,
+        "variant": "regular",
+        "cost": 5500,
+        "kind": "pokemon"
+      },
+      {
+        "id": "corner-6",
+        "speciesId": 147,
+        "variant": "regular",
+        "cost": 6500,
+        "kind": "pokemon"
+      },
+      {
+        "id": "corner-7",
+        "speciesId": 63,
+        "variant": "shiny",
+        "cost": 9000,
+        "kind": "pokemon"
+      },
+      {
+        "id": "corner-8",
+        "speciesId": 35,
+        "variant": "shiny",
+        "cost": 15000,
+        "kind": "pokemon"
+      },
+      {
+        "id": "corner-9",
+        "speciesId": 127,
+        "variant": "shiny",
+        "cost": 50000,
+        "kind": "pokemon"
+      },
+      {
+        "id": "corner-10",
+        "speciesId": 123,
+        "variant": "shiny",
+        "cost": 100000,
+        "kind": "pokemon"
+      },
+      {
+        "id": "corner-11",
+        "speciesId": 137,
+        "variant": "shiny",
+        "cost": 120000,
+        "kind": "pokemon"
+      },
+      {
+        "id": "corner-12",
+        "speciesId": 147,
+        "variant": "shiny",
+        "cost": 150000,
+        "kind": "pokemon"
+      },
+      {
+        "id": "corner-13",
+        "variant": "shiny",
+        "cost": 200000,
+        "kind": "egg"
+      },
+      {
+        "id": "corner-14",
+        "variant": "shadow",
+        "cost": 400000,
+        "kind": "egg"
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "AUDIT-001",
+      "severity": "minor",
+      "category": "achievement-logic",
+      "status": "unit-probe-confirmed",
+      "summary": "A qualifying Cerulean victory awards achievement8 and suppresses achievement3 through else-if.",
+      "source": "src/stage-hooks.js:22",
+      "workaround": "Replay stage10 with no Grass/Electric and at least one deployed Pokémon above30, or with a candy lost."
+    },
+    {
+      "id": "AUDIT-002",
+      "severity": "minor",
+      "category": "content-label",
+      "status": "unit-probe-confirmed",
+      "summary": "Achievement11/Fuchsia triggers at metadata stage25/Saffron City; achievement12/Saffron triggers at stage28/Fuchsia Gym.",
+      "source": "src/stage-hooks.js:6",
+      "workaround": "Use implementation stage IDs for achievement strategy; report displayed-label mismatch."
+    }
+  ],
+  "caveats": [
+    "Encounter candidates are metadata probes, not completed-battle evidence.",
+    "Three forms have separate flags; normal-only151 and any-form151 are distinct targets.",
+    "Calendar advancement and RNG forcing must never be represented as ordinary successful play.",
+    "All campaign completion evidence must preserve root campaignId across phase transitions.",
+    "Battle events must run app-equivalent dex/session/Flash hooks.",
+    "Native move runtime requires data.timelines, otherwise engine uses fallback behavior."
+  ]
+}

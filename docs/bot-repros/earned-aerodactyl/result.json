@@ -1,0 +1,870 @@
+{
+  "diagnosticOnly": true,
+  "sourceFingerprint": "56798b4f73e425cda855993dbc280dd5c8c2904a903432f155d0c5952f43eecb",
+  "parent": {
+    "source": "/home/jaykob/Documents/Codex/2026-09-08-on-my-github-is-a-repo/Phaser-PTD1/artifacts/bot/collection-focus-3/report.json",
+    "completion": {
+      "complete": false,
+      "campaign": [
+        {
+          "id": 1,
+          "name": "Oak's Lab",
+          "status": "won"
+        },
+        {
+          "id": 2,
+          "name": "Route 1",
+          "status": "won"
+        },
+        {
+          "id": 3,
+          "name": "Route 2",
+          "status": "won"
+        },
+        {
+          "id": 4,
+          "name": "Viridian Forest 1",
+          "status": "won"
+        },
+        {
+          "id": 5,
+          "name": "Pewter Gym",
+          "status": "won"
+        },
+        {
+          "id": 6,
+          "name": "Route 3",
+          "status": "won"
+        },
+        {
+          "id": 7,
+          "name": "Viridian Forest 2",
+          "status": "won"
+        },
+        {
+          "id": 8,
+          "name": "Mt. Moon 1",
+          "status": "won"
+        },
+        {
+          "id": 9,
+          "name": "Mt. Moon 2",
+          "status": "won"
+        },
+        {
+          "id": 10,
+          "name": "Cerulean Gym 1",
+          "status": "won"
+        },
+        {
+          "id": 11,
+          "name": "Cerulean Gym 2",
+          "status": "won"
+        },
+        {
+          "id": 12,
+          "name": "Route 24",
+          "status": "won"
+        },
+        {
+          "id": 13,
+          "name": "Route 5",
+          "status": "won"
+        },
+        {
+          "id": 14,
+          "name": "Vermillion City",
+          "status": "won"
+        },
+        {
+          "id": 15,
+          "name": "Vermillion Gym",
+          "status": "won"
+        },
+        {
+          "id": 16,
+          "name": "Diglett's Cave",
+          "status": "won"
+        },
+        {
+          "id": 17,
+          "name": "Rock Tunnel",
+          "status": "won"
+        },
+        {
+          "id": 18,
+          "name": "Lavender Town",
+          "status": "won"
+        },
+        {
+          "id": 19,
+          "name": "Route 8",
+          "status": "won"
+        },
+        {
+          "id": 20,
+          "name": "Celadon Gym",
+          "status": "won"
+        },
+        {
+          "id": 21,
+          "name": "Rocket Hideout",
+          "status": "won"
+        },
+        {
+          "id": 22,
+          "name": "Poke Tower 1",
+          "status": "won"
+        },
+        {
+          "id": 23,
+          "name": "Poke Tower 2",
+          "status": "won"
+        },
+        {
+          "id": 24,
+          "name": "Route 12",
+          "status": "won"
+        },
+        {
+          "id": 25,
+          "name": "Saffron City",
+          "status": "won"
+        },
+        {
+          "id": 26,
+          "name": "Saffron Dojo",
+          "status": "won"
+        },
+        {
+          "id": 27,
+          "name": "Route 15",
+          "status": "won"
+        },
+        {
+          "id": 28,
+          "name": "Fuchsia Gym",
+          "status": "won"
+        },
+        {
+          "id": 29,
+          "name": "Safari Zone",
+          "status": "won"
+        },
+        {
+          "id": 30,
+          "name": "Route 17",
+          "status": "won"
+        },
+        {
+          "id": 31,
+          "name": "Route 19",
+          "status": "won"
+        },
+        {
+          "id": 32,
+          "name": "Cinnabar Island",
+          "status": "won"
+        },
+        {
+          "id": 33,
+          "name": "Cinnabar Gym",
+          "status": "won"
+        },
+        {
+          "id": 34,
+          "name": "Pallet Town",
+          "status": "won"
+        },
+        {
+          "id": 35,
+          "name": "Viridian City",
+          "status": "won"
+        },
+        {
+          "id": 36,
+          "name": "Viridian Ending",
+          "status": "won"
+        },
+        {
+          "id": 37,
+          "name": "Power Plant",
+          "status": "won"
+        },
+        {
+          "id": 38,
+          "name": "Seafoam Island",
+          "status": "won"
+        },
+        {
+          "id": 39,
+          "name": "Victory Road",
+          "status": "won"
+        },
+        {
+          "id": 40,
+          "name": "Elite 4",
+          "status": "won"
+        },
+        {
+          "id": 41,
+          "name": "Champion",
+          "status": "won"
+        },
+        {
+          "id": 42,
+          "name": "Unknown Dungeon",
+          "status": "won"
+        }
+      ],
+      "variants": [
+        {
+          "id": "class_1115",
+          "campaignId": 12,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_1116",
+          "campaignId": 12,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_1117",
+          "campaignId": 12,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_1118",
+          "campaignId": 17,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_1119",
+          "campaignId": 12,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_1120",
+          "campaignId": 12,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_1121",
+          "campaignId": 17,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_953",
+          "campaignId": 39,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_954",
+          "campaignId": 17,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_955",
+          "campaignId": 39,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_956",
+          "campaignId": 17,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_957",
+          "campaignId": 12,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_958",
+          "campaignId": 40,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_959",
+          "campaignId": 17,
+          "kind": "navigation",
+          "status": "visited"
+        },
+        {
+          "id": "class_960",
+          "campaignId": 12,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_961",
+          "campaignId": 17,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_962",
+          "campaignId": 12,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_963",
+          "campaignId": 17,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_964",
+          "campaignId": 17,
+          "kind": "navigation",
+          "status": "visited"
+        },
+        {
+          "id": "class_965",
+          "campaignId": 12,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_966",
+          "campaignId": 17,
+          "kind": "battle",
+          "status": "won"
+        },
+        {
+          "id": "class_967",
+          "campaignId": 17,
+          "kind": "navigation",
+          "status": "visited"
+        },
+        {
+          "id": "class_968",
+          "campaignId": 17,
+          "kind": "battle",
+          "status": "won"
+        }
+      ],
+      "challenges": [
+        {
+          "id": 5,
+          "status": "won"
+        },
+        {
+          "id": 4,
+          "status": "won"
+        },
+        {
+          "id": 2,
+          "status": "won"
+        },
+        {
+          "id": 3,
+          "status": "won"
+        },
+        {
+          "id": 1,
+          "status": "won"
+        },
+        {
+          "id": 6,
+          "status": "won"
+        }
+      ],
+      "dex": {
+        "owned": 147,
+        "total": 151,
+        "missing": [
+          107,
+          126,
+          127,
+          142
+        ],
+        "forms": {
+          "normal": {
+            "owned": 145,
+            "missing": [
+              107,
+              126,
+              127,
+              140,
+              141,
+              142
+            ]
+          },
+          "shiny": {
+            "owned": 36,
+            "missing": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              15,
+              21,
+              22,
+              23,
+              25,
+              26,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              44,
+              51,
+              54,
+              55,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              79,
+              80,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151
+            ]
+          },
+          "shadow": {
+            "owned": 30,
+            "missing": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              38,
+              40,
+              42,
+              43,
+              45,
+              46,
+              51,
+              54,
+              55,
+              56,
+              57,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              67,
+              68,
+              69,
+              70,
+              71,
+              74,
+              75,
+              76,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              86,
+              87,
+              88,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              100,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              114,
+              115,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151
+            ]
+          }
+        }
+      },
+      "achievements": [
+        2,
+        3,
+        5,
+        14,
+        100,
+        101,
+        102,
+        103
+      ]
+    }
+  },
+  "attempt": {
+    "number": 1,
+    "stage": "level_32",
+    "campaignId": 32,
+    "name": "Cinnabar Island",
+    "purpose": "collection-strict-reward",
+    "seed": 814657751,
+    "checkpoint": "checkpoints/00001.json",
+    "outcome": "won",
+    "battleOutcome": "won",
+    "frames": 7800,
+    "wave": 31,
+    "stats": {
+      "defeated": 107,
+      "captured": 102,
+      "earned": 5536
+    },
+    "candy": 8,
+    "finalState": {
+      "state": "won",
+      "frame": 7800,
+      "wave": 31,
+      "totalWaves": 30,
+      "candy": 8,
+      "potions": 5,
+      "stats": {
+        "defeated": 107,
+        "captured": 102,
+        "earned": 5536
+      },
+      "towers": [
+        {
+          "uid": "mtsmao00-45980",
+          "speciesId": 150,
+          "level": 87,
+          "hp": 281,
+          "maxHp": 281,
+          "x": 577.65,
+          "y": 195.85,
+          "alive": true,
+          "placed": true,
+          "spot": 9,
+          "move": 148
+        },
+        {
+          "uid": "mtsmao00-46316",
+          "speciesId": 151,
+          "level": 89,
+          "hp": 229,
+          "maxHp": 277,
+          "x": 839.75,
+          "y": 770.15,
+          "alive": true,
+          "placed": true,
+          "spot": 3,
+          "move": 148
+        },
+        {
+          "uid": "mtsmao00-127",
+          "speciesId": 65,
+          "level": 97,
+          "hp": 213,
+          "maxHp": 213,
+          "x": 1231.25,
+          "y": 414.05,
+          "alive": true,
+          "placed": true,
+          "spot": 5,
+          "move": 148
+        },
+        {
+          "uid": "mtsmao00-5012",
+          "speciesId": 26,
+          "level": 100,
+          "hp": 206,
+          "maxHp": 230,
+          "x": 756.45,
+          "y": 195,
+          "alive": true,
+          "placed": true,
+          "spot": 8,
+          "move": 202
+        },
+        {
+          "uid": "mtsmao00-569",
+          "speciesId": 131,
+          "level": 100,
+          "hp": 286,
+          "maxHp": 370,
+          "x": 979.05,
+          "y": 195,
+          "alive": true,
+          "placed": true,
+          "spot": 7,
+          "move": 193
+        },
+        {
+          "uid": "mtsmao00-38",
+          "speciesId": 76,
+          "level": 100,
+          "hp": 270,
+          "maxHp": 270,
+          "x": 1012.75,
+          "y": 419.2,
+          "alive": true,
+          "placed": true,
+          "spot": 10,
+          "move": 297
+        }
+      ],
+      "enemies": []
+    },
+    "party": [
+      {
+        "uid": "mtsmao00-45980",
+        "speciesId": 150,
+        "level": 87,
+        "shiny": 0,
+        "moves": [
+          20,
+          148,
+          115
+        ],
+        "experience": 105576
+      },
+      {
+        "uid": "mtsmao00-127",
+        "speciesId": 65,
+        "level": 97,
+        "shiny": 0,
+        "moves": [
+          89,
+          115,
+          308,
+          148
+        ],
+        "experience": 912705
+      },
+      {
+        "uid": "mtsmao00-46316",
+        "speciesId": 151,
+        "level": 89,
+        "shiny": 0,
+        "moves": [
+          48,
+          148,
+          143
+        ],
+        "experience": 25774
+      },
+      {
+        "uid": "mtsmao00-569",
+        "speciesId": 131,
+        "level": 100,
+        "shiny": 0,
+        "moves": [
+          346,
+          328,
+          193,
+          143
+        ],
+        "experience": 317825
+      },
+      {
+        "uid": "mtsmao00-38",
+        "speciesId": 76,
+        "level": 100,
+        "shiny": 0,
+        "moves": [
+          143,
+          343,
+          297,
+          155
+        ],
+        "experience": 1000135
+      },
+      {
+        "uid": "mtsmao00-5012",
+        "speciesId": 26,
+        "level": 100,
+        "shiny": 0,
+        "moves": [
+          142,
+          202,
+          143,
+          219
+        ],
+        "experience": 1001590
+      }
+    ],
+    "nextStage": null,
+    "dexGained": [
+      142
+    ],
+    "rosterDelta": 103,
+    "moneyDelta": -29464,
+    "levelGains": [],
+    "saveHash": "83e9f9b1ec3270209816aca13b408f5e80b1b947a2f1b4440b9695aa2bce2460",
+    "collectionGained": [
+      142
+    ]
+  },
+  "checkpointSha256": "b94549d2e2b90d67e958e0d17b3e357534b8c90ac4fc4752497f01ab2886399d"
+}

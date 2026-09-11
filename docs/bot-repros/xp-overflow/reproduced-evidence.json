@@ -1,0 +1,322 @@
+{
+  "reproduced": true,
+  "fixtureOnly": false,
+  "sourceCheckpoint": "docs/bot-repros/xp-overflow/checkpoint.json",
+  "stage": "class_953",
+  "seed": 2633394879,
+  "initialSaveHash": "3a3be3b11bc16ea4207e54ca2b5ac17efca6e684fb799b44d822ef3957be4efb",
+  "initialParty": [
+    "center-pc-17",
+    "center-pc-12",
+    "center-pc-2",
+    "center-pc-37",
+    "center-pc-22",
+    "center-pc-7"
+  ],
+  "firstOverflow": {
+    "frame": 2088,
+    "enemy": {
+      "uid": "enemy-33",
+      "speciesId": 89,
+      "level": 102,
+      "baseExperience": 314
+    },
+    "bonusLevel": 100,
+    "contributorActors": 24,
+    "uniqueContributorUids": [
+      "center-pc-37",
+      "center-pc-2",
+      "center-pc-17",
+      "center-pc-7",
+      "center-pc-22"
+    ],
+    "contributors": [
+      {
+        "uid": "center-pc-37",
+        "level": 96
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99
+      },
+      {
+        "uid": "center-pc-37",
+        "level": 96
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99
+      },
+      {
+        "uid": "center-pc-17",
+        "level": 100
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99
+      },
+      {
+        "uid": "center-pc-17",
+        "level": 100
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99
+      },
+      {
+        "uid": "center-pc-37",
+        "level": 96
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99
+      },
+      {
+        "uid": "center-pc-17",
+        "level": 100
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99
+      },
+      {
+        "uid": "center-pc-37",
+        "level": 96
+      },
+      {
+        "uid": "center-pc-17",
+        "level": 100
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99
+      },
+      {
+        "uid": "center-pc-7",
+        "level": 96
+      },
+      {
+        "uid": "center-pc-17",
+        "level": 100
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99
+      },
+      {
+        "uid": "center-pc-17",
+        "level": 100
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99
+      },
+      {
+        "uid": "center-pc-22",
+        "level": 95
+      }
+    ],
+    "awards": [
+      {
+        "uid": "center-pc-37",
+        "level": 96,
+        "amount": 380,
+        "before": 11852,
+        "after": 12232
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99,
+        "amount": 760,
+        "before": 109704,
+        "after": 110464
+      },
+      {
+        "uid": "center-pc-37",
+        "level": 96,
+        "amount": 1520,
+        "before": 12232,
+        "after": 13752
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99,
+        "amount": 3040,
+        "before": 110464,
+        "after": 113504
+      },
+      {
+        "uid": "center-pc-17",
+        "level": 100,
+        "amount": 6080,
+        "before": 962816,
+        "after": 968896
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99,
+        "amount": 12160,
+        "before": 113504,
+        "after": 125664
+      },
+      {
+        "uid": "center-pc-17",
+        "level": 100,
+        "amount": 24320,
+        "before": 968896,
+        "after": 993216
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99,
+        "amount": 48640,
+        "before": 125664,
+        "after": 174304
+      },
+      {
+        "uid": "center-pc-37",
+        "level": 96,
+        "amount": 97280,
+        "before": 13752,
+        "after": 111032
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99,
+        "amount": 194560,
+        "before": 174304,
+        "after": 368864
+      },
+      {
+        "uid": "center-pc-17",
+        "level": 100,
+        "amount": 389120,
+        "before": 993216,
+        "after": 1382336
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99,
+        "amount": 778240,
+        "before": 368864,
+        "after": 1147104
+      },
+      {
+        "uid": "center-pc-37",
+        "level": 96,
+        "amount": 1556480,
+        "before": 111032,
+        "after": 1667512
+      },
+      {
+        "uid": "center-pc-17",
+        "level": 100,
+        "amount": 3112960,
+        "before": 1382336,
+        "after": 1382336
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99,
+        "amount": 6225920,
+        "before": 1147104,
+        "after": 1147104
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99,
+        "amount": 12451840,
+        "before": 1147104,
+        "after": 1147104
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99,
+        "amount": 24903680,
+        "before": 1147104,
+        "after": 1147104
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99,
+        "amount": 49807360,
+        "before": 1147104,
+        "after": 1147104
+      },
+      {
+        "uid": "center-pc-7",
+        "level": 96,
+        "amount": 99614720,
+        "before": 612926,
+        "after": 100227646
+      },
+      {
+        "uid": "center-pc-17",
+        "level": 100,
+        "amount": 199229440,
+        "before": 1382336,
+        "after": 1382336
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99,
+        "amount": 398458880,
+        "before": 1147104,
+        "after": 1147104
+      },
+      {
+        "uid": "center-pc-17",
+        "level": 100,
+        "amount": 796917760,
+        "before": 1382336,
+        "after": 1382336
+      },
+      {
+        "uid": "center-pc-2",
+        "level": 99,
+        "amount": 1593835520,
+        "before": 1147104,
+        "after": 1147104
+      },
+      {
+        "uid": "center-pc-22",
+        "level": 95,
+        "amount": 3187671040,
+        "before": 702408,
+        "after": -1106593848
+      }
+    ],
+    "firstInvalidAward": {
+      "uid": "center-pc-22",
+      "level": 95,
+      "amount": 3187671040,
+      "before": 702408,
+      "after": -1106593848
+    }
+  },
+  "finalState": "won",
+  "finalFrame": 2274,
+  "invalidProfiles": [
+    {
+      "uid": "center-pc-22",
+      "speciesId": 34,
+      "level": 95,
+      "experience": -1103410264
+    }
+  ],
+  "validationError": "Invalid experience.",
+  "actions": 294,
+  "actionHash": "0998285dfa13415ab3eadd9bf7198252d69d4e152969fe9177dbcb3561d4bff6"
+}

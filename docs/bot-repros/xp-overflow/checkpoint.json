@@ -1,0 +1,5878 @@
+{
+  "seed": 2633394879,
+  "campaignId": 40,
+  "stage": "class_953",
+  "purpose": "progression",
+  "partyOptions": {},
+  "policyOptions": {},
+  "save": {
+    "version": 2,
+    "trainer": "Trainer",
+    "money": 191875,
+    "unlocked": 40,
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "lastLevelVisited": 39,
+    "haveFlash": true,
+    "originalExtraInfo": [
+      32
+    ],
+    "badges": 8,
+    "inventory": {
+      "6": 1
+    },
+    "dex": {
+      "normal": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        17,
+        18,
+        26,
+        32,
+        34,
+        41,
+        44,
+        45,
+        47,
+        48,
+        58,
+        60,
+        65,
+        72,
+        73,
+        74,
+        76,
+        77,
+        88,
+        89,
+        90,
+        94,
+        96,
+        98,
+        99,
+        102,
+        109,
+        110,
+        111,
+        116,
+        118,
+        119,
+        120,
+        121,
+        129,
+        131,
+        132,
+        20,
+        114,
+        100,
+        82,
+        125,
+        25,
+        79,
+        86,
+        42,
+        80,
+        95,
+        105,
+        66,
+        67,
+        75
+      ],
+      "shiny": [
+        48,
+        50,
+        74,
+        81,
+        132
+      ],
+      "shadow": [
+        118
+      ]
+    },
+    "gameVersion": 1,
+    "extraInfoValues": {},
+    "achievements": {
+      "2": 1,
+      "4": 1,
+      "5": 1,
+      "14": 1,
+      "102": 1
+    },
+    "challengeCompleted": 6,
+    "avatar": {
+      "gender": "boy",
+      "style": 1
+    },
+    "npcTrade": "0",
+    "challengeCodeUsed": false,
+    "giftsClaimed": [
+      "challenge-1",
+      "challenge-6"
+    ],
+    "pokemon": [
+      {
+        "uid": "mtsmao00-1",
+        "speciesId": 2,
+        "level": 19,
+        "experience": 562,
+        "moves": [
+          27,
+          9,
+          24,
+          16
+        ],
+        "selectedMove": 24,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "center-pc-2",
+        "speciesId": 65,
+        "level": 96,
+        "experience": 840552,
+        "moves": [
+          148,
+          115,
+          89
+        ],
+        "selectedMove": 148,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "weakest"
+      },
+      {
+        "uid": "center-pc-7",
+        "speciesId": 94,
+        "level": 96,
+        "experience": 200990,
+        "moves": [
+          308,
+          143,
+          237,
+          307
+        ],
+        "selectedMove": 308,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "weakest"
+      },
+      {
+        "uid": "center-pc-12",
+        "speciesId": 6,
+        "level": 97,
+        "experience": 50086,
+        "moves": [
+          184,
+          143,
+          303,
+          106
+        ],
+        "selectedMove": 303,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "weakest"
+      },
+      {
+        "uid": "center-pc-17",
+        "speciesId": 26,
+        "level": 97,
+        "experience": 838391,
+        "moves": [
+          142,
+          143,
+          202,
+          219
+        ],
+        "selectedMove": 202,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "weakest"
+      },
+      {
+        "uid": "center-pc-22",
+        "speciesId": 34,
+        "level": 95,
+        "experience": 670838,
+        "moves": [
+          206,
+          143,
+          171,
+          182
+        ],
+        "selectedMove": 206,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "weakest"
+      },
+      {
+        "uid": "center-pc-27",
+        "speciesId": 131,
+        "level": 91,
+        "experience": 15253504,
+        "moves": [
+          346,
+          143,
+          193,
+          328
+        ],
+        "selectedMove": 143,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "weakest"
+      },
+      {
+        "uid": "center-pc-32",
+        "speciesId": 3,
+        "level": 90,
+        "experience": 0,
+        "moves": [
+          240
+        ],
+        "selectedMove": 240,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "center-pc-37",
+        "speciesId": 76,
+        "level": 95,
+        "experience": 448780,
+        "moves": [
+          155,
+          343,
+          143,
+          297
+        ],
+        "selectedMove": 297,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "weakest"
+      },
+      {
+        "uid": "center-pc-53",
+        "speciesId": 7,
+        "level": 5,
+        "experience": 0,
+        "moves": [
+          1,
+          3
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "center-pc-52",
+        "speciesId": 4,
+        "level": 5,
+        "experience": 0,
+        "moves": [
+          6,
+          5
+        ],
+        "selectedMove": 6,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-19",
+        "speciesId": 74,
+        "level": 1,
+        "experience": 0,
+        "moves": [
+          1,
+          25
+        ],
+        "selectedMove": 1,
+        "shiny": 1,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-54",
+        "speciesId": 74,
+        "level": 23,
+        "experience": 0,
+        "moves": [
+          25,
+          65,
+          68,
+          67
+        ],
+        "selectedMove": 25,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-55",
+        "speciesId": 96,
+        "level": 21,
+        "experience": 7848,
+        "moves": [
+          216,
+          110,
+          48,
+          20
+        ],
+        "selectedMove": 20,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-56",
+        "speciesId": 50,
+        "level": 20,
+        "experience": 0,
+        "moves": [
+          6,
+          2,
+          5,
+          74
+        ],
+        "selectedMove": 6,
+        "shiny": 1,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-57",
+        "speciesId": 74,
+        "level": 30,
+        "experience": 0,
+        "moves": [
+          64,
+          67,
+          68,
+          65
+        ],
+        "selectedMove": 67,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-58",
+        "speciesId": 74,
+        "level": 35,
+        "experience": 3697,
+        "moves": [
+          64,
+          67,
+          68,
+          65
+        ],
+        "selectedMove": 68,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-59",
+        "speciesId": 41,
+        "level": 35,
+        "experience": 0,
+        "moves": [
+          75,
+          19,
+          74,
+          38
+        ],
+        "selectedMove": 75,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-60",
+        "speciesId": 74,
+        "level": 40,
+        "experience": 8299,
+        "moves": [
+          64,
+          67,
+          68,
+          65
+        ],
+        "selectedMove": 68,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-61",
+        "speciesId": 41,
+        "level": 40,
+        "experience": 0,
+        "moves": [
+          75,
+          19,
+          74,
+          38
+        ],
+        "selectedMove": 75,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-62",
+        "speciesId": 119,
+        "level": 42,
+        "experience": 1218,
+        "moves": [
+          42,
+          3,
+          338,
+          182
+        ],
+        "selectedMove": 338,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-63",
+        "speciesId": 98,
+        "level": 40,
+        "experience": 0,
+        "moves": [
+          64,
+          11,
+          269,
+          43
+        ],
+        "selectedMove": 64,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-64",
+        "speciesId": 72,
+        "level": 40,
+        "experience": 0,
+        "moves": [
+          8,
+          38,
+          201,
+          73
+        ],
+        "selectedMove": 8,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-65",
+        "speciesId": 118,
+        "level": 40,
+        "experience": 0,
+        "moves": [
+          42,
+          3,
+          109,
+          38
+        ],
+        "selectedMove": 42,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-66",
+        "speciesId": 119,
+        "level": 41,
+        "experience": 68140,
+        "moves": [
+          42,
+          3,
+          338,
+          38
+        ],
+        "selectedMove": 338,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-67",
+        "speciesId": 119,
+        "level": 41,
+        "experience": 42144,
+        "moves": [
+          42,
+          3,
+          338,
+          38
+        ],
+        "selectedMove": 338,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-68",
+        "speciesId": 73,
+        "level": 42,
+        "experience": 7190,
+        "moves": [
+          8,
+          112,
+          182,
+          73
+        ],
+        "selectedMove": 112,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-69",
+        "speciesId": 73,
+        "level": 42,
+        "experience": 16904,
+        "moves": [
+          8,
+          112,
+          182,
+          73
+        ],
+        "selectedMove": 182,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-70",
+        "speciesId": 119,
+        "level": 42,
+        "experience": 34426,
+        "moves": [
+          42,
+          3,
+          338,
+          182
+        ],
+        "selectedMove": 338,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-71",
+        "speciesId": 99,
+        "level": 42,
+        "experience": 11538,
+        "moves": [
+          112,
+          11,
+          269,
+          327
+        ],
+        "selectedMove": 112,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-72",
+        "speciesId": 119,
+        "level": 41,
+        "experience": 47270,
+        "moves": [
+          42,
+          3,
+          338,
+          38
+        ],
+        "selectedMove": 338,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-73",
+        "speciesId": 119,
+        "level": 41,
+        "experience": 58014,
+        "moves": [
+          42,
+          3,
+          338,
+          38
+        ],
+        "selectedMove": 338,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-74",
+        "speciesId": 119,
+        "level": 42,
+        "experience": 29940,
+        "moves": [
+          42,
+          3,
+          338,
+          182
+        ],
+        "selectedMove": 338,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-75",
+        "speciesId": 99,
+        "level": 42,
+        "experience": 12854,
+        "moves": [
+          112,
+          11,
+          269,
+          327
+        ],
+        "selectedMove": 112,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-76",
+        "speciesId": 119,
+        "level": 41,
+        "experience": 68256,
+        "moves": [
+          42,
+          3,
+          338,
+          38
+        ],
+        "selectedMove": 338,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-77",
+        "speciesId": 118,
+        "level": 40,
+        "experience": 0,
+        "moves": [
+          42,
+          3,
+          109,
+          38
+        ],
+        "selectedMove": 42,
+        "shiny": 2,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-149",
+        "speciesId": 81,
+        "level": 1,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 1,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-150",
+        "speciesId": 48,
+        "level": 65,
+        "experience": 0,
+        "moves": [
+          1,
+          49,
+          227
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-151",
+        "speciesId": 44,
+        "level": 65,
+        "experience": 0,
+        "moves": [
+          107,
+          76,
+          73
+        ],
+        "selectedMove": 107,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-152",
+        "speciesId": 132,
+        "level": 40,
+        "experience": 0,
+        "moves": [
+          56
+        ],
+        "selectedMove": 56,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-153",
+        "speciesId": 18,
+        "level": 68,
+        "experience": 0,
+        "moves": [
+          97,
+          2,
+          15,
+          36
+        ],
+        "selectedMove": 97,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-154",
+        "speciesId": 17,
+        "level": 67,
+        "experience": 0,
+        "moves": [
+          97,
+          2,
+          15,
+          36
+        ],
+        "selectedMove": 97,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-155",
+        "speciesId": 44,
+        "level": 68,
+        "experience": 0,
+        "moves": [
+          107,
+          76,
+          73
+        ],
+        "selectedMove": 107,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-156",
+        "speciesId": 45,
+        "level": 67,
+        "experience": 0,
+        "moves": [
+          107,
+          76,
+          73
+        ],
+        "selectedMove": 107,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-157",
+        "speciesId": 48,
+        "level": 68,
+        "experience": 0,
+        "moves": [
+          1,
+          49,
+          227
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-158",
+        "speciesId": 132,
+        "level": 40,
+        "experience": 0,
+        "moves": [
+          56
+        ],
+        "selectedMove": 56,
+        "shiny": 1,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-159",
+        "speciesId": 48,
+        "level": 67,
+        "experience": 0,
+        "moves": [
+          1,
+          49,
+          227
+        ],
+        "selectedMove": 1,
+        "shiny": 1,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-160",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-161",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-162",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-163",
+        "speciesId": 48,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-164",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-165",
+        "speciesId": 102,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          391
+        ],
+        "selectedMove": 391,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-166",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-167",
+        "speciesId": 48,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-168",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-169",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-170",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-171",
+        "speciesId": 48,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-172",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-173",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-174",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-175",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-176",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-177",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-178",
+        "speciesId": 47,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          6
+        ],
+        "selectedMove": 6,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-179",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-180",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-181",
+        "speciesId": 32,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          42
+        ],
+        "selectedMove": 42,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-182",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-183",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-184",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-185",
+        "speciesId": 102,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          391
+        ],
+        "selectedMove": 391,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-186",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-187",
+        "speciesId": 48,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-188",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-189",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-190",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-191",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-192",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-193",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-194",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-195",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-196",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-197",
+        "speciesId": 47,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          6
+        ],
+        "selectedMove": 6,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-198",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-199",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-200",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-201",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-202",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-203",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-204",
+        "speciesId": 111,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          80
+        ],
+        "selectedMove": 80,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-205",
+        "speciesId": 47,
+        "level": 25,
+        "experience": 0,
+        "moves": [
+          6
+        ],
+        "selectedMove": 6,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-206",
+        "speciesId": 116,
+        "level": 65,
+        "experience": 0,
+        "moves": [
+          11
+        ],
+        "selectedMove": 11,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-207",
+        "speciesId": 118,
+        "level": 65,
+        "experience": 0,
+        "moves": [
+          42
+        ],
+        "selectedMove": 42,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-208",
+        "speciesId": 129,
+        "level": 68,
+        "experience": 0,
+        "moves": [
+          141
+        ],
+        "selectedMove": 141,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-209",
+        "speciesId": 90,
+        "level": 68,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-210",
+        "speciesId": 116,
+        "level": 68,
+        "experience": 0,
+        "moves": [
+          11
+        ],
+        "selectedMove": 11,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-211",
+        "speciesId": 72,
+        "level": 67,
+        "experience": 0,
+        "moves": [
+          8
+        ],
+        "selectedMove": 8,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-212",
+        "speciesId": 120,
+        "level": 68,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-213",
+        "speciesId": 60,
+        "level": 67,
+        "experience": 0,
+        "moves": [
+          109
+        ],
+        "selectedMove": 109,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-214",
+        "speciesId": 118,
+        "level": 68,
+        "experience": 0,
+        "moves": [
+          42
+        ],
+        "selectedMove": 42,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-215",
+        "speciesId": 110,
+        "level": 82,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-216",
+        "speciesId": 77,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-217",
+        "speciesId": 58,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          19
+        ],
+        "selectedMove": 19,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-218",
+        "speciesId": 88,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          208,
+          48
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-219",
+        "speciesId": 89,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          208,
+          48
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-220",
+        "speciesId": 77,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-221",
+        "speciesId": 77,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-222",
+        "speciesId": 109,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-223",
+        "speciesId": 77,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-224",
+        "speciesId": 58,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          19
+        ],
+        "selectedMove": 19,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-225",
+        "speciesId": 77,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-226",
+        "speciesId": 58,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          19
+        ],
+        "selectedMove": 19,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-227",
+        "speciesId": 58,
+        "level": 82,
+        "experience": 0,
+        "moves": [
+          19
+        ],
+        "selectedMove": 19,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-228",
+        "speciesId": 110,
+        "level": 82,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-229",
+        "speciesId": 58,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          19
+        ],
+        "selectedMove": 19,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-230",
+        "speciesId": 110,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-231",
+        "speciesId": 110,
+        "level": 82,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-232",
+        "speciesId": 110,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-233",
+        "speciesId": 110,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-234",
+        "speciesId": 110,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-235",
+        "speciesId": 110,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-236",
+        "speciesId": 110,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-237",
+        "speciesId": 77,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-238",
+        "speciesId": 58,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          19
+        ],
+        "selectedMove": 19,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-239",
+        "speciesId": 89,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          208,
+          48
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-240",
+        "speciesId": 58,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          19
+        ],
+        "selectedMove": 19,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-241",
+        "speciesId": 109,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-242",
+        "speciesId": 109,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-243",
+        "speciesId": 109,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-244",
+        "speciesId": 58,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          19
+        ],
+        "selectedMove": 19,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-245",
+        "speciesId": 89,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          208,
+          48
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-246",
+        "speciesId": 77,
+        "level": 82,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-247",
+        "speciesId": 77,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-248",
+        "speciesId": 110,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-249",
+        "speciesId": 77,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-250",
+        "speciesId": 110,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          208,
+          1
+        ],
+        "selectedMove": 208,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-251",
+        "speciesId": 58,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          19
+        ],
+        "selectedMove": 19,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-252",
+        "speciesId": 77,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-253",
+        "speciesId": 77,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "nickname": "",
+        "myTag": "n",
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-254",
+        "speciesId": 20,
+        "level": 88,
+        "experience": 0,
+        "moves": [
+          4
+        ],
+        "selectedMove": 4,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-255",
+        "speciesId": 118,
+        "level": 85,
+        "experience": 0,
+        "moves": [
+          42
+        ],
+        "selectedMove": 42,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-256",
+        "speciesId": 72,
+        "level": 88,
+        "experience": 0,
+        "moves": [
+          8
+        ],
+        "selectedMove": 8,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-257",
+        "speciesId": 114,
+        "level": 85,
+        "experience": 0,
+        "moves": [
+          16
+        ],
+        "selectedMove": 16,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-258",
+        "speciesId": 114,
+        "level": 88,
+        "experience": 0,
+        "moves": [
+          16
+        ],
+        "selectedMove": 16,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-259",
+        "speciesId": 118,
+        "level": 88,
+        "experience": 0,
+        "moves": [
+          42
+        ],
+        "selectedMove": 42,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-260",
+        "speciesId": 60,
+        "level": 85,
+        "experience": 0,
+        "moves": [
+          109
+        ],
+        "selectedMove": 109,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-261",
+        "speciesId": 120,
+        "level": 88,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-262",
+        "speciesId": 116,
+        "level": 88,
+        "experience": 0,
+        "moves": [
+          11
+        ],
+        "selectedMove": 11,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-263",
+        "speciesId": 90,
+        "level": 85,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-264",
+        "speciesId": 60,
+        "level": 88,
+        "experience": 0,
+        "moves": [
+          109
+        ],
+        "selectedMove": 109,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-265",
+        "speciesId": 129,
+        "level": 85,
+        "experience": 0,
+        "moves": [
+          141
+        ],
+        "selectedMove": 141,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-266",
+        "speciesId": 100,
+        "level": 82,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-267",
+        "speciesId": 82,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-268",
+        "speciesId": 125,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          22
+        ],
+        "selectedMove": 22,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-269",
+        "speciesId": 25,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          22
+        ],
+        "selectedMove": 22,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-270",
+        "speciesId": 79,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-271",
+        "speciesId": 86,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          216
+        ],
+        "selectedMove": 216,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-272",
+        "speciesId": 42,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          54
+        ],
+        "selectedMove": 54,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-273",
+        "speciesId": 80,
+        "level": 82,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-274",
+        "speciesId": 95,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-275",
+        "speciesId": 41,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          54
+        ],
+        "selectedMove": 54,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-276",
+        "speciesId": 74,
+        "level": 80,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-277",
+        "speciesId": 74,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-278",
+        "speciesId": 105,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          312
+        ],
+        "selectedMove": 312,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-279",
+        "speciesId": 66,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          51
+        ],
+        "selectedMove": 51,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-280",
+        "speciesId": 67,
+        "level": 81,
+        "experience": 0,
+        "moves": [
+          51
+        ],
+        "selectedMove": 51,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-281",
+        "speciesId": 75,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          1
+        ],
+        "selectedMove": 1,
+        "shiny": 0,
+        "target": "first"
+      },
+      {
+        "uid": "mtsmao00-282",
+        "speciesId": 42,
+        "level": 83,
+        "experience": 0,
+        "moves": [
+          54
+        ],
+        "selectedMove": 54,
+        "shiny": 0,
+        "target": "first"
+      }
+    ],
+    "party": [
+      "center-pc-17",
+      "center-pc-12",
+      "center-pc-2",
+      "center-pc-37",
+      "center-pc-22",
+      "center-pc-7"
+    ],
+    "settings": {
+      "sound": false,
+      "music": false,
+      "damageText": true,
+      "speed": 1
+    },
+    "savedAt": "2026-09-08T12:00:00.000Z"
+  },
+  "bank": {
+    "version": 1,
+    "active": 0,
+    "updatedAt": "2026-09-08T12:00:00.000Z",
+    "slots": [
+      {
+        "version": 2,
+        "trainer": "Trainer",
+        "money": 191875,
+        "unlocked": 40,
+        "completed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "lastLevelVisited": 39,
+        "haveFlash": true,
+        "originalExtraInfo": [
+          32
+        ],
+        "badges": 8,
+        "inventory": {
+          "6": 1
+        },
+        "dex": {
+          "normal": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            17,
+            18,
+            20,
+            25,
+            26,
+            32,
+            34,
+            41,
+            42,
+            44,
+            45,
+            47,
+            48,
+            58,
+            60,
+            65,
+            66,
+            67,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            79,
+            80,
+            82,
+            86,
+            88,
+            89,
+            90,
+            94,
+            95,
+            96,
+            98,
+            99,
+            100,
+            102,
+            105,
+            109,
+            110,
+            111,
+            114,
+            116,
+            118,
+            119,
+            120,
+            121,
+            125,
+            129,
+            131,
+            132
+          ],
+          "shiny": [
+            48,
+            50,
+            74,
+            81,
+            132
+          ],
+          "shadow": [
+            118
+          ]
+        },
+        "gameVersion": 1,
+        "extraInfoValues": {},
+        "achievements": {
+          "2": 1,
+          "4": 1,
+          "5": 1,
+          "14": 1,
+          "102": 1
+        },
+        "challengeCompleted": 6,
+        "avatar": {
+          "gender": "boy",
+          "style": 1
+        },
+        "npcTrade": "0",
+        "challengeCodeUsed": false,
+        "giftsClaimed": [
+          "challenge-1",
+          "challenge-6"
+        ],
+        "pokemon": [
+          {
+            "uid": "mtsmao00-1",
+            "speciesId": 2,
+            "level": 19,
+            "experience": 562,
+            "moves": [
+              27,
+              9,
+              24,
+              16
+            ],
+            "selectedMove": 24,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "center-pc-2",
+            "speciesId": 65,
+            "level": 96,
+            "experience": 840552,
+            "moves": [
+              148,
+              115,
+              89
+            ],
+            "selectedMove": 148,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "weakest"
+          },
+          {
+            "uid": "center-pc-7",
+            "speciesId": 94,
+            "level": 96,
+            "experience": 200990,
+            "moves": [
+              308,
+              143,
+              237,
+              307
+            ],
+            "selectedMove": 308,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "weakest"
+          },
+          {
+            "uid": "center-pc-12",
+            "speciesId": 6,
+            "level": 97,
+            "experience": 50086,
+            "moves": [
+              184,
+              143,
+              303,
+              106
+            ],
+            "selectedMove": 303,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "weakest"
+          },
+          {
+            "uid": "center-pc-17",
+            "speciesId": 26,
+            "level": 97,
+            "experience": 838391,
+            "moves": [
+              142,
+              143,
+              202,
+              219
+            ],
+            "selectedMove": 202,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "weakest"
+          },
+          {
+            "uid": "center-pc-22",
+            "speciesId": 34,
+            "level": 95,
+            "experience": 670838,
+            "moves": [
+              206,
+              143,
+              171,
+              182
+            ],
+            "selectedMove": 206,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "weakest"
+          },
+          {
+            "uid": "center-pc-27",
+            "speciesId": 131,
+            "level": 91,
+            "experience": 15253504,
+            "moves": [
+              346,
+              143,
+              193,
+              328
+            ],
+            "selectedMove": 143,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "weakest"
+          },
+          {
+            "uid": "center-pc-32",
+            "speciesId": 3,
+            "level": 90,
+            "experience": 0,
+            "moves": [
+              240
+            ],
+            "selectedMove": 240,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "center-pc-37",
+            "speciesId": 76,
+            "level": 95,
+            "experience": 448780,
+            "moves": [
+              155,
+              343,
+              143,
+              297
+            ],
+            "selectedMove": 297,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "weakest"
+          },
+          {
+            "uid": "center-pc-53",
+            "speciesId": 7,
+            "level": 5,
+            "experience": 0,
+            "moves": [
+              1,
+              3
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "center-pc-52",
+            "speciesId": 4,
+            "level": 5,
+            "experience": 0,
+            "moves": [
+              6,
+              5
+            ],
+            "selectedMove": 6,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-19",
+            "speciesId": 74,
+            "level": 1,
+            "experience": 0,
+            "moves": [
+              1,
+              25
+            ],
+            "selectedMove": 1,
+            "shiny": 1,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-54",
+            "speciesId": 74,
+            "level": 23,
+            "experience": 0,
+            "moves": [
+              25,
+              65,
+              68,
+              67
+            ],
+            "selectedMove": 25,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-55",
+            "speciesId": 96,
+            "level": 21,
+            "experience": 7848,
+            "moves": [
+              216,
+              110,
+              48,
+              20
+            ],
+            "selectedMove": 20,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-56",
+            "speciesId": 50,
+            "level": 20,
+            "experience": 0,
+            "moves": [
+              6,
+              2,
+              5,
+              74
+            ],
+            "selectedMove": 6,
+            "shiny": 1,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-57",
+            "speciesId": 74,
+            "level": 30,
+            "experience": 0,
+            "moves": [
+              64,
+              67,
+              68,
+              65
+            ],
+            "selectedMove": 67,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-58",
+            "speciesId": 74,
+            "level": 35,
+            "experience": 3697,
+            "moves": [
+              64,
+              67,
+              68,
+              65
+            ],
+            "selectedMove": 68,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-59",
+            "speciesId": 41,
+            "level": 35,
+            "experience": 0,
+            "moves": [
+              75,
+              19,
+              74,
+              38
+            ],
+            "selectedMove": 75,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-60",
+            "speciesId": 74,
+            "level": 40,
+            "experience": 8299,
+            "moves": [
+              64,
+              67,
+              68,
+              65
+            ],
+            "selectedMove": 68,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-61",
+            "speciesId": 41,
+            "level": 40,
+            "experience": 0,
+            "moves": [
+              75,
+              19,
+              74,
+              38
+            ],
+            "selectedMove": 75,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-62",
+            "speciesId": 119,
+            "level": 42,
+            "experience": 1218,
+            "moves": [
+              42,
+              3,
+              338,
+              182
+            ],
+            "selectedMove": 338,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-63",
+            "speciesId": 98,
+            "level": 40,
+            "experience": 0,
+            "moves": [
+              64,
+              11,
+              269,
+              43
+            ],
+            "selectedMove": 64,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-64",
+            "speciesId": 72,
+            "level": 40,
+            "experience": 0,
+            "moves": [
+              8,
+              38,
+              201,
+              73
+            ],
+            "selectedMove": 8,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-65",
+            "speciesId": 118,
+            "level": 40,
+            "experience": 0,
+            "moves": [
+              42,
+              3,
+              109,
+              38
+            ],
+            "selectedMove": 42,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-66",
+            "speciesId": 119,
+            "level": 41,
+            "experience": 68140,
+            "moves": [
+              42,
+              3,
+              338,
+              38
+            ],
+            "selectedMove": 338,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-67",
+            "speciesId": 119,
+            "level": 41,
+            "experience": 42144,
+            "moves": [
+              42,
+              3,
+              338,
+              38
+            ],
+            "selectedMove": 338,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-68",
+            "speciesId": 73,
+            "level": 42,
+            "experience": 7190,
+            "moves": [
+              8,
+              112,
+              182,
+              73
+            ],
+            "selectedMove": 112,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-69",
+            "speciesId": 73,
+            "level": 42,
+            "experience": 16904,
+            "moves": [
+              8,
+              112,
+              182,
+              73
+            ],
+            "selectedMove": 182,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-70",
+            "speciesId": 119,
+            "level": 42,
+            "experience": 34426,
+            "moves": [
+              42,
+              3,
+              338,
+              182
+            ],
+            "selectedMove": 338,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-71",
+            "speciesId": 99,
+            "level": 42,
+            "experience": 11538,
+            "moves": [
+              112,
+              11,
+              269,
+              327
+            ],
+            "selectedMove": 112,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-72",
+            "speciesId": 119,
+            "level": 41,
+            "experience": 47270,
+            "moves": [
+              42,
+              3,
+              338,
+              38
+            ],
+            "selectedMove": 338,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-73",
+            "speciesId": 119,
+            "level": 41,
+            "experience": 58014,
+            "moves": [
+              42,
+              3,
+              338,
+              38
+            ],
+            "selectedMove": 338,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-74",
+            "speciesId": 119,
+            "level": 42,
+            "experience": 29940,
+            "moves": [
+              42,
+              3,
+              338,
+              182
+            ],
+            "selectedMove": 338,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-75",
+            "speciesId": 99,
+            "level": 42,
+            "experience": 12854,
+            "moves": [
+              112,
+              11,
+              269,
+              327
+            ],
+            "selectedMove": 112,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-76",
+            "speciesId": 119,
+            "level": 41,
+            "experience": 68256,
+            "moves": [
+              42,
+              3,
+              338,
+              38
+            ],
+            "selectedMove": 338,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-77",
+            "speciesId": 118,
+            "level": 40,
+            "experience": 0,
+            "moves": [
+              42,
+              3,
+              109,
+              38
+            ],
+            "selectedMove": 42,
+            "shiny": 2,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-149",
+            "speciesId": 81,
+            "level": 1,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 1,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-150",
+            "speciesId": 48,
+            "level": 65,
+            "experience": 0,
+            "moves": [
+              1,
+              49,
+              227
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-151",
+            "speciesId": 44,
+            "level": 65,
+            "experience": 0,
+            "moves": [
+              107,
+              76,
+              73
+            ],
+            "selectedMove": 107,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-152",
+            "speciesId": 132,
+            "level": 40,
+            "experience": 0,
+            "moves": [
+              56
+            ],
+            "selectedMove": 56,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-153",
+            "speciesId": 18,
+            "level": 68,
+            "experience": 0,
+            "moves": [
+              97,
+              2,
+              15,
+              36
+            ],
+            "selectedMove": 97,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-154",
+            "speciesId": 17,
+            "level": 67,
+            "experience": 0,
+            "moves": [
+              97,
+              2,
+              15,
+              36
+            ],
+            "selectedMove": 97,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-155",
+            "speciesId": 44,
+            "level": 68,
+            "experience": 0,
+            "moves": [
+              107,
+              76,
+              73
+            ],
+            "selectedMove": 107,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-156",
+            "speciesId": 45,
+            "level": 67,
+            "experience": 0,
+            "moves": [
+              107,
+              76,
+              73
+            ],
+            "selectedMove": 107,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-157",
+            "speciesId": 48,
+            "level": 68,
+            "experience": 0,
+            "moves": [
+              1,
+              49,
+              227
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-158",
+            "speciesId": 132,
+            "level": 40,
+            "experience": 0,
+            "moves": [
+              56
+            ],
+            "selectedMove": 56,
+            "shiny": 1,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-159",
+            "speciesId": 48,
+            "level": 67,
+            "experience": 0,
+            "moves": [
+              1,
+              49,
+              227
+            ],
+            "selectedMove": 1,
+            "shiny": 1,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-160",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-161",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-162",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-163",
+            "speciesId": 48,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-164",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-165",
+            "speciesId": 102,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              391
+            ],
+            "selectedMove": 391,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-166",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-167",
+            "speciesId": 48,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-168",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-169",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-170",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-171",
+            "speciesId": 48,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-172",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-173",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-174",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-175",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-176",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-177",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-178",
+            "speciesId": 47,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              6
+            ],
+            "selectedMove": 6,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-179",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-180",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-181",
+            "speciesId": 32,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              42
+            ],
+            "selectedMove": 42,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-182",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-183",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-184",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-185",
+            "speciesId": 102,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              391
+            ],
+            "selectedMove": 391,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-186",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-187",
+            "speciesId": 48,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-188",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-189",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-190",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-191",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-192",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-193",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-194",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-195",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-196",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-197",
+            "speciesId": 47,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              6
+            ],
+            "selectedMove": 6,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-198",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-199",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-200",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-201",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-202",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-203",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-204",
+            "speciesId": 111,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              80
+            ],
+            "selectedMove": 80,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-205",
+            "speciesId": 47,
+            "level": 25,
+            "experience": 0,
+            "moves": [
+              6
+            ],
+            "selectedMove": 6,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-206",
+            "speciesId": 116,
+            "level": 65,
+            "experience": 0,
+            "moves": [
+              11
+            ],
+            "selectedMove": 11,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-207",
+            "speciesId": 118,
+            "level": 65,
+            "experience": 0,
+            "moves": [
+              42
+            ],
+            "selectedMove": 42,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-208",
+            "speciesId": 129,
+            "level": 68,
+            "experience": 0,
+            "moves": [
+              141
+            ],
+            "selectedMove": 141,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-209",
+            "speciesId": 90,
+            "level": 68,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-210",
+            "speciesId": 116,
+            "level": 68,
+            "experience": 0,
+            "moves": [
+              11
+            ],
+            "selectedMove": 11,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-211",
+            "speciesId": 72,
+            "level": 67,
+            "experience": 0,
+            "moves": [
+              8
+            ],
+            "selectedMove": 8,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-212",
+            "speciesId": 120,
+            "level": 68,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-213",
+            "speciesId": 60,
+            "level": 67,
+            "experience": 0,
+            "moves": [
+              109
+            ],
+            "selectedMove": 109,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-214",
+            "speciesId": 118,
+            "level": 68,
+            "experience": 0,
+            "moves": [
+              42
+            ],
+            "selectedMove": 42,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-215",
+            "speciesId": 110,
+            "level": 82,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-216",
+            "speciesId": 77,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-217",
+            "speciesId": 58,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              19
+            ],
+            "selectedMove": 19,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-218",
+            "speciesId": 88,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              208,
+              48
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-219",
+            "speciesId": 89,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              208,
+              48
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-220",
+            "speciesId": 77,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-221",
+            "speciesId": 77,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-222",
+            "speciesId": 109,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-223",
+            "speciesId": 77,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-224",
+            "speciesId": 58,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              19
+            ],
+            "selectedMove": 19,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-225",
+            "speciesId": 77,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-226",
+            "speciesId": 58,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              19
+            ],
+            "selectedMove": 19,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-227",
+            "speciesId": 58,
+            "level": 82,
+            "experience": 0,
+            "moves": [
+              19
+            ],
+            "selectedMove": 19,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-228",
+            "speciesId": 110,
+            "level": 82,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-229",
+            "speciesId": 58,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              19
+            ],
+            "selectedMove": 19,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-230",
+            "speciesId": 110,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-231",
+            "speciesId": 110,
+            "level": 82,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-232",
+            "speciesId": 110,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-233",
+            "speciesId": 110,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-234",
+            "speciesId": 110,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-235",
+            "speciesId": 110,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-236",
+            "speciesId": 110,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-237",
+            "speciesId": 77,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-238",
+            "speciesId": 58,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              19
+            ],
+            "selectedMove": 19,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-239",
+            "speciesId": 89,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              208,
+              48
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-240",
+            "speciesId": 58,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              19
+            ],
+            "selectedMove": 19,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-241",
+            "speciesId": 109,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-242",
+            "speciesId": 109,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-243",
+            "speciesId": 109,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-244",
+            "speciesId": 58,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              19
+            ],
+            "selectedMove": 19,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-245",
+            "speciesId": 89,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              208,
+              48
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-246",
+            "speciesId": 77,
+            "level": 82,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-247",
+            "speciesId": 77,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-248",
+            "speciesId": 110,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-249",
+            "speciesId": 77,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-250",
+            "speciesId": 110,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              208,
+              1
+            ],
+            "selectedMove": 208,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-251",
+            "speciesId": 58,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              19
+            ],
+            "selectedMove": 19,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-252",
+            "speciesId": 77,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-253",
+            "speciesId": 77,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-254",
+            "speciesId": 20,
+            "level": 88,
+            "experience": 0,
+            "moves": [
+              4
+            ],
+            "selectedMove": 4,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-255",
+            "speciesId": 118,
+            "level": 85,
+            "experience": 0,
+            "moves": [
+              42
+            ],
+            "selectedMove": 42,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-256",
+            "speciesId": 72,
+            "level": 88,
+            "experience": 0,
+            "moves": [
+              8
+            ],
+            "selectedMove": 8,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-257",
+            "speciesId": 114,
+            "level": 85,
+            "experience": 0,
+            "moves": [
+              16
+            ],
+            "selectedMove": 16,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-258",
+            "speciesId": 114,
+            "level": 88,
+            "experience": 0,
+            "moves": [
+              16
+            ],
+            "selectedMove": 16,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-259",
+            "speciesId": 118,
+            "level": 88,
+            "experience": 0,
+            "moves": [
+              42
+            ],
+            "selectedMove": 42,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-260",
+            "speciesId": 60,
+            "level": 85,
+            "experience": 0,
+            "moves": [
+              109
+            ],
+            "selectedMove": 109,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-261",
+            "speciesId": 120,
+            "level": 88,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-262",
+            "speciesId": 116,
+            "level": 88,
+            "experience": 0,
+            "moves": [
+              11
+            ],
+            "selectedMove": 11,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-263",
+            "speciesId": 90,
+            "level": 85,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-264",
+            "speciesId": 60,
+            "level": 88,
+            "experience": 0,
+            "moves": [
+              109
+            ],
+            "selectedMove": 109,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-265",
+            "speciesId": 129,
+            "level": 85,
+            "experience": 0,
+            "moves": [
+              141
+            ],
+            "selectedMove": 141,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-266",
+            "speciesId": 100,
+            "level": 82,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-267",
+            "speciesId": 82,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-268",
+            "speciesId": 125,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              22
+            ],
+            "selectedMove": 22,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-269",
+            "speciesId": 25,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              22
+            ],
+            "selectedMove": 22,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-270",
+            "speciesId": 79,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-271",
+            "speciesId": 86,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              216
+            ],
+            "selectedMove": 216,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-272",
+            "speciesId": 42,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              54
+            ],
+            "selectedMove": 54,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-273",
+            "speciesId": 80,
+            "level": 82,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-274",
+            "speciesId": 95,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-275",
+            "speciesId": 41,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              54
+            ],
+            "selectedMove": 54,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-276",
+            "speciesId": 74,
+            "level": 80,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-277",
+            "speciesId": 74,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-278",
+            "speciesId": 105,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              312
+            ],
+            "selectedMove": 312,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-279",
+            "speciesId": 66,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              51
+            ],
+            "selectedMove": 51,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-280",
+            "speciesId": 67,
+            "level": 81,
+            "experience": 0,
+            "moves": [
+              51
+            ],
+            "selectedMove": 51,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-281",
+            "speciesId": 75,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              1
+            ],
+            "selectedMove": 1,
+            "shiny": 0,
+            "target": "first"
+          },
+          {
+            "uid": "mtsmao00-282",
+            "speciesId": 42,
+            "level": 83,
+            "experience": 0,
+            "moves": [
+              54
+            ],
+            "selectedMove": 54,
+            "shiny": 0,
+            "target": "first"
+          }
+        ],
+        "party": [
+          "center-pc-17",
+          "center-pc-12",
+          "center-pc-2",
+          "center-pc-37",
+          "center-pc-22",
+          "center-pc-7"
+        ],
+        "settings": {
+          "sound": false,
+          "music": false,
+          "damageText": true,
+          "speed": 1
+        },
+        "savedAt": "2026-09-08T12:00:00.000Z"
+      },
+      {
+        "version": 2,
+        "trainer": "Bot Partner 1",
+        "money": 50,
+        "unlocked": 1,
+        "completed": [],
+        "lastLevelVisited": 0,
+        "haveFlash": false,
+        "originalExtraInfo": [],
+        "badges": 0,
+        "inventory": {},
+        "dex": {
+          "normal": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            17,
+            18,
+            20,
+            25,
+            26,
+            32,
+            34,
+            41,
+            42,
+            44,
+            45,
+            47,
+            48,
+            58,
+            60,
+            65,
+            66,
+            67,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            79,
+            80,
+            82,
+            86,
+            88,
+            89,
+            90,
+            94,
+            95,
+            96,
+            98,
+            99,
+            100,
+            102,
+            105,
+            109,
+            110,
+            111,
+            114,
+            116,
+            118,
+            119,
+            120,
+            121,
+            125,
+            129,
+            131,
+            132
+          ],
+          "shiny": [
+            48,
+            50,
+            74,
+            81,
+            132
+          ],
+          "shadow": [
+            118
+          ]
+        },
+        "gameVersion": 2,
+        "extraInfoValues": {},
+        "achievements": {},
+        "challengeCompleted": 0,
+        "avatar": {
+          "gender": "boy",
+          "style": 1
+        },
+        "npcTrade": "0",
+        "challengeCodeUsed": false,
+        "giftsClaimed": [],
+        "pokemon": [
+          {
+            "uid": "center-pc-47",
+            "speciesId": 121,
+            "level": 90,
+            "experience": 0,
+            "moves": [
+              69
+            ],
+            "selectedMove": 69,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          }
+        ],
+        "party": [
+          "center-pc-47",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "settings": {
+          "sound": false,
+          "music": false,
+          "damageText": true,
+          "speed": 1
+        },
+        "savedAt": "2026-09-08T12:00:00.000Z"
+      },
+      {
+        "version": 2,
+        "trainer": "Bot Partner 2",
+        "money": 50,
+        "unlocked": 1,
+        "completed": [],
+        "lastLevelVisited": 0,
+        "haveFlash": false,
+        "originalExtraInfo": [],
+        "badges": 0,
+        "inventory": {},
+        "dex": {
+          "normal": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            17,
+            18,
+            20,
+            25,
+            26,
+            32,
+            34,
+            41,
+            42,
+            44,
+            45,
+            47,
+            48,
+            58,
+            60,
+            65,
+            66,
+            67,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            79,
+            80,
+            82,
+            86,
+            88,
+            89,
+            90,
+            94,
+            95,
+            96,
+            98,
+            99,
+            100,
+            102,
+            105,
+            109,
+            110,
+            111,
+            114,
+            116,
+            118,
+            119,
+            120,
+            121,
+            125,
+            129,
+            131,
+            132
+          ],
+          "shiny": [
+            48,
+            50,
+            74,
+            81,
+            132
+          ],
+          "shadow": [
+            118
+          ]
+        },
+        "gameVersion": 1,
+        "extraInfoValues": {},
+        "achievements": {},
+        "challengeCompleted": 0,
+        "avatar": {
+          "gender": "boy",
+          "style": 1
+        },
+        "npcTrade": "0",
+        "challengeCodeUsed": false,
+        "giftsClaimed": [],
+        "pokemon": [
+          {
+            "uid": "center-pc-42",
+            "speciesId": 18,
+            "level": 90,
+            "experience": 0,
+            "moves": [
+              75
+            ],
+            "selectedMove": 75,
+            "shiny": 0,
+            "nickname": "",
+            "myTag": "n",
+            "target": "first"
+          }
+        ],
+        "party": [
+          "center-pc-42",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "settings": {
+          "sound": false,
+          "music": false,
+          "damageText": true,
+          "speed": 1
+        },
+        "savedAt": "2026-09-08T12:00:00.000Z"
+      }
+    ],
+    "center": {
+      "version": 1,
+      "nextId": 54,
+      "dex": {
+        "normal": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          17,
+          18,
+          20,
+          25,
+          26,
+          32,
+          34,
+          41,
+          42,
+          44,
+          45,
+          47,
+          48,
+          58,
+          60,
+          65,
+          66,
+          67,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          79,
+          80,
+          82,
+          86,
+          88,
+          89,
+          90,
+          94,
+          95,
+          96,
+          98,
+          99,
+          100,
+          102,
+          105,
+          109,
+          110,
+          111,
+          114,
+          116,
+          118,
+          119,
+          120,
+          121,
+          125,
+          129,
+          131,
+          132
+        ],
+        "shiny": [
+          48,
+          50,
+          74,
+          81,
+          132
+        ],
+        "shadow": [
+          118
+        ]
+      },
+      "wallets": [
+        {
+          "credits": 0,
+          "casino": 500,
+          "dailyDay": "",
+          "spinsDay": "",
+          "spins": 0,
+          "freeDay": "2026-09-08",
+          "milestones": [],
+          "mysteryDaily": "",
+          "mysteryWeekly": "",
+          "giftCodes": []
+        },
+        {
+          "credits": 0,
+          "casino": 0,
+          "dailyDay": "",
+          "spinsDay": "",
+          "spins": 0,
+          "freeDay": "",
+          "milestones": [],
+          "mysteryDaily": "",
+          "mysteryWeekly": "",
+          "giftCodes": []
+        },
+        {
+          "credits": 0,
+          "casino": 0,
+          "dailyDay": "",
+          "spinsDay": "",
+          "spins": 0,
+          "freeDay": "",
+          "milestones": [],
+          "mysteryDaily": "",
+          "mysteryWeekly": "",
+          "giftCodes": []
+        }
+      ],
+      "listings": [],
+      "offers": [],
+      "giveaways": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "id": "pc-4",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "text": "Alakazam is ready for pickup.",
+          "read": false,
+          "route": "home"
+        },
+        {
+          "id": "pc-9",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "text": "Gengar is ready for pickup.",
+          "read": false,
+          "route": "home"
+        },
+        {
+          "id": "pc-14",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "text": "Charizard is ready for pickup.",
+          "read": false,
+          "route": "home"
+        },
+        {
+          "id": "pc-19",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "text": "Raichu is ready for pickup.",
+          "read": false,
+          "route": "home"
+        },
+        {
+          "id": "pc-24",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "text": "Nidoking is ready for pickup.",
+          "read": false,
+          "route": "home"
+        },
+        {
+          "id": "pc-29",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "text": "Lapras is ready for pickup.",
+          "read": false,
+          "route": "home"
+        },
+        {
+          "id": "pc-34",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "text": "Venusaur is ready for pickup.",
+          "read": false,
+          "route": "home"
+        },
+        {
+          "id": "pc-39",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "text": "Golem is ready for pickup.",
+          "read": false,
+          "route": "home"
+        },
+        {
+          "id": "pc-44",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "text": "Pidgeot is ready for pickup.",
+          "read": false,
+          "route": "home"
+        },
+        {
+          "id": "pc-49",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "text": "Starmie is ready for pickup.",
+          "read": false,
+          "route": "home"
+        }
+      ],
+      "history": [
+        {
+          "id": "pc-1",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "dailyCredits",
+          "text": "Claimed 10 free Center credits and 500 Casino Coins."
+        },
+        {
+          "id": "pc-5",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "adopt",
+          "text": "Received Alakazam from adoption."
+        },
+        {
+          "id": "pc-6",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "claim",
+          "text": "Picked up 1 Pokémon."
+        },
+        {
+          "id": "pc-10",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "adopt",
+          "text": "Received Gengar from adoption."
+        },
+        {
+          "id": "pc-11",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "claim",
+          "text": "Picked up 1 Pokémon."
+        },
+        {
+          "id": "pc-15",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "adopt",
+          "text": "Received Charizard from adoption."
+        },
+        {
+          "id": "pc-16",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "claim",
+          "text": "Picked up 1 Pokémon."
+        },
+        {
+          "id": "pc-20",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "adopt",
+          "text": "Received Raichu from adoption."
+        },
+        {
+          "id": "pc-21",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "claim",
+          "text": "Picked up 1 Pokémon."
+        },
+        {
+          "id": "pc-25",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "adopt",
+          "text": "Received Nidoking from adoption."
+        },
+        {
+          "id": "pc-26",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "claim",
+          "text": "Picked up 1 Pokémon."
+        },
+        {
+          "id": "pc-30",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "adopt",
+          "text": "Received Lapras from adoption."
+        },
+        {
+          "id": "pc-31",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "claim",
+          "text": "Picked up 1 Pokémon."
+        },
+        {
+          "id": "pc-35",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "adopt",
+          "text": "Received Venusaur from adoption."
+        },
+        {
+          "id": "pc-36",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "claim",
+          "text": "Picked up 1 Pokémon."
+        },
+        {
+          "id": "pc-40",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "adopt",
+          "text": "Received Golem from adoption."
+        },
+        {
+          "id": "pc-41",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "claim",
+          "text": "Picked up 1 Pokémon."
+        },
+        {
+          "id": "pc-45",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "adopt",
+          "text": "Received Pidgeot from adoption."
+        },
+        {
+          "id": "pc-46",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "claim",
+          "text": "Picked up 1 Pokémon."
+        },
+        {
+          "id": "pc-50",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "adopt",
+          "text": "Received Starmie from adoption."
+        },
+        {
+          "id": "pc-51",
+          "owner": 0,
+          "createdAt": 1788868800000,
+          "type": "claim",
+          "text": "Picked up 1 Pokémon."
+        }
+      ],
+      "transferVaults": {
+        "2": [],
+        "3": []
+      },
+      "tags": {},
+      "settings": {
+        "darkMode": false,
+        "announcements": true,
+        "oldCards": false,
+        "colorMoves": true,
+        "colorActions": true,
+        "dateFormat": "MM.DD.YYYY",
+        "timeFormat": "24"
+      }
+    },
+    "botCollection": {
+      "version": 1,
+      "visits": []
+    }
+  }
+}

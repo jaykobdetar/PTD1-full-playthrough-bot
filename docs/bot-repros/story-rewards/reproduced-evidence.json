@@ -1,0 +1,98 @@
+{
+  "fixtureOnly": false,
+  "reproducedMissingChoice": true,
+  "limitation": "These are observed victories without offered choice rewards. Cinnabar candy loss correctly disqualifies its separate Aerodactyl reward; the original intended var_334 eligibility is not established by this replay.",
+  "observations": [
+    {
+      "case": "dojo-26",
+      "sourceCheckpoint": "artifacts/bot/fresh-through-31/checkpoints/00054.json",
+      "stage": "level_26",
+      "seed": 132541240,
+      "nativeState": "won",
+      "frame": 606,
+      "candy": 0,
+      "stageFacts": {},
+      "exposedWinControls": [
+        "butt_end"
+      ],
+      "observedFlags": [
+        {
+          "var334": false,
+          "var556": false
+        }
+      ],
+      "popupRewards": [],
+      "totalNewPokemon": 0,
+      "winInputs": [
+        {
+          "frame": 1,
+          "control": "butt_end",
+          "label": null
+        }
+      ],
+      "actionHash": "93e8e74298d6b33e53892242d57b0d1e086cd99a5a643711dfb6dba21039ecc5"
+    },
+    {
+      "case": "cinnabar-32",
+      "sourceCheckpoint": "artifacts/bot/policy-late-3/checkpoints/00001.json",
+      "stage": "level_32",
+      "seed": 814657751,
+      "nativeState": "won",
+      "frame": 7851,
+      "candy": 7,
+      "stageFacts": {
+        "var_556": false
+      },
+      "exposedWinControls": [
+        "butt_end"
+      ],
+      "observedFlags": [
+        {
+          "var334": false,
+          "var556": false
+        }
+      ],
+      "popupRewards": [],
+      "totalNewPokemon": 0,
+      "winInputs": [
+        {
+          "frame": 1,
+          "control": "butt_end",
+          "label": null
+        }
+      ],
+      "actionHash": "fdf9a143547669f7c46c1e5ad9ea734ba8a6f7faa126fb04d50de4dd48f32b0c"
+    },
+    {
+      "case": "cinnabar-33",
+      "sourceCheckpoint": "artifacts/bot/policy-late-4/checkpoints/00003.json",
+      "stage": "level_33",
+      "seed": 3363306467,
+      "nativeState": "won",
+      "frame": 8035,
+      "candy": 1,
+      "stageFacts": {
+        "var_556": false
+      },
+      "exposedWinControls": [
+        "butt_end"
+      ],
+      "observedFlags": [
+        {
+          "var334": false,
+          "var556": false
+        }
+      ],
+      "popupRewards": [],
+      "totalNewPokemon": 0,
+      "winInputs": [
+        {
+          "frame": 1,
+          "control": "butt_end",
+          "label": null
+        }
+      ],
+      "actionHash": "a9f4f8db8f5ada8d1ccb6c2ccfece60e4ebbd98ccccbd6399be80bce77b4a4dc"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "dojo-26",
+    "checkpoint": "dojo-26.json",
+    "source": "artifacts/bot/fresh-through-31/checkpoints/00054.json",
+    "sourceHash": "86735a7b2096cf4940d7e2e554bef0f9494d55273fd6509eee1c2228738fcfae",
+    "originalFingerprint": "ca6ad6d2117e0e720d70b2a9c25a6e8ae8d8f55f1ba089356eb3ed3901830353",
+    "originalOutcome": {
+      "state": "won",
+      "frames": 606,
+      "candy": 0,
+      "seed": 132541240,
+      "stage": "level_26"
+    }
+  },
+  {
+    "id": "cinnabar-32",
+    "checkpoint": "cinnabar-32.json",
+    "source": "artifacts/bot/policy-late-3/checkpoints/00001.json",
+    "sourceHash": "38bea9d0d2f6294c8f73524cb8225ab11208f2ae249ab6ac44c73986fdf959b7",
+    "originalFingerprint": "507df005cca1ab8a5a8fa5a9a9c8c0abbd0fdc1790e5e48416eadc6d54aa8df1",
+    "originalOutcome": {
+      "state": "won",
+      "frames": 7851,
+      "candy": 7,
+      "seed": 814657751,
+      "stage": "level_32"
+    }
+  },
+  {
+    "id": "cinnabar-33",
+    "checkpoint": "cinnabar-33.json",
+    "source": "artifacts/bot/policy-late-4/checkpoints/00003.json",
+    "sourceHash": "4d09cea3f2076dcc77d0555ec7128060f8d062dab0fb40d082414d4591e617a0",
+    "originalFingerprint": "f63cd2ee39cb02114710ef62cbd295ef61b025823f781a8e8709fe96ece41ec9",
+    "originalOutcome": {
+      "state": "won",
+      "frames": 8035,
+      "candy": 1,
+      "seed": 3363306467,
+      "stage": "level_33"
+    }
+  }
+]
